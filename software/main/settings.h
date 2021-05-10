@@ -8,6 +8,11 @@
 const int UPDATE_INTERVAL_SECS = 6 * 60 * 60; // Update every 6 hours
 const int SLEEP_INTERVAL_SECS = 0;        // Going to sleep after idle times, set 0 for insomnia
 
+#define SCREEN_COUNT (6)
+
+// bilibili info
+#define BILI_VID ""
+
 
 // OpenWeatherMap Settings
 // Sign up here to get an API key: https://docs.thingpulse.com/how-tos/openweathermap-key/

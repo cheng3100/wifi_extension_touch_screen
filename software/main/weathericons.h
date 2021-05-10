@@ -1,3 +1,11 @@
+const char logo_bili_200x80[] PROGMEM={
+//TODO
+  0x01, // Version: 1
+  0x02, // BitDepth: 2
+  0x00, 0xc8, // Width: 200
+  0x00, 0x50, // Height: 80
+};
+
 const char logo_200x80[] PROGMEM={
   0x01, // Version: 1
   0x02, // BitDepth: 2

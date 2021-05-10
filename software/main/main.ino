@@ -25,6 +25,7 @@
 #include "src/weather/src/OpenWeatherMapCurrent.h"
 #include "src/weather/src/OpenWeatherMapForecast.h"
 #include "src/weather/src/Astronomy.h"
+#include "src/weather/src/BilibiliInfo.h"
 // #include <MiniGrafx.h>
 // #include <Carousel.h>
 // #include <ILI9341_SPI.h>
@@ -105,7 +106,7 @@ FrameCallback frames[] = { drawForecast1, drawForecast2, drawForecast3 };
 int frameCount = 3;
 
 // how many different screens do we have?
-int screenCount = 5;
+int screenCount = SCREEN_COUNT;
 long lastDownloadUpdate = millis();
 long lastSwitch = millis();
 
@@ -115,6 +116,9 @@ bool canBtnPress;
 time_t dstOffset = 0;
 
 OpenWeatherMapCurrent *currentWeatherClient = new OpenWeatherMapCurrent();
+
+BilibiliInfo *biliClient = new BilibiliInfo();
+BilibiliInfoData biliData;
 
 OpenWeatherMapForecast *forecastClient = new OpenWeatherMapForecast();
 
@@ -260,6 +264,8 @@ void loop() {
     drawForecastTable(4);
   } else if (screen == 4) {
     drawAbout();
+  } else if (screen == 5) {
+	drawBili();
   }
   gfx.commit();
 
@@ -302,6 +308,11 @@ void updateData() {
   Serial.printf("Time difference for DST: %d\n", dstOffset);
 
   drawProgress(50, "Updating conditions...");
+
+  // get bilibili info
+  biliClient->updateFansState(&biliData, BILI_VID);
+
+  
   // OpenWeatherMapCurrent *currentWeatherClient = new OpenWeatherMapCurrent();
   // currentWeatherClient->setMetric(IS_METRIC);
   // currentWeatherClient->setLanguage(OPEN_WEATHER_MAP_LANGUAGE);
@@ -621,6 +632,23 @@ void drawForecastTable(uint8_t start) {
   }
 }
 
+void drawBili() {
+  gfx.fillBuffer(MINI_BLACK);
+  // TODO
+  gfx.drawPalettedBitmapFromPgm(20, 5, logo_bili_200x80);
+
+  gfx.setFont(ArialRoundedMTBold_14);
+  gfx.setTextAlignment(TEXT_ALIGN_CENTER);
+  gfx.setColor(MINI_WHITE);
+  gfx.drawString(120, 90, "https://bilibili.com");
+
+
+  gfx.setFont(ArialRoundedMTBold_14);
+  gfx.setTextAlignment(TEXT_ALIGN_CENTER);
+  drawLabelValue(7, "Fans Num:", String(biliData.fans_number));
+  drawLabelValue(7, "Following Num:", String(biliData.following_number));
+
+}
 void drawAbout() {
   gfx.fillBuffer(MINI_BLACK);
   gfx.drawPalettedBitmapFromPgm(20, 5, logo_200x80);
