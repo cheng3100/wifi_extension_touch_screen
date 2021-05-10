@@ -634,19 +634,18 @@ void drawForecastTable(uint8_t start) {
 
 void drawBili() {
   gfx.fillBuffer(MINI_BLACK);
-  // TODO
-  gfx.drawPalettedBitmapFromPgm(20, 5, logo_bili_200x80);
+  gfx.drawPalettedBitmapFromPgm(20, 5, bili_logo_240x100);
 
   gfx.setFont(ArialRoundedMTBold_14);
   gfx.setTextAlignment(TEXT_ALIGN_CENTER);
   gfx.setColor(MINI_WHITE);
-  gfx.drawString(120, 90, "https://bilibili.com");
+  gfx.drawString(120, 110, "https://bilibili.com");
 
 
   gfx.setFont(ArialRoundedMTBold_14);
   gfx.setTextAlignment(TEXT_ALIGN_CENTER);
-  drawLabelValue(7, "Fans Num:", String(biliData.fans_number));
-  drawLabelValue(7, "Following Num:", String(biliData.following_number));
+  drawLabelValue(8, "Fans Num:", String(biliData.fans_number));
+  drawLabelValue(9, "Following Num:", String(biliData.following_number));
 
 }
 void drawAbout() {
