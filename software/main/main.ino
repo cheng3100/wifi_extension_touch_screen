@@ -18,10 +18,16 @@
  * - Json Streaming Parser by Daniel Eichhorn
  * - simpleDSTadjust by neptune2
  ***/
+// #include <JsonListener.h>
+// #include <OpenWeatherMapCurrent.h>
+// #include <OpenWeatherMapForecast.h>
 #include "src/weather/src/SunMoonCalc.h"
 #include "src/weather/src/OpenWeatherMapCurrent.h"
 #include "src/weather/src/OpenWeatherMapForecast.h"
 #include "src/weather/src/Astronomy.h"
+// #include <MiniGrafx.h>
+// #include <Carousel.h>
+// #include <ILI9341_SPI.h>
 #include "src/minigrafx/src/MiniGrafx.h"
 #include "src/minigrafx/src/Carousel.h"
 #include "src/minigrafx/src/ILI9341_SPI.h"
@@ -140,7 +146,7 @@ void connectWifi() {
 void setup() {
   Serial.begin(115200);
 
-  // The back light for tft pin needs to set LOW
+  // The LED pin needs to set LOW
   // Use this pin to save energy
   // Turn on the background LED
   Serial.println(TFT_LED);
@@ -347,7 +353,7 @@ void drawProgress(uint8_t percentage, String text) {
   gfx.setFont(ArialRoundedMTBold_14);
   gfx.setTextAlignment(TEXT_ALIGN_CENTER);
   gfx.setColor(MINI_WHITE);
-  gfx.drawString(120, 90, "https://thingpulse.com");
+  gfx.drawString(120, 90, "https://longcheng.zone");
   gfx.setColor(MINI_YELLOW);
 
   gfx.drawString(120, 146, text);
@@ -622,7 +628,7 @@ void drawAbout() {
   gfx.setFont(ArialRoundedMTBold_14);
   gfx.setTextAlignment(TEXT_ALIGN_CENTER);
   gfx.setColor(MINI_WHITE);
-  gfx.drawString(120, 90, "https://thingpulse.com");
+  gfx.drawString(120, 90, "https://longcheng.zone");
 
   gfx.setFont(ArialRoundedMTBold_14);
   gfx.setTextAlignment(TEXT_ALIGN_CENTER);

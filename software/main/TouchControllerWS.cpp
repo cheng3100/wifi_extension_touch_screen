@@ -100,8 +100,10 @@ bool TouchControllerWS::isTouched(int16_t debounceMillis) {
 }
 TS_Point TouchControllerWS::getPoint() {
     TS_Point p = touchScreen->getPoint();
-    int x = 240 - (p.y - ax) * dx;
-    int y = 320 - (p.x - ay) * dy;
+    // int x = 240 - (p.y - ax) * dx;
+    // int y = 320 - (p.x - ay) * dy;
+	int x = (p.y - ax) * dx;
+	int y = (p.x - ay) * dy;
     p.x = x;
     p.y = y;
     return p;
