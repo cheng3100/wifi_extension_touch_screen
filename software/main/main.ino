@@ -18,16 +18,10 @@
  * - Json Streaming Parser by Daniel Eichhorn
  * - simpleDSTadjust by neptune2
  ***/
-// #include <JsonListener.h>
-// #include <OpenWeatherMapCurrent.h>
-// #include <OpenWeatherMapForecast.h>
 #include "src/weather/src/SunMoonCalc.h"
 #include "src/weather/src/OpenWeatherMapCurrent.h"
 #include "src/weather/src/OpenWeatherMapForecast.h"
 #include "src/weather/src/Astronomy.h"
-// #include <MiniGrafx.h>
-// #include <Carousel.h>
-// #include <ILI9341_SPI.h>
 #include "src/minigrafx/src/MiniGrafx.h"
 #include "src/minigrafx/src/Carousel.h"
 #include "src/minigrafx/src/ILI9341_SPI.h"
@@ -146,12 +140,12 @@ void connectWifi() {
 void setup() {
   Serial.begin(115200);
 
-  // The LED pin needs to set LOW
+  // The back light for tft pin needs to set LOW
   // Use this pin to save energy
   // Turn on the background LED
   Serial.println(TFT_LED);
   pinMode(TFT_LED, OUTPUT);
-  digitalWrite(TFT_LED, LOW);    // HIGH to Turn on;
+  digitalWrite(TFT_LED, LOW);    // LOW to Turn on the PMOS FET
 
   
   gfx.init();
@@ -349,7 +343,7 @@ void updateData() {
 // Progress bar helper
 void drawProgress(uint8_t percentage, String text) {
   gfx.fillBuffer(MINI_BLACK);
-  gfx.drawPalettedBitmapFromPgm(20, 5, ThingPulseLogo);
+  gfx.drawPalettedBitmapFromPgm(20, 5, logo_200x80);
   gfx.setFont(ArialRoundedMTBold_14);
   gfx.setTextAlignment(TEXT_ALIGN_CENTER);
   gfx.setColor(MINI_WHITE);
@@ -623,7 +617,7 @@ void drawForecastTable(uint8_t start) {
 
 void drawAbout() {
   gfx.fillBuffer(MINI_BLACK);
-  gfx.drawPalettedBitmapFromPgm(20, 5, ThingPulseLogo);
+  gfx.drawPalettedBitmapFromPgm(20, 5, logo_200x80);
 
   gfx.setFont(ArialRoundedMTBold_14);
   gfx.setTextAlignment(TEXT_ALIGN_CENTER);

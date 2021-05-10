@@ -3,11 +3,9 @@
 // Setup
 #define WIFI_SSID ""
 #define WIFI_PASS ""
-// #define WIFI_SSID "Hydra"
-// #define WIFI_PASS "K5x48Vz3"
-#define WIFI_HOSTNAME "ThingPulse-weather-station-color"
+#define WIFI_HOSTNAME "SunWifiX"
 
-const int UPDATE_INTERVAL_SECS = 10 * 60; // Update every 10 minutes
+const int UPDATE_INTERVAL_SECS = 6 * 60 * 60; // Update every 6 hours
 const int SLEEP_INTERVAL_SECS = 0;        // Going to sleep after idle times, set 0 for insomnia
 
 
