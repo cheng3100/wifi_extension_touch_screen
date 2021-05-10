@@ -41,7 +41,7 @@
 
 * 2.4g 天线设计
 
-pcb设计中主要需要注意的一点项目中需要2.4gHz的wifi天线，而2.4gHz频段对应的合适天线波长/4大约是是30.6mm，因此一般直接用pcb走线实现是完全足够了，关于天线设计这里我也查找了很多资料，这里非常推荐大家看一下TI的[DN035](doc/antena_choose_ti.pdf)这篇文档，给出很多不同频率的简易天线设计，因为射频天线是非常专业的领域，可以直接拿过来参考使用即可，想更具体了解的可以参考这篇文章[How to Design a PCB Antenna for 2.4GHz](https://circuitdigest.com/article/how-to-design-a-pcb-antenna-for-24ghz)
+pcb设计中主要需要注意的一点项目中需要2.4gHz的wifi天线，而2.4gHz频段对应的合适天线长度大约是30.6mm，因此一般直接用pcb走线实现是完全足够了，关于天线设计这里我也查找了很多资料，这里非常推荐大家看一下TI的[DN035](doc/ref/antenna_choose_ti_dn035.pdf)这篇文档，给出很多不同频率的简易天线设计，因为射频天线是非常专业的领域，可以直接拿过来参考使用即可，想更具体了解的可以参考这篇文章[How to Design a PCB Antenna for 2.4GHz](https://circuitdigest.com/article/how-to-design-a-pcb-antenna-for-24ghz)
 
 
 # 2. 外壳3d建模

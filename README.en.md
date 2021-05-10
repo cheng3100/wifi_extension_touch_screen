@@ -47,7 +47,7 @@ The goal of this project is as small as possible, so of choice on the PCB assemb
 
 * 2.4g Antenna Design
 
-The main point that needs to be paid attention to in PCB design is that 2.4GHz WiFi antenna is needed in the project, and the appropriate antenna wavelength /4 corresponding to the 2.4GHz frequency band is about 30.6mm, so it is completely enough to realize it directly with PCB wiring. I have also found a lot of information about antenna design here. It is highly recommended that you have a look at TI's document [DN035](doc/antena_choose_ti.pdf) which gives you a lot of simple antenna designs for different frequencies because RF antennas are very specialized and can be used directly for reference. For more details, see the article [How to Design a PCB Antenna For 2.4 GHz](https://circuitdigest.com/article/how-to-design-a-pcb-antenna-for-24ghz)
+The main point that needs to be paid attention to in PCB design is that 2.4GHz WiFi antenna is needed in the project, and the appropriate antenna wavelength corresponding to the 2.4GHz frequency band is about 30.6mm, so it is completely enough to realize it directly with PCB wiring. I have also found a lot of information about antenna design here. It is highly recommended that you have a look at TI's document [DN035](doc/ref/antenna_choose_ti_dn035.pdf) which gives you a lot of simple antenna designs for different frequencies because RF antennas are very specialized and can be used directly for reference. For more details, see the article [How to Design a PCB Antenna For 2.4 GHz](https://circuitdigest.com/article/how-to-design-a-pcb-antenna-for-24ghz)
 
 
 # 2. 3D Modeling of Shell
