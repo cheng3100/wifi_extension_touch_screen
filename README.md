@@ -37,6 +37,8 @@
 
 这个项目的目标是尽可能小，所以pcb封装上选用的都是qfn这类小封装，成品效果基本硬币大小，但这也导致后面的硬件排查变得非常困难，后面如果在没有太大把握的情况下第一版pcb应该尽可能多引出测试口并设计得大一些方便排查。
 
+![pcb_real_effect](doc/pic/real_pcb.png)
+
 * 2.4g 天线设计
 
 pcb设计中主要需要注意的一点项目中需要2.4gHz的wifi天线，而2.4gHz频段对应的合适天线长度大约是30.6mm，因此一般直接用pcb走线实现是完全足够了，关于天线设计这里我也查找了很多资料，这里非常推荐大家看一下TI的[DN035](doc/ref/antenna_choose_ti_dn035.pdf)这篇文档，给出很多不同频率的简易天线设计，因为射频天线是非常专业的领域，可以直接拿过来参考使用即可，想更具体了解的可以参考这篇文章[How to Design a PCB Antenna for 2.4GHz](https://circuitdigest.com/article/how-to-design-a-pcb-antenna-for-24ghz)

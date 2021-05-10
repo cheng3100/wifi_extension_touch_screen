@@ -45,6 +45,8 @@ First before the design is conceived and chip selection, the process is mainly a
 
 The goal of this project is as small as possible, so of choice on the PCB assembly is QFN such small packaging, finished product basic coin size effect, but it has also led to the back of the screen hardware become very difficult, if in the circumstance that does not have too big hold back the first edition of PCB should lead to test as many mouth and some design need to be more convenient.
 
+![pcb_real_effect](doc/pic/real_pcb.png)
+
 * 2.4g Antenna Design
 
 The main point that needs to be paid attention to in PCB design is that 2.4GHz WiFi antenna is needed in the project, and the appropriate antenna wavelength corresponding to the 2.4GHz frequency band is about 30.6mm, so it is completely enough to realize it directly with PCB wiring. I have also found a lot of information about antenna design here. It is highly recommended that you have a look at TI's document [DN035](doc/ref/antenna_choose_ti_dn035.pdf) which gives you a lot of simple antenna designs for different frequencies because RF antennas are very specialized and can be used directly for reference. For more details, see the article [How to Design a PCB Antenna For 2.4 GHz](https://circuitdigest.com/article/how-to-design-a-pcb-antenna-for-24ghz)
