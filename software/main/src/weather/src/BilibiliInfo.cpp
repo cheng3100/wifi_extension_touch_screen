@@ -66,11 +66,10 @@ void BilibiliInfo::key(String key) {
 }
 
 void BilibiliInfo::value(String value) {
-  // Serial.printf("Key: %s, value: %s\n", currentKey.c_str(), value.c_str());
+  // Serial.printf("Key: %s, Parent: %s, value: %s\n", currentKey.c_str(), currentParent.c_str(), value.c_str());
   //uint64_t timestamp;
-
+	
   if (currentParent == "data") {
-
 	  if (currentKey == "following") {
 		this->info->following_number = value.toInt();
 	  } else if (currentKey == "follower") {

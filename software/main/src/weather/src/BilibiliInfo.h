@@ -11,7 +11,7 @@ typedef struct BilibiliInfoData {
 
 class BilibiliInfo: public JsonListener {
   private:
-    const String host = "http://api.bilibili.com";
+    const String host = "api.bilibili.com";
     const uint8_t port = 80;
     boolean isMetric = true;
     String currentKey;

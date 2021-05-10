@@ -156,6 +156,7 @@ void setup() {
   Serial.println(TFT_LED);
   pinMode(TFT_LED, OUTPUT);
   digitalWrite(TFT_LED, LOW);    // LOW to Turn on the PMOS FET
+  // analogWrite(TFT_LED, 40);    // The pin seems not support pwm
 
   
   gfx.init();
@@ -307,28 +308,18 @@ void updateData() {
   dstOffset = TZ_OFFSET * 3600 + dstAdjusted.time(nullptr) - now;
   Serial.printf("Time difference for DST: %d\n", dstOffset);
 
-  drawProgress(50, "Updating conditions...");
-
   // get bilibili info
+  drawProgress(30, "Updating bilibili info...");
   biliClient->updateFansState(&biliData, BILI_VID);
 
-  
-  // OpenWeatherMapCurrent *currentWeatherClient = new OpenWeatherMapCurrent();
-  // currentWeatherClient->setMetric(IS_METRIC);
-  // currentWeatherClient->setLanguage(OPEN_WEATHER_MAP_LANGUAGE);
+
+  drawProgress(50, "Updating conditions...");
   currentWeatherClient->updateCurrent(&currentWeather, OPEN_WEATHER_MAP_APP_ID, OPEN_WEATHER_MAP_LOCATION);
-  // delete currentWeatherClient;
-  // currentWeatherClient = nullptr;
 
   drawProgress(70, "Updating forecasts...");
-  // OpenWeatherMapForecast *forecastClient = new OpenWeatherMapForecast();
-  // forecastClient->setMetric(IS_METRIC);
-  // forecastClient->setLanguage(OPEN_WEATHER_MAP_LANGUAGE);
   uint8_t allowedHours[] = {12, 0};
   forecastClient->setAllowedHours(allowedHours, sizeof(allowedHours));
   forecastClient->updateForecasts(forecasts, OPEN_WEATHER_MAP_APP_ID, OPEN_WEATHER_MAP_LOCATION, MAX_FORECASTS);
-  // delete forecastClient;
-  // forecastClient = nullptr;
 
   drawProgress(80, "Updating astronomy...");
   // Astronomy *astronomy = new Astronomy();
@@ -634,7 +625,9 @@ void drawForecastTable(uint8_t start) {
 
 void drawBili() {
   gfx.fillBuffer(MINI_BLACK);
-  gfx.drawPalettedBitmapFromPgm(20, 5, bili_logo_240x100);
+  // gfx.drawPalettedBitmapFromPgm(0, 0, bili_logo_240x100);
+  gfx.drawPalettedBitmapFromPgm(0, 0, bili_logo2_240x100);
+  gfx.drawPalettedBitmapFromPgm(0, 220, bili_three_combo_240x90);
 
   gfx.setFont(ArialRoundedMTBold_14);
   gfx.setTextAlignment(TEXT_ALIGN_CENTER);
@@ -646,6 +639,8 @@ void drawBili() {
   gfx.setTextAlignment(TEXT_ALIGN_CENTER);
   drawLabelValue(8, "Fans Num:", String(biliData.fans_number));
   drawLabelValue(9, "Following Num:", String(biliData.following_number));
+
+
 
 }
 void drawAbout() {
