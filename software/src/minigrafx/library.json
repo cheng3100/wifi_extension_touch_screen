@@ -1,0 +1,24 @@
+{
+  "name": "Mini Grafx",
+  "version": "1.2.5",
+  "keywords": "embedded, graphics, tft, oled, e-paper",
+  "description": "A generic graphics library containing several drivers for TFT, OLED and e-paper displays",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/ThingPulse/minigrafx "
+  },
+  "authors":
+  [
+    {
+        "name": "Daniel Eichhorn",
+        "email": "squix78@gmail.com",
+        "url": "https://www.thingpulse.com"
+    }
+  ],
+  "frameworks": "arduino",
+  "platforms": [
+    "espressif8266",
+    "espressif32"
+  ]
+}

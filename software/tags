@@ -1,0 +1,1706 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACTIVE_PROGRAMMING	./src/minigrafx/src/EPD_WaveShare_42.h	72;"	d
+ARRAY	./src/minigrafx/src/EPaperPervasive.cpp	28;"	d	file:
+ASCII32	./src/minigrafx/src/EPD_WaveShare_43.h	93;"	d
+ASCII48	./src/minigrafx/src/EPD_WaveShare_43.h	94;"	d
+ASCII64	./src/minigrafx/src/EPD_WaveShare_43.h	95;"	d
+AU	./src/weather/src/SunMoonCalc.cpp	/^const double AU = 149597870.691;$/;"	v
+AUTO_MEASUREMENT_VCOM	./src/minigrafx/src/EPD_WaveShare_42.h	65;"	d
+AUTO_MEASUREMENT_VCOM	./src/minigrafx/src/EPD_WaveShare_75.h	74;"	d
+AerisForecastData	./src/weather/src/AerisForecasts.h	/^typedef struct AerisForecastData {$/;"	s
+AerisForecastData	./src/weather/src/AerisForecasts.h	/^} AerisForecastData;$/;"	t	typeref:struct:AerisForecastData
+AerisForecasts	./src/weather/src/AerisForecasts.cpp	/^AerisForecasts::AerisForecasts() {$/;"	f	class:AerisForecasts
+AerisForecasts	./src/weather/src/AerisForecasts.h	/^class AerisForecasts: public JsonListener {$/;"	c
+AerisObservations	./src/weather/src/AerisObservations.cpp	/^AerisObservations::AerisObservations() {$/;"	f	class:AerisObservations
+AerisObservations	./src/weather/src/AerisObservations.h	/^class AerisObservations: public JsonListener {$/;"	c
+AerisObservationsData	./src/weather/src/AerisObservations.h	/^typedef struct AerisObservationsData {$/;"	s
+AerisObservationsData	./src/weather/src/AerisObservations.h	/^} AerisObservationsData;$/;"	t	typeref:struct:AerisObservationsData
+AerisSunMoon	./src/weather/src/AerisSunMoon.cpp	/^AerisSunMoon::AerisSunMoon() {$/;"	f	class:AerisSunMoon
+AerisSunMoon	./src/weather/src/AerisSunMoon.h	/^class AerisSunMoon: public JsonListener {$/;"	c
+AerisSunMoonData	./src/weather/src/AerisSunMoon.h	/^typedef struct AerisSunMoonData {$/;"	s
+AerisSunMoonData	./src/weather/src/AerisSunMoon.h	/^} AerisSunMoonData;$/;"	t	typeref:struct:AerisSunMoonData
+AnimationDirection	./src/minigrafx/src/Carousel.h	/^enum AnimationDirection {$/;"	g
+Astronomy	./src/weather/src/Astronomy.cpp	/^Astronomy::Astronomy() {$/;"	f	class:Astronomy
+Astronomy	./src/weather/src/Astronomy.h	/^class Astronomy {$/;"	c
+BIT_1	./src/minigrafx/src/MiniGrafx.h	/^  BIT_1 = 1,$/;"	e	enum:BUFFER_COLOR_DEPTH
+BIT_16	./src/minigrafx/src/MiniGrafx.h	/^  BIT_16 = 16$/;"	e	enum:BUFFER_COLOR_DEPTH
+BIT_2	./src/minigrafx/src/MiniGrafx.h	/^  BIT_2 = 2,$/;"	e	enum:BUFFER_COLOR_DEPTH
+BIT_4	./src/minigrafx/src/MiniGrafx.h	/^  BIT_4 = 4,$/;"	e	enum:BUFFER_COLOR_DEPTH
+BIT_8	./src/minigrafx/src/MiniGrafx.h	/^  BIT_8 = 8,$/;"	e	enum:BUFFER_COLOR_DEPTH
+BLACK	./src/minigrafx/src/EPD_WaveShare_43.h	53;"	d
+BOOSTER_SOFT_START	./src/minigrafx/src/EPD_WaveShare_42.h	43;"	d
+BOOSTER_SOFT_START	./src/minigrafx/src/EPD_WaveShare_75.h	46;"	d
+BOOSTER_SOFT_START_CONTROL	./src/minigrafx/src/EPD_WaveShare_154.h	40;"	d
+BOOSTER_SOFT_START_CONTROL	./src/minigrafx/src/EPD_WaveShare_154D67.h	40;"	d
+BOOSTER_SOFT_START_CONTROL	./src/minigrafx/src/EPD_WaveShare_29.h	40;"	d
+BORDER_BYTE_BLACK	./src/minigrafx/src/EPaperPervasive.cpp	32;"	d	file:
+BORDER_BYTE_NULL	./src/minigrafx/src/EPaperPervasive.cpp	34;"	d	file:
+BORDER_BYTE_WHITE	./src/minigrafx/src/EPaperPervasive.cpp	33;"	d	file:
+BORDER_WAVEFORM_CONTROL	./src/minigrafx/src/EPD_WaveShare_154.h	54;"	d
+BORDER_WAVEFORM_CONTROL	./src/minigrafx/src/EPD_WaveShare_154D67.h	54;"	d
+BORDER_WAVEFORM_CONTROL	./src/minigrafx/src/EPD_WaveShare_29.h	54;"	d
+BOTTOM	./src/minigrafx/src/Carousel.h	/^  BOTTOM,$/;"	e	enum:IndicatorPosition
+BUFFER_COLOR_DEPTH	./src/minigrafx/src/MiniGrafx.h	/^enum BUFFER_COLOR_DEPTH {$/;"	g
+BufferInfo	./src/minigrafx/src/DisplayDriver.h	/^struct BufferInfo {$/;"	s
+CAROUSEL_h	./src/minigrafx/src/Carousel.h	28;"	d
+CHAR_NUM_POS	./src/minigrafx/src/MiniGrafx.h	59;"	d
+CMD_CLEAR	./src/minigrafx/src/EPD_WaveShare_43.h	79;"	d
+CMD_DRAW_BITMAP	./src/minigrafx/src/EPD_WaveShare_43.h	83;"	d
+CMD_DRAW_CIRCLE	./src/minigrafx/src/EPD_WaveShare_43.h	75;"	d
+CMD_DRAW_LINE	./src/minigrafx/src/EPD_WaveShare_43.h	73;"	d
+CMD_DRAW_PIXEL	./src/minigrafx/src/EPD_WaveShare_43.h	72;"	d
+CMD_DRAW_STRING	./src/minigrafx/src/EPD_WaveShare_43.h	81;"	d
+CMD_DRAW_TRIANGLE	./src/minigrafx/src/EPD_WaveShare_43.h	77;"	d
+CMD_FILL_CIRCLE	./src/minigrafx/src/EPD_WaveShare_43.h	76;"	d
+CMD_FILL_RECT	./src/minigrafx/src/EPD_WaveShare_43.h	74;"	d
+CMD_FILL_TRIANGLE	./src/minigrafx/src/EPD_WaveShare_43.h	78;"	d
+CMD_HANDSHAKE	./src/minigrafx/src/EPD_WaveShare_43.h	58;"	d
+CMD_LOAD_FONT	./src/minigrafx/src/EPD_WaveShare_43.h	65;"	d
+CMD_LOAD_PIC	./src/minigrafx/src/EPD_WaveShare_43.h	66;"	d
+CMD_MEMORYMODE	./src/minigrafx/src/EPD_WaveShare_43.h	61;"	d
+CMD_READ_BAUD	./src/minigrafx/src/EPD_WaveShare_43.h	60;"	d
+CMD_SCREEN_ROTATION	./src/minigrafx/src/EPD_WaveShare_43.h	64;"	d
+CMD_SET_BAUD	./src/minigrafx/src/EPD_WaveShare_43.h	59;"	d
+CMD_SET_CH_FONT	./src/minigrafx/src/EPD_WaveShare_43.h	70;"	d
+CMD_SET_COLOR	./src/minigrafx/src/EPD_WaveShare_43.h	68;"	d
+CMD_SET_EN_FONT	./src/minigrafx/src/EPD_WaveShare_43.h	69;"	d
+CMD_SIZE	./src/minigrafx/src/EPD_WaveShare_43.h	35;"	d
+CMD_STOPMODE	./src/minigrafx/src/EPD_WaveShare_43.h	62;"	d
+CMD_UPDATE	./src/minigrafx/src/EPD_WaveShare_43.h	63;"	d
+CST_OFFSET	./settings.h	67;"	d
+CU8	./src/minigrafx/src/EPaperPervasive.cpp	29;"	d	file:
+CUSTOM_BITMAP_DATA_START	./src/minigrafx/src/MiniGrafx.h	61;"	d
+CalibrationCallback	./TouchControllerWS.h	/^typedef void (*CalibrationCallback)(int16_t x, int16_t y);$/;"	t
+Carousel	./src/minigrafx/src/Carousel.cpp	/^Carousel::Carousel(MiniGrafx *miniGrafx, uint16_t x, uint16_t y, uint16_t width, uint16_t height) {$/;"	f	class:Carousel
+Carousel	./src/minigrafx/src/Carousel.h	/^class Carousel {$/;"	c
+CarouselState	./src/minigrafx/src/Carousel.h	/^struct CarouselState {$/;"	s
+ClearFrame	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^void EPD_WaveShare42::ClearFrame(void) {$/;"	f	class:EPD_WaveShare42
+DARK_GRAY	./src/minigrafx/src/EPD_WaveShare_43.h	52;"	d
+DATA_ENTRY_MODE_SETTING	./src/minigrafx/src/EPD_WaveShare_154.h	43;"	d
+DATA_ENTRY_MODE_SETTING	./src/minigrafx/src/EPD_WaveShare_154D67.h	43;"	d
+DATA_ENTRY_MODE_SETTING	./src/minigrafx/src/EPD_WaveShare_29.h	43;"	d
+DATA_START_TRANSMISSION_1	./src/minigrafx/src/EPD_WaveShare_42.h	45;"	d
+DATA_START_TRANSMISSION_1	./src/minigrafx/src/EPD_WaveShare_75.h	48;"	d
+DATA_START_TRANSMISSION_2	./src/minigrafx/src/EPD_WaveShare_42.h	48;"	d
+DATA_STOP	./src/minigrafx/src/EPD_WaveShare_42.h	46;"	d
+DATA_STOP	./src/minigrafx/src/EPD_WaveShare_75.h	49;"	d
+DEBUG_CAROUSEL	./src/minigrafx/src/Carousel.h	36;"	d
+DEBUG_MINI_GRAFX	./src/minigrafx/src/MiniGrafx.h	41;"	d
+DEEP_SLEEP	./src/minigrafx/src/EPD_WaveShare_42.h	44;"	d
+DEEP_SLEEP	./src/minigrafx/src/EPD_WaveShare_75.h	47;"	d
+DEEP_SLEEP_MODE	./src/minigrafx/src/EPD_WaveShare_154.h	42;"	d
+DEEP_SLEEP_MODE	./src/minigrafx/src/EPD_WaveShare_154D67.h	42;"	d
+DEEP_SLEEP_MODE	./src/minigrafx/src/EPD_WaveShare_29.h	42;"	d
+DELAY	./src/minigrafx/src/ILI9341_SPI.cpp	189;"	d	file:
+DISPLAYED_CITY_NAME	./settings.h	/^String DISPLAYED_CITY_NAME = "Shanghai";$/;"	v
+DISPLAY_REFRESH	./src/minigrafx/src/EPD_WaveShare_42.h	47;"	d
+DISPLAY_REFRESH	./src/minigrafx/src/EPD_WaveShare_75.h	50;"	d
+DISPLAY_TIMEOUT	./src/minigrafx/src/EPD_WaveShare_42.h	75;"	d
+DISPLAY_UPDATE_CONTROL_1	./src/minigrafx/src/EPD_WaveShare_154.h	47;"	d
+DISPLAY_UPDATE_CONTROL_1	./src/minigrafx/src/EPD_WaveShare_154D67.h	47;"	d
+DISPLAY_UPDATE_CONTROL_1	./src/minigrafx/src/EPD_WaveShare_29.h	47;"	d
+DISPLAY_UPDATE_CONTROL_2	./src/minigrafx/src/EPD_WaveShare_154.h	48;"	d
+DISPLAY_UPDATE_CONTROL_2	./src/minigrafx/src/EPD_WaveShare_154D67.h	48;"	d
+DISPLAY_UPDATE_CONTROL_2	./src/minigrafx/src/EPD_WaveShare_29.h	48;"	d
+DRIVER_OUTPUT_CONTROL	./src/minigrafx/src/EPD_WaveShare_154.h	39;"	d
+DRIVER_OUTPUT_CONTROL	./src/minigrafx/src/EPD_WaveShare_154D67.h	39;"	d
+DRIVER_OUTPUT_CONTROL	./src/minigrafx/src/EPD_WaveShare_29.h	39;"	d
+DelayMs	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^void EPD_WaveShare154::DelayMs(unsigned int delaytime) {$/;"	f	class:EPD_WaveShare154
+DelayMs	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::DelayMs(unsigned int delaytime) {$/;"	f	class:EPD_WaveShare154D67
+DelayMs	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^void EPD_WaveShare29::DelayMs(unsigned int delaytime) {$/;"	f	class:EPD_WaveShare29
+DelayMs	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^void EPD_WaveShare29T5::DelayMs(unsigned int delaytime) {$/;"	f	class:EPD_WaveShare29T5
+DelayMs	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^void EPD_WaveShare42::DelayMs(unsigned int delaytime) {$/;"	f	class:EPD_WaveShare42
+DelayMs	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^void EPD_WaveShare75::DelayMs(unsigned int delaytime) {$/;"	f	class:EPD_WaveShare75
+Delay_ms	./src/minigrafx/src/EPaperPervasive.cpp	24;"	d	file:
+Delay_us	./src/minigrafx/src/EPaperPervasive.cpp	25;"	d	file:
+DigitalRead	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^int EPD_WaveShare154::DigitalRead(int pin) {$/;"	f	class:EPD_WaveShare154
+DigitalRead	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^int EPD_WaveShare154D67::DigitalRead(int pin) {$/;"	f	class:EPD_WaveShare154D67
+DigitalRead	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^int EPD_WaveShare29::DigitalRead(int pin) {$/;"	f	class:EPD_WaveShare29
+DigitalRead	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^int EPD_WaveShare29T5::DigitalRead(int pin) {$/;"	f	class:EPD_WaveShare29T5
+DigitalRead	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^int EPD_WaveShare42::DigitalRead(int pin) {$/;"	f	class:EPD_WaveShare42
+DigitalRead	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^int EPD_WaveShare75::DigitalRead(int pin) {$/;"	f	class:EPD_WaveShare75
+DigitalWrite	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^void EPD_WaveShare154::DigitalWrite(int pin, int value) {$/;"	f	class:EPD_WaveShare154
+DigitalWrite	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::DigitalWrite(int pin, int value) {$/;"	f	class:EPD_WaveShare154D67
+DigitalWrite	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^void EPD_WaveShare29::DigitalWrite(int pin, int value) {$/;"	f	class:EPD_WaveShare29
+DigitalWrite	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^void EPD_WaveShare29T5::DigitalWrite(int pin, int value) {$/;"	f	class:EPD_WaveShare29T5
+DigitalWrite	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^void EPD_WaveShare42::DigitalWrite(int pin, int value) {$/;"	f	class:EPD_WaveShare42
+DigitalWrite	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^void EPD_WaveShare75::DigitalWrite(int pin, int value) {$/;"	f	class:EPD_WaveShare75
+Dis_Clear_full	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::Dis_Clear_full(void)$/;"	f	class:EPD_WaveShare
+DisplayDriver	./src/minigrafx/src/DisplayDriver.cpp	/^DisplayDriver::DisplayDriver(int16_t w, int16_t h):$/;"	f	class:DisplayDriver
+DisplayDriver	./src/minigrafx/src/DisplayDriver.h	/^class DisplayDriver {$/;"	c
+DisplayFrame	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^void EPD_WaveShare154::DisplayFrame(void) {$/;"	f	class:EPD_WaveShare154
+DisplayFrame	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::DisplayFrame(void) {$/;"	f	class:EPD_WaveShare154D67
+DisplayFrame	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^void EPD_WaveShare29::DisplayFrame(void) {$/;"	f	class:EPD_WaveShare29
+DisplayFrame	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^void EPD_WaveShare29T5::DisplayFrame(void) {$/;"	f	class:EPD_WaveShare29T5
+DisplayFrame	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^void EPD_WaveShare42::DisplayFrame(const unsigned char* frame_buffer) {$/;"	f	class:EPD_WaveShare42
+DisplayFrame	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^void EPD_WaveShare42::DisplayFrame(void) {$/;"	f	class:EPD_WaveShare42
+DisplayFrame	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^void EPD_WaveShare75::DisplayFrame(const unsigned char* frame_buffer, uint8_t bitsPerPixel, uint16_t* palette) {$/;"	f	class:EPD_WaveShare75
+DummyLine	./src/minigrafx/src/EPD_WaveShare.h	/^static const unsigned char DummyLine[] = {0x3a,0x1a}; \/\/ 4 dummy line per gate$/;"	v
+EARTH_RADIUS	./src/weather/src/SunMoonCalc.cpp	/^const double EARTH_RADIUS = 6378.1366;$/;"	v
+EPD02_13	./src/minigrafx/src/EPD_WaveShare.h	/^  EPD02_13,$/;"	e	enum:EPD_TYPE
+EPD1IN54D67_H	./src/minigrafx/src/EPD_WaveShare_154D67.h	29;"	d
+EPD1IN54_H	./src/minigrafx/src/EPD_WaveShare_154.h	29;"	d
+EPD1_54	./src/minigrafx/src/EPD_WaveShare.h	/^  EPD1_54,$/;"	e	enum:EPD_TYPE
+EPD2IN9T5_H	./src/minigrafx/src/EPD_WaveShare_29T5.h	29;"	d
+EPD2IN9_H	./src/minigrafx/src/EPD_WaveShare_29.h	29;"	d
+EPD2X9	./src/minigrafx/src/EPD_WaveShare.h	39;"	d
+EPD2_9	./src/minigrafx/src/EPD_WaveShare.h	/^  EPD2_9$/;"	e	enum:EPD_TYPE
+EPD2_H	./src/minigrafx/src/EPaperPervasive.h	16;"	d
+EPD42_H	./src/minigrafx/src/EPD_WaveShare_42.h	29;"	d
+EPD7IN5_H	./src/minigrafx/src/EPD_WaveShare_75.h	29;"	d
+EPDWS154_H	./src/minigrafx/src/EPD_WaveShare.h	29;"	d
+EPD_1_44	./src/minigrafx/src/EPaperPervasive.h	/^  EPD_1_44,        \/\/ 128 x 96$/;"	e	enum:__anon1
+EPD_2_0	./src/minigrafx/src/EPaperPervasive.h	/^  EPD_2_0,         \/\/ 200 x 96$/;"	e	enum:__anon1
+EPD_2_7	./src/minigrafx/src/EPaperPervasive.h	/^  EPD_2_7          \/\/ 264 x 176$/;"	e	enum:__anon1
+EPD_BOOSTER_SOFT_START	./src/minigrafx/src/EPD_WaveShare_29T5.h	43;"	d
+EPD_BORDER_BYTE_BLACK	./src/minigrafx/src/EPaperPervasive.h	/^const uint8_t EPD_BORDER_BYTE_BLACK = 0xff;$/;"	v
+EPD_BORDER_BYTE_NULL	./src/minigrafx/src/EPaperPervasive.h	/^const uint8_t EPD_BORDER_BYTE_NULL  = 0x00;$/;"	v
+EPD_BORDER_BYTE_WHITE	./src/minigrafx/src/EPaperPervasive.h	/^const uint8_t EPD_BORDER_BYTE_WHITE = 0xaa;$/;"	v
+EPD_BUSY_LEVEL	./src/minigrafx/src/EPD_WaveShare.h	36;"	d
+EPD_Class	./src/minigrafx/src/EPaperPervasive.cpp	/^EPD_Class::EPD_Class(EPD_size size,$/;"	f	class:EPD_Class
+EPD_Class	./src/minigrafx/src/EPaperPervasive.h	/^class EPD_Class : public DisplayDriver {$/;"	c
+EPD_DC_FAILED	./src/minigrafx/src/EPaperPervasive.h	/^  EPD_DC_FAILED$/;"	e	enum:__anon3
+EPD_DEEPL_SLEEP	./src/minigrafx/src/EPD_WaveShare_29T5.h	44;"	d
+EPD_DISPLAY_START_TRANSMISSION_1	./src/minigrafx/src/EPD_WaveShare_29T5.h	45;"	d
+EPD_DISPLAY_START_TRANSMISSION_2	./src/minigrafx/src/EPD_WaveShare_29T5.h	47;"	d
+EPD_Dis_Full	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::EPD_Dis_Full(unsigned char *DisBuffer,unsigned char Label)$/;"	f	class:EPD_WaveShare
+EPD_Dis_Part	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::EPD_Dis_Part(unsigned char xStart,unsigned char xEnd,unsigned long yStart,unsigned long yEnd,unsigned char *DisBuffer,unsigned char Label)$/;"	f	class:EPD_WaveShare
+EPD_ENABLE_EXTRA_SRAM	./src/minigrafx/src/EPaperPervasive.h	30;"	d
+EPD_HEIGHT	./src/minigrafx/src/EPD_WaveShare_154.h	36;"	d
+EPD_HEIGHT	./src/minigrafx/src/EPD_WaveShare_154D67.h	36;"	d
+EPD_HEIGHT	./src/minigrafx/src/EPD_WaveShare_29.h	36;"	d
+EPD_HEIGHT	./src/minigrafx/src/EPD_WaveShare_29T5.h	36;"	d
+EPD_HEIGHT	./src/minigrafx/src/EPD_WaveShare_75.h	37;"	d
+EPD_INVERSION	./src/minigrafx/src/EPD_WaveShare_43.h	109;"	d
+EPD_Init	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::EPD_Init(void)$/;"	f	class:EPD_WaveShare
+EPD_NORMAL	./src/minigrafx/src/EPD_WaveShare_43.h	108;"	d
+EPD_OK	./src/minigrafx/src/EPaperPervasive.h	/^  EPD_OK,$/;"	e	enum:__anon3
+EPD_PANEL_BROKEN	./src/minigrafx/src/EPaperPervasive.h	/^  EPD_PANEL_BROKEN,$/;"	e	enum:__anon3
+EPD_PANEL_SETTING	./src/minigrafx/src/EPD_WaveShare_29T5.h	39;"	d
+EPD_PARTIAL_IN	./src/minigrafx/src/EPD_WaveShare_29T5.h	58;"	d
+EPD_PARTIAL_OUT	./src/minigrafx/src/EPD_WaveShare_29T5.h	59;"	d
+EPD_PARTIAL_RESOLUTION_SETTING	./src/minigrafx/src/EPD_WaveShare_29T5.h	57;"	d
+EPD_PLL_SETTING	./src/minigrafx/src/EPD_WaveShare_29T5.h	53;"	d
+EPD_POWERON	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::EPD_POWERON(void)$/;"	f	class:EPD_WaveShare
+EPD_POWER_OFF	./src/minigrafx/src/EPD_WaveShare_29T5.h	41;"	d
+EPD_POWER_ON	./src/minigrafx/src/EPD_WaveShare_29T5.h	42;"	d
+EPD_POWER_SETTING	./src/minigrafx/src/EPD_WaveShare_29T5.h	40;"	d
+EPD_Pin_BORDER	./src/minigrafx/src/EPaperPervasive.h	/^  int EPD_Pin_BORDER;$/;"	m	class:EPD_Class
+EPD_Pin_BUSY	./src/minigrafx/src/EPaperPervasive.h	/^  int EPD_Pin_BUSY;$/;"	m	class:EPD_Class
+EPD_Pin_DISCHARGE	./src/minigrafx/src/EPaperPervasive.h	/^  int EPD_Pin_DISCHARGE;$/;"	m	class:EPD_Class
+EPD_Pin_EPD_CS	./src/minigrafx/src/EPaperPervasive.h	/^  int EPD_Pin_EPD_CS;$/;"	m	class:EPD_Class
+EPD_Pin_PANEL_ON	./src/minigrafx/src/EPaperPervasive.h	/^  int EPD_Pin_PANEL_ON;$/;"	m	class:EPD_Class
+EPD_Pin_RESET	./src/minigrafx/src/EPaperPervasive.h	/^  int EPD_Pin_RESET;$/;"	m	class:EPD_Class
+EPD_REFRESH_FRAME	./src/minigrafx/src/EPD_WaveShare_29T5.h	46;"	d
+EPD_RESOLUTION_SETTING	./src/minigrafx/src/EPD_WaveShare_29T5.h	55;"	d
+EPD_SET_LUT_BB	./src/minigrafx/src/EPD_WaveShare_29T5.h	52;"	d
+EPD_SET_LUT_BW	./src/minigrafx/src/EPD_WaveShare_29T5.h	50;"	d
+EPD_SET_LUT_VCOM	./src/minigrafx/src/EPD_WaveShare_29T5.h	48;"	d
+EPD_SET_LUT_WB	./src/minigrafx/src/EPD_WaveShare_29T5.h	51;"	d
+EPD_SET_LUT_WW	./src/minigrafx/src/EPD_WaveShare_29T5.h	49;"	d
+EPD_SetRamArea	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::EPD_SetRamArea(unsigned char Xstart,unsigned char Xend,$/;"	f	class:EPD_WaveShare
+EPD_SetRamPointer	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::EPD_SetRamPointer(unsigned char addrX,unsigned char addrY,unsigned char addrY1)$/;"	f	class:EPD_WaveShare
+EPD_TYPE	./src/minigrafx/src/EPD_WaveShare.h	/^enum EPD_TYPE {$/;"	g
+EPD_UNSUPPORTED_COG	./src/minigrafx/src/EPaperPervasive.h	/^  EPD_UNSUPPORTED_COG,$/;"	e	enum:__anon3
+EPD_Update	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::EPD_Update(void)$/;"	f	class:EPD_WaveShare
+EPD_Update_Part	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::EPD_Update_Part(void)$/;"	f	class:EPD_WaveShare
+EPD_VCOM_DATA_INTERNAL_SETTING	./src/minigrafx/src/EPD_WaveShare_29T5.h	54;"	d
+EPD_VCOM_DC_SETTING	./src/minigrafx/src/EPD_WaveShare_29T5.h	56;"	d
+EPD_WIDTH	./src/minigrafx/src/EPD_WaveShare_154.h	35;"	d
+EPD_WIDTH	./src/minigrafx/src/EPD_WaveShare_154D67.h	35;"	d
+EPD_WIDTH	./src/minigrafx/src/EPD_WaveShare_29.h	35;"	d
+EPD_WIDTH	./src/minigrafx/src/EPD_WaveShare_29T5.h	35;"	d
+EPD_WIDTH	./src/minigrafx/src/EPD_WaveShare_75.h	36;"	d
+EPD_WaveShare	./src/minigrafx/src/EPD_WaveShare.cpp	/^EPD_WaveShare::EPD_WaveShare(EPD_TYPE epdType, uint8_t csPin, uint8_t rstPin, uint8_t dcPin, uint8_t busyPin) : DisplayDriver(getWidth(epdType), getHeight(epdType))  {$/;"	f	class:EPD_WaveShare
+EPD_WaveShare	./src/minigrafx/src/EPD_WaveShare.h	/^class EPD_WaveShare : public DisplayDriver {$/;"	c
+EPD_WaveShare154	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^EPD_WaveShare154::EPD_WaveShare154(uint8_t csPin, uint8_t rstPin, uint8_t dcPin, uint8_t busyPin) : DisplayDriver(EPD_WIDTH, EPD_HEIGHT) {$/;"	f	class:EPD_WaveShare154
+EPD_WaveShare154	./src/minigrafx/src/EPD_WaveShare_154.h	/^class EPD_WaveShare154 : public DisplayDriver {$/;"	c
+EPD_WaveShare154D67	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^EPD_WaveShare154D67::EPD_WaveShare154D67(uint8_t csPin, uint8_t rstPin, uint8_t dcPin, uint8_t busyPin) : DisplayDriver(EPD_WIDTH, EPD_HEIGHT) {$/;"	f	class:EPD_WaveShare154D67
+EPD_WaveShare154D67	./src/minigrafx/src/EPD_WaveShare_154D67.h	/^class EPD_WaveShare154D67 : public DisplayDriver {$/;"	c
+EPD_WaveShare29	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^EPD_WaveShare29::EPD_WaveShare29(uint8_t csPin, uint8_t rstPin, uint8_t dcPin, uint8_t busyPin) : DisplayDriver(EPD_WIDTH, EPD_HEIGHT) {$/;"	f	class:EPD_WaveShare29
+EPD_WaveShare29	./src/minigrafx/src/EPD_WaveShare_29.h	/^class EPD_WaveShare29 : public DisplayDriver {$/;"	c
+EPD_WaveShare29T5	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^EPD_WaveShare29T5::EPD_WaveShare29T5(uint8_t csPin, uint8_t rstPin, uint8_t dcPin, uint8_t busyPin) : DisplayDriver(EPD_WIDTH, EPD_HEIGHT) {$/;"	f	class:EPD_WaveShare29T5
+EPD_WaveShare29T5	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^class EPD_WaveShare29T5 : public DisplayDriver {$/;"	c
+EPD_WaveShare42	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^EPD_WaveShare42::EPD_WaveShare42(uint8_t csPin, uint8_t rstPin, uint8_t dcPin, uint8_t busyPin) : DisplayDriver(400, 300)  {$/;"	f	class:EPD_WaveShare42
+EPD_WaveShare42	./src/minigrafx/src/EPD_WaveShare_42.h	/^class EPD_WaveShare42 : public DisplayDriver {$/;"	c
+EPD_WaveShare75	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^EPD_WaveShare75::EPD_WaveShare75(uint8_t cs_pin, uint8_t reset_pin, uint8_t dc_pin, uint8_t busy_pin) : DisplayDriver(EPD_WIDTH, EPD_HEIGHT) {$/;"	f	class:EPD_WaveShare75
+EPD_WaveShare75	./src/minigrafx/src/EPD_WaveShare_75.h	/^class EPD_WaveShare75 : public DisplayDriver {$/;"	c
+EPD_WaveShare_43	./src/minigrafx/src/EPD_WaveShare_43.cpp	/^EPD_WaveShare_43::EPD_WaveShare_43(Stream *serial)  : DisplayDriver(800, 600) {$/;"	f	class:EPD_WaveShare_43
+EPD_WaveShare_43	./src/minigrafx/src/EPD_WaveShare_43.h	/^class EPD_WaveShare_43 : public DisplayDriver {$/;"	c
+EPD_WirteLUT	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::EPD_WirteLUT(unsigned char *LUTvalue,unsigned char Size)$/;"	f	class:EPD_WaveShare
+EPD_Write	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::EPD_Write(const unsigned char *value, unsigned char datalen)$/;"	f	class:EPD_WaveShare
+EPD_WriteCMD	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::EPD_WriteCMD(unsigned char command)$/;"	f	class:EPD_WaveShare
+EPD_WriteCMD_p1	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::EPD_WriteCMD_p1(unsigned char command,unsigned char para)$/;"	f	class:EPD_WaveShare
+EPD_WriteDispRam	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::EPD_WriteDispRam(unsigned char XSize,unsigned int YSize,$/;"	f	class:EPD_WaveShare
+EPD_WriteDispRamMono	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::EPD_WriteDispRamMono(unsigned char XSize,unsigned int YSize,$/;"	f	class:EPD_WaveShare
+EPD_error	./src/minigrafx/src/EPaperPervasive.h	/^} EPD_error;$/;"	t	typeref:enum:__anon3
+EPD_init_Full	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::EPD_init_Full(void)$/;"	f	class:EPD_WaveShare
+EPD_init_Part	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::EPD_init_Part(void)$/;"	f	class:EPD_WaveShare
+EPD_inverse	./src/minigrafx/src/EPaperPervasive.h	/^  EPD_inverse,     \/\/ B -> W, W -> B (New Image)$/;"	e	enum:__anon2
+EPD_normal	./src/minigrafx/src/EPaperPervasive.h	/^  EPD_normal       \/\/ B -> B, W -> W (New Image)$/;"	e	enum:__anon2
+EPD_part_display	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::EPD_part_display(unsigned char RAM_XST,unsigned char RAM_XEND,unsigned char RAM_YST,unsigned char RAM_YST1,unsigned char RAM_YEND,unsigned char RAM_YEND1)$/;"	f	class:EPD_WaveShare
+EPD_reader	./src/minigrafx/src/EPaperPervasive.h	/^typedef void EPD_reader(void *buffer, uint32_t address, uint16_t length);$/;"	t
+EPD_size	./src/minigrafx/src/EPaperPervasive.h	/^} EPD_size;$/;"	t	typeref:enum:__anon1
+EPD_stage	./src/minigrafx/src/EPaperPervasive.h	/^} EPD_stage;$/;"	t	typeref:enum:__anon2
+EPOCH_YR	./src/weather/src/SunMoonCalc.cpp	78;"	d	file:
+EndRule	./settings.h	/^struct dstRule EndRule = {"CST", Last, Sun, Mar, 2, 0};       \/\/ Central European Time = UTC\/GMT +1 hour$/;"	v	typeref:struct:dstRule
+FILLARRAY	./src/minigrafx/src/ILI9341_SPI.cpp	42;"	d	file:
+FIRST_CHAR_POS	./src/minigrafx/src/MiniGrafx.h	58;"	d
+FIXED	./src/minigrafx/src/Carousel.h	/^  FIXED$/;"	e	enum:FrameState
+FOUR_PI	./src/weather/src/SunMoonCalc.cpp	/^const double FOUR_PI = 2.0 * TWO_PI;$/;"	v
+FRAME_B	./src/minigrafx/src/EPD_WaveShare_43.h	40;"	d
+FRAME_E0	./src/minigrafx/src/EPD_WaveShare_43.h	41;"	d
+FRAME_E1	./src/minigrafx/src/EPD_WaveShare_43.h	42;"	d
+FRAME_E2	./src/minigrafx/src/EPD_WaveShare_43.h	43;"	d
+FRAME_E3	./src/minigrafx/src/EPD_WaveShare_43.h	44;"	d
+FrameCallback	./src/minigrafx/src/Carousel.h	/^typedef void (*FrameCallback)(MiniGrafx *miniGrafx,  CarouselState* state, int16_t x, int16_t y);$/;"	t
+FrameState	./src/minigrafx/src/Carousel.h	/^enum FrameState {$/;"	g
+GATE_SCAN_START_POSITION	./src/minigrafx/src/EPD_WaveShare_154.h	41;"	d
+GATE_SCAN_START_POSITION	./src/minigrafx/src/EPD_WaveShare_154D67.h	41;"	d
+GATE_SCAN_START_POSITION	./src/minigrafx/src/EPD_WaveShare_29.h	41;"	d
+GBK32	./src/minigrafx/src/EPD_WaveShare_43.h	89;"	d
+GBK48	./src/minigrafx/src/EPD_WaveShare_43.h	90;"	d
+GBK64	./src/minigrafx/src/EPD_WaveShare_43.h	91;"	d
+GDOControl	./src/minigrafx/src/EPD_WaveShare.h	/^    unsigned char GDOControl[4];$/;"	m	class:EPD_WaveShare
+GET_STATUS	./src/minigrafx/src/EPD_WaveShare_42.h	64;"	d
+GET_STATUS	./src/minigrafx/src/EPD_WaveShare_75.h	73;"	d
+GRAY	./src/minigrafx/src/EPD_WaveShare_43.h	51;"	d
+GSST_SETTING	./src/minigrafx/src/EPD_WaveShare_42.h	63;"	d
+Gatetime	./src/minigrafx/src/EPD_WaveShare.h	/^static const unsigned char Gatetime[] = {0x3b,0x08};  \/\/ 2us per line$/;"	v
+HAVE_TOUCHPAD	./settings.h	117;"	d
+HEIGHT	./src/minigrafx/src/DisplayDriver.h	/^    WIDTH, HEIGHT;   \/\/ This is the 'raw' display w\/h - never changes$/;"	m	class:DisplayDriver
+HEIGHT_POS	./src/minigrafx/src/MiniGrafx.h	57;"	d
+HORIZON_34arcmin	./src/weather/src/SunMoonCalc.h	/^         HORIZON_34arcmin$/;"	e	enum:SunMoonCalc::TWILIGHT
+ILI9341_BLACK	./src/minigrafx/src/ILI9341_SPI.h	102;"	d
+ILI9341_BLUE	./src/minigrafx/src/ILI9341_SPI.h	111;"	d
+ILI9341_CASET	./src/minigrafx/src/ILI9341_SPI.h	66;"	d
+ILI9341_CYAN	./src/minigrafx/src/ILI9341_SPI.h	113;"	d
+ILI9341_DARKCYAN	./src/minigrafx/src/ILI9341_SPI.h	105;"	d
+ILI9341_DARKGREEN	./src/minigrafx/src/ILI9341_SPI.h	104;"	d
+ILI9341_DARKGREY	./src/minigrafx/src/ILI9341_SPI.h	110;"	d
+ILI9341_DFUNCTR	./src/minigrafx/src/ILI9341_SPI.h	79;"	d
+ILI9341_DISPOFF	./src/minigrafx/src/ILI9341_SPI.h	63;"	d
+ILI9341_DISPON	./src/minigrafx/src/ILI9341_SPI.h	64;"	d
+ILI9341_FRMCTR1	./src/minigrafx/src/ILI9341_SPI.h	75;"	d
+ILI9341_FRMCTR2	./src/minigrafx/src/ILI9341_SPI.h	76;"	d
+ILI9341_FRMCTR3	./src/minigrafx/src/ILI9341_SPI.h	77;"	d
+ILI9341_GAMMASET	./src/minigrafx/src/ILI9341_SPI.h	62;"	d
+ILI9341_GMCTRN1	./src/minigrafx/src/ILI9341_SPI.h	95;"	d
+ILI9341_GMCTRP1	./src/minigrafx/src/ILI9341_SPI.h	94;"	d
+ILI9341_GREEN	./src/minigrafx/src/ILI9341_SPI.h	112;"	d
+ILI9341_GREENYELLOW	./src/minigrafx/src/ILI9341_SPI.h	119;"	d
+ILI9341_INVCTR	./src/minigrafx/src/ILI9341_SPI.h	78;"	d
+ILI9341_INVOFF	./src/minigrafx/src/ILI9341_SPI.h	60;"	d
+ILI9341_INVON	./src/minigrafx/src/ILI9341_SPI.h	61;"	d
+ILI9341_LIGHTGREY	./src/minigrafx/src/ILI9341_SPI.h	109;"	d
+ILI9341_MADCTL	./src/minigrafx/src/ILI9341_SPI.h	72;"	d
+ILI9341_MAGENTA	./src/minigrafx/src/ILI9341_SPI.h	115;"	d
+ILI9341_MAROON	./src/minigrafx/src/ILI9341_SPI.h	106;"	d
+ILI9341_NAVY	./src/minigrafx/src/ILI9341_SPI.h	103;"	d
+ILI9341_NOP	./src/minigrafx/src/ILI9341_SPI.h	44;"	d
+ILI9341_NORON	./src/minigrafx/src/ILI9341_SPI.h	52;"	d
+ILI9341_OLIVE	./src/minigrafx/src/ILI9341_SPI.h	108;"	d
+ILI9341_ORANGE	./src/minigrafx/src/ILI9341_SPI.h	118;"	d
+ILI9341_PASET	./src/minigrafx/src/ILI9341_SPI.h	67;"	d
+ILI9341_PINK	./src/minigrafx/src/ILI9341_SPI.h	120;"	d
+ILI9341_PIXFMT	./src/minigrafx/src/ILI9341_SPI.h	73;"	d
+ILI9341_PTLAR	./src/minigrafx/src/ILI9341_SPI.h	71;"	d
+ILI9341_PTLON	./src/minigrafx/src/ILI9341_SPI.h	51;"	d
+ILI9341_PURPLE	./src/minigrafx/src/ILI9341_SPI.h	107;"	d
+ILI9341_PWCTR1	./src/minigrafx/src/ILI9341_SPI.h	81;"	d
+ILI9341_PWCTR2	./src/minigrafx/src/ILI9341_SPI.h	82;"	d
+ILI9341_PWCTR3	./src/minigrafx/src/ILI9341_SPI.h	83;"	d
+ILI9341_PWCTR4	./src/minigrafx/src/ILI9341_SPI.h	84;"	d
+ILI9341_PWCTR5	./src/minigrafx/src/ILI9341_SPI.h	85;"	d
+ILI9341_RAMRD	./src/minigrafx/src/ILI9341_SPI.h	69;"	d
+ILI9341_RAMWR	./src/minigrafx/src/ILI9341_SPI.h	68;"	d
+ILI9341_RDDID	./src/minigrafx/src/ILI9341_SPI.h	46;"	d
+ILI9341_RDDST	./src/minigrafx/src/ILI9341_SPI.h	47;"	d
+ILI9341_RDID1	./src/minigrafx/src/ILI9341_SPI.h	89;"	d
+ILI9341_RDID2	./src/minigrafx/src/ILI9341_SPI.h	90;"	d
+ILI9341_RDID3	./src/minigrafx/src/ILI9341_SPI.h	91;"	d
+ILI9341_RDID4	./src/minigrafx/src/ILI9341_SPI.h	92;"	d
+ILI9341_RDIMGFMT	./src/minigrafx/src/ILI9341_SPI.h	57;"	d
+ILI9341_RDMADCTL	./src/minigrafx/src/ILI9341_SPI.h	55;"	d
+ILI9341_RDMODE	./src/minigrafx/src/ILI9341_SPI.h	54;"	d
+ILI9341_RDPIXFMT	./src/minigrafx/src/ILI9341_SPI.h	56;"	d
+ILI9341_RDSELFDIAG	./src/minigrafx/src/ILI9341_SPI.h	58;"	d
+ILI9341_RED	./src/minigrafx/src/ILI9341_SPI.h	114;"	d
+ILI9341_SLPIN	./src/minigrafx/src/ILI9341_SPI.h	49;"	d
+ILI9341_SLPOUT	./src/minigrafx/src/ILI9341_SPI.h	50;"	d
+ILI9341_SPI	./src/minigrafx/src/ILI9341_SPI.cpp	/^ILI9341_SPI::ILI9341_SPI(int8_t cs, int8_t dc, int8_t mosi,$/;"	f	class:ILI9341_SPI
+ILI9341_SPI	./src/minigrafx/src/ILI9341_SPI.cpp	/^ILI9341_SPI::ILI9341_SPI(int8_t cs, int8_t dc, int8_t rst) : DisplayDriver(ILI9341_TFTWIDTH, ILI9341_TFTHEIGHT) {$/;"	f	class:ILI9341_SPI
+ILI9341_SPI	./src/minigrafx/src/ILI9341_SPI.h	/^class ILI9341_SPI : public DisplayDriver {$/;"	c
+ILI9341_SWRESET	./src/minigrafx/src/ILI9341_SPI.h	45;"	d
+ILI9341_TFTHEIGHT	./src/minigrafx/src/ILI9341_SPI.h	42;"	d
+ILI9341_TFTWIDTH	./src/minigrafx/src/ILI9341_SPI.h	41;"	d
+ILI9341_VMCTR1	./src/minigrafx/src/ILI9341_SPI.h	86;"	d
+ILI9341_VMCTR2	./src/minigrafx/src/ILI9341_SPI.h	87;"	d
+ILI9341_WHITE	./src/minigrafx/src/ILI9341_SPI.h	117;"	d
+ILI9341_YELLOW	./src/minigrafx/src/ILI9341_SPI.h	116;"	d
+IMAGE_PROCESS	./src/minigrafx/src/EPD_WaveShare_75.h	51;"	d
+IN_TRANSITION	./src/minigrafx/src/Carousel.h	/^  IN_TRANSITION,$/;"	e	enum:FrameState
+IS_METRIC	./settings.h	/^const boolean IS_METRIC = true;$/;"	v
+IS_STYLE_12HR	./settings.h	/^bool IS_STYLE_12HR = false;$/;"	v
+IfInit	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^int EPD_WaveShare154::IfInit(void) {$/;"	f	class:EPD_WaveShare154
+IfInit	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^int EPD_WaveShare154D67::IfInit(void) {$/;"	f	class:EPD_WaveShare154D67
+IfInit	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^int EPD_WaveShare29::IfInit(void) {$/;"	f	class:EPD_WaveShare29
+IfInit	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^int EPD_WaveShare29T5::IfInit(void) {$/;"	f	class:EPD_WaveShare29T5
+IfInit	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^int EPD_WaveShare42::IfInit(void) {$/;"	f	class:EPD_WaveShare42
+IfInit	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^int EPD_WaveShare75::IfInit(void) {$/;"	f	class:EPD_WaveShare75
+IndicatorDirection	./src/minigrafx/src/Carousel.h	/^enum IndicatorDirection {$/;"	g
+IndicatorPosition	./src/minigrafx/src/Carousel.h	/^enum IndicatorPosition {$/;"	g
+Init	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^int EPD_WaveShare154::Init(const unsigned char* lut) {$/;"	f	class:EPD_WaveShare154
+Init	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^int EPD_WaveShare154D67::Init() {$/;"	f	class:EPD_WaveShare154D67
+Init	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^int EPD_WaveShare29::Init(const unsigned char* lut) {$/;"	f	class:EPD_WaveShare29
+J2000	./src/weather/src/SunMoonCalc.cpp	/^const double J2000 = 2451545.0;$/;"	v
+JULIAN_DAYS_PER_CENTURY	./src/weather/src/SunMoonCalc.cpp	/^const double JULIAN_DAYS_PER_CENTURY = 36525.0;$/;"	v
+JUMPTABLE_BYTES	./src/minigrafx/src/MiniGrafx.h	49;"	d
+JUMPTABLE_LSB	./src/minigrafx/src/MiniGrafx.h	51;"	d
+JUMPTABLE_SIZE	./src/minigrafx/src/MiniGrafx.h	52;"	d
+JUMPTABLE_START	./src/minigrafx/src/MiniGrafx.h	54;"	d
+JUMPTABLE_WIDTH	./src/minigrafx/src/MiniGrafx.h	53;"	d
+LEFT	./src/minigrafx/src/Carousel.h	/^  LEFT$/;"	e	enum:IndicatorPosition
+LEFT_RIGHT	./src/minigrafx/src/Carousel.h	/^  LEFT_RIGHT,$/;"	e	enum:IndicatorDirection
+LOW_POWER_DETECTION	./src/minigrafx/src/EPD_WaveShare_42.h	60;"	d
+LOW_POWER_DETECTION	./src/minigrafx/src/EPD_WaveShare_75.h	68;"	d
+LUNAR_CYCLE_DAYS	./src/weather/src/SunMoonCalc.cpp	/^const double LUNAR_CYCLE_DAYS = 29.530588853;$/;"	v
+LUTDefault_full	./src/minigrafx/src/EPD_WaveShare.h	/^  static const unsigned char LUTDefault_full[31] = {$/;"	v
+LUTDefault_full	./src/minigrafx/src/EPD_WaveShare.h	/^  static const unsigned char LUTDefault_full[]={$/;"	v
+LUTDefault_part	./src/minigrafx/src/EPD_WaveShare.h	/^  static const unsigned char LUTDefault_part[31] = {$/;"	v
+LUTDefault_part	./src/minigrafx/src/EPD_WaveShare.h	/^  static const unsigned char LUTDefault_part[]={$/;"	v
+LUT_BLACK_TO_BLACK	./src/minigrafx/src/EPD_WaveShare_42.h	53;"	d
+LUT_BLACK_TO_WHITE	./src/minigrafx/src/EPD_WaveShare_42.h	51;"	d
+LUT_BLUE	./src/minigrafx/src/EPD_WaveShare_75.h	53;"	d
+LUT_FOR_VCOM	./src/minigrafx/src/EPD_WaveShare_42.h	49;"	d
+LUT_FOR_VCOM	./src/minigrafx/src/EPD_WaveShare_75.h	52;"	d
+LUT_GRAY_1	./src/minigrafx/src/EPD_WaveShare_75.h	55;"	d
+LUT_GRAY_2	./src/minigrafx/src/EPD_WaveShare_75.h	56;"	d
+LUT_RED_0	./src/minigrafx/src/EPD_WaveShare_75.h	57;"	d
+LUT_RED_1	./src/minigrafx/src/EPD_WaveShare_75.h	58;"	d
+LUT_RED_2	./src/minigrafx/src/EPD_WaveShare_75.h	59;"	d
+LUT_RED_3	./src/minigrafx/src/EPD_WaveShare_75.h	60;"	d
+LUT_WHITE	./src/minigrafx/src/EPD_WaveShare_75.h	54;"	d
+LUT_WHITE_TO_BLACK	./src/minigrafx/src/EPD_WaveShare_42.h	52;"	d
+LUT_WHITE_TO_WHITE	./src/minigrafx/src/EPD_WaveShare_42.h	50;"	d
+LUT_XON	./src/minigrafx/src/EPD_WaveShare_75.h	61;"	d
+LoadingDrawFunction	./src/minigrafx/src/Carousel.h	/^typedef void (*LoadingDrawFunction)(MiniGrafx *miniGrafx, LoadingStage* stage, uint8_t progress);$/;"	t
+LoadingStage	./src/minigrafx/src/Carousel.h	/^struct LoadingStage {$/;"	s
+MADCTL_BGR	./src/minigrafx/src/ILI9341_SPI.cpp	390;"	d	file:
+MADCTL_MH	./src/minigrafx/src/ILI9341_SPI.cpp	391;"	d	file:
+MADCTL_ML	./src/minigrafx/src/ILI9341_SPI.cpp	388;"	d	file:
+MADCTL_MV	./src/minigrafx/src/ILI9341_SPI.cpp	387;"	d	file:
+MADCTL_MX	./src/minigrafx/src/ILI9341_SPI.cpp	386;"	d	file:
+MADCTL_MY	./src/minigrafx/src/ILI9341_SPI.cpp	385;"	d	file:
+MADCTL_RGB	./src/minigrafx/src/ILI9341_SPI.cpp	389;"	d	file:
+MASTER_ACTIVATION	./src/minigrafx/src/EPD_WaveShare_154.h	46;"	d
+MASTER_ACTIVATION	./src/minigrafx/src/EPD_WaveShare_154D67.h	46;"	d
+MASTER_ACTIVATION	./src/minigrafx/src/EPD_WaveShare_29.h	46;"	d
+MAX_FORECAST_PERIODS	./src/weather/src/ThingspeakClient.h	33;"	d
+MEM_NAND	./src/minigrafx/src/EPD_WaveShare_43.h	102;"	d
+MEM_TF	./src/minigrafx/src/EPD_WaveShare_43.h	103;"	d
+MINIGRAFXFONTS_h	./src/minigrafx/src/MiniGrafxFonts.h	29;"	d
+MONTH_NAMES	./settings.h	/^const String MONTH_NAMES[] = {"JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"};$/;"	v
+MOON_PHASES	./settings.h	/^const String MOON_PHASES[] = {"New Moon", "Waxing Crescent", "First Quarter", "Waxing Gibbous",$/;"	v
+MetOfficeClient	./src/weather/src/MetOfficeClient.cpp	/^MetOfficeClient::MetOfficeClient() {$/;"	f	class:MetOfficeClient
+MetOfficeClient	./src/weather/src/MetOfficeClient.h	/^class MetOfficeClient: public JsonListener {$/;"	c
+MiniGrafx	./src/minigrafx/src/MiniGrafx.cpp	/^MiniGrafx::MiniGrafx(DisplayDriver *driver, uint8_t bitsPerPixel, uint16_t *palette) {$/;"	f	class:MiniGrafx
+MiniGrafx	./src/minigrafx/src/MiniGrafx.cpp	/^MiniGrafx::MiniGrafx(DisplayDriver *driver, uint8_t bitsPerPixel, uint16_t *palette, uint16_t width, uint16_t height) {$/;"	f	class:MiniGrafx
+MiniGrafx	./src/minigrafx/src/MiniGrafx.h	/^class MiniGrafx {$/;"	c
+Moon	./src/weather/src/SunMoonCalc.h	/^    typedef struct Moon {$/;"	s	class:SunMoonCalc
+Moon	./src/weather/src/SunMoonCalc.h	/^    } Moon;$/;"	t	class:SunMoonCalc	typeref:struct:SunMoonCalc::Moon
+MoonData	./src/weather/src/Astronomy.h	/^    typedef struct MoonData {$/;"	s	class:Astronomy
+MoonData	./src/weather/src/Astronomy.h	/^    } MoonData;$/;"	t	class:Astronomy	typeref:struct:Astronomy::MoonData
+MoonPhase	./src/weather/src/SunMoonCalc.h	/^    typedef struct MoonPhase {$/;"	s	class:SunMoonCalc
+MoonPhase	./src/weather/src/SunMoonCalc.h	/^    } MoonPhase;$/;"	t	class:SunMoonCalc	typeref:struct:SunMoonCalc::MoonPhase
+NTPClient	./src/weather/src/NTPClient.cpp	/^NTPClient::NTPClient(const char* poolServerName) {$/;"	f	class:NTPClient
+NTPClient	./src/weather/src/NTPClient.cpp	/^NTPClient::NTPClient(const char* poolServerName, int timeOffset) {$/;"	f	class:NTPClient
+NTPClient	./src/weather/src/NTPClient.cpp	/^NTPClient::NTPClient(const char* poolServerName, int timeOffset, int updateInterval) {$/;"	f	class:NTPClient
+NTPClient	./src/weather/src/NTPClient.cpp	/^NTPClient::NTPClient(int timeOffset) {$/;"	f	class:NTPClient
+NTPClient	./src/weather/src/NTPClient.h	/^class NTPClient {$/;"	c
+NTP_MIN_VALID_EPOCH	./settings.h	90;"	d
+NTP_PACKET_SIZE	./src/weather/src/NTPClient.h	9;"	d
+NTP_PACKET_SIZE	./src/weather/src/TimeClient.h	29;"	d
+NTP_SERVERS	./settings.h	86;"	d
+OPEN_WEATHER_MAP_APP_ID	./settings.h	/^String OPEN_WEATHER_MAP_APP_ID = "7d8ca767ad6ad48a99ab2352b3b871c7";$/;"	v
+OPEN_WEATHER_MAP_LANGUAGE	./settings.h	/^String OPEN_WEATHER_MAP_LANGUAGE = "en";$/;"	v
+OPEN_WEATHER_MAP_LOCATION	./settings.h	/^String OPEN_WEATHER_MAP_LOCATION = "Shanghai";$/;"	v
+OPEN_WEATHER_MAP_LOCATION_ID	./settings.h	/^String OPEN_WEATHER_MAP_LOCATION_ID = "2657896";$/;"	v
+OpenWeatherMapCurrent	./src/weather/src/OpenWeatherMapCurrent.cpp	/^OpenWeatherMapCurrent::OpenWeatherMapCurrent() {$/;"	f	class:OpenWeatherMapCurrent
+OpenWeatherMapCurrent	./src/weather/src/OpenWeatherMapCurrent.h	/^class OpenWeatherMapCurrent: public JsonListener {$/;"	c
+OpenWeatherMapCurrentData	./src/weather/src/OpenWeatherMapCurrent.h	/^typedef struct OpenWeatherMapCurrentData {$/;"	s
+OpenWeatherMapCurrentData	./src/weather/src/OpenWeatherMapCurrent.h	/^} OpenWeatherMapCurrentData;$/;"	t	typeref:struct:OpenWeatherMapCurrentData
+OpenWeatherMapForecast	./src/weather/src/OpenWeatherMapForecast.cpp	/^OpenWeatherMapForecast::OpenWeatherMapForecast() {$/;"	f	class:OpenWeatherMapForecast
+OpenWeatherMapForecast	./src/weather/src/OpenWeatherMapForecast.h	/^class OpenWeatherMapForecast: public JsonListener {$/;"	c
+OpenWeatherMapForecastData	./src/weather/src/OpenWeatherMapForecast.h	/^typedef struct OpenWeatherMapForecastData {$/;"	s
+OpenWeatherMapForecastData	./src/weather/src/OpenWeatherMapForecast.h	/^} OpenWeatherMapForecastData;$/;"	t	typeref:struct:OpenWeatherMapForecastData
+OverlayCallback	./src/minigrafx/src/Carousel.h	/^typedef void (*OverlayCallback)(MiniGrafx *miniGrafx,  CarouselState* state);$/;"	t
+PANEL_SETTING	./src/minigrafx/src/EPD_WaveShare_42.h	37;"	d
+PANEL_SETTING	./src/minigrafx/src/EPD_WaveShare_75.h	40;"	d
+PARTIAL_IN	./src/minigrafx/src/EPD_WaveShare_42.h	69;"	d
+PARTIAL_OUT	./src/minigrafx/src/EPD_WaveShare_42.h	70;"	d
+PARTIAL_WINDOW	./src/minigrafx/src/EPD_WaveShare_42.h	68;"	d
+PI_OVER_TWO	./src/weather/src/SunMoonCalc.cpp	/^const double PI_OVER_TWO = PI \/ 2.0;$/;"	v
+PLL_CONTROL	./src/minigrafx/src/EPD_WaveShare_42.h	54;"	d
+PLL_CONTROL	./src/minigrafx/src/EPD_WaveShare_75.h	62;"	d
+POWER_OFF	./src/minigrafx/src/EPD_WaveShare_42.h	39;"	d
+POWER_OFF	./src/minigrafx/src/EPD_WaveShare_75.h	42;"	d
+POWER_OFF_SEQUENCE_SETTING	./src/minigrafx/src/EPD_WaveShare_42.h	40;"	d
+POWER_OFF_SEQUENCE_SETTING	./src/minigrafx/src/EPD_WaveShare_75.h	43;"	d
+POWER_ON	./src/minigrafx/src/EPD_WaveShare_42.h	41;"	d
+POWER_ON	./src/minigrafx/src/EPD_WaveShare_75.h	44;"	d
+POWER_ON_MEASURE	./src/minigrafx/src/EPD_WaveShare_42.h	42;"	d
+POWER_ON_MEASURE	./src/minigrafx/src/EPD_WaveShare_75.h	45;"	d
+POWER_SAVING	./src/minigrafx/src/EPD_WaveShare_42.h	74;"	d
+POWER_SETTING	./src/minigrafx/src/EPD_WaveShare_42.h	38;"	d
+POWER_SETTING	./src/minigrafx/src/EPD_WaveShare_75.h	41;"	d
+PROGMEM	./ArialRounded.h	/^const char ArialRoundedMTBold_14[] PROGMEM = {$/;"	v
+PROGMEM	./ArialRounded.h	/^const char ArialRoundedMTBold_36[] PROGMEM = {$/;"	v
+PROGMEM	./moonphases.h	/^const char MoonPhases_Regular_36[] PROGMEM = {$/;"	v
+PROGMEM	./src/minigrafx/src/Carousel.h	/^const char ANIMATION_activeSymbol[] PROGMEM = {$/;"	v
+PROGMEM	./src/minigrafx/src/Carousel.h	/^const char ANIMATION_inactiveSymbol[] PROGMEM = {$/;"	v
+PROGMEM	./src/minigrafx/src/MiniGrafxFonts.h	/^const char ArialMT_Plain_10[] PROGMEM = {$/;"	v
+PROGMEM	./src/minigrafx/src/MiniGrafxFonts.h	/^const char ArialMT_Plain_16[] PROGMEM = {$/;"	v
+PROGMEM	./src/minigrafx/src/MiniGrafxFonts.h	/^const char ArialMT_Plain_24[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^  const char minichanceflurries[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char ThingPulseLogo[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char chanceflurries[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char chancerain[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char chancesleet[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char chancesnow[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char chancestorms[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char clear[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char cloudy[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char flurries[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char fog[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char hazy[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char minichancerain[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char minichancesleet[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char minichancesnow[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char minichancestorms[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char miniclear[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char minicloudy[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char miniflurries[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char minifog[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char minihazy[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char minimostlycloudy[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char minimostlysunny[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char minipartlycloudy[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char minipartlysunny[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char minirain[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char minisleet[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char minisnow[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char minisunny[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char minitstorms[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char miniunknown[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char mostlycloudy[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char mostlysunny[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char partlycloudy[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char partlysunny[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char rain[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char sleet[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char snow[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char sunny[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char tstorms[] PROGMEM = {$/;"	v
+PROGMEM	./weathericons.h	/^const char unknown[] PROGMEM = {$/;"	v
+PROGRAM_MODE	./src/minigrafx/src/EPD_WaveShare_42.h	71;"	d
+PositionalData	./src/weather/src/SunMoonCalc.h	/^    typedef struct PositionalData {$/;"	s	class:SunMoonCalc
+PositionalData	./src/weather/src/SunMoonCalc.h	/^    } PositionalData;$/;"	t	class:SunMoonCalc	typeref:struct:SunMoonCalc::PositionalData
+RAD_TO_DAY	./src/weather/src/SunMoonCalc.cpp	/^const double RAD_TO_DAY = RAD_TO_HOUR \/ 24.0;$/;"	v
+RAD_TO_HOUR	./src/weather/src/SunMoonCalc.cpp	/^const double RAD_TO_HOUR = 180.0 \/ (15.0 * PI);$/;"	v
+READ_OTP	./src/minigrafx/src/EPD_WaveShare_42.h	73;"	d
+READ_VCOM_VALUE	./src/minigrafx/src/EPD_WaveShare_42.h	66;"	d
+READ_VCOM_VALUE	./src/minigrafx/src/EPD_WaveShare_75.h	75;"	d
+RESOLUTION_SETTING	./src/minigrafx/src/EPD_WaveShare_42.h	62;"	d
+REVISION	./src/minigrafx/src/EPD_WaveShare_75.h	72;"	d
+RIGHT	./src/minigrafx/src/Carousel.h	/^  RIGHT,$/;"	e	enum:IndicatorPosition
+RIGHT_LEFT	./src/minigrafx/src/Carousel.h	/^  RIGHT_LEFT$/;"	e	enum:IndicatorDirection
+RPD	./src/weather/src/Astronomy.cpp	27;"	d	file:
+RamDataEntryMode	./src/minigrafx/src/EPD_WaveShare.h	/^static const unsigned char RamDataEntryMode[] = {0x11,0x01};  \/\/ Ram data entry mode$/;"	v
+ReadBusy	./src/minigrafx/src/EPD_WaveShare.cpp	/^unsigned char EPD_WaveShare::ReadBusy(void)$/;"	f	class:EPD_WaveShare
+Reset	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^void EPD_WaveShare154::Reset(void) {$/;"	f	class:EPD_WaveShare154
+Reset	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::Reset(void) {$/;"	f	class:EPD_WaveShare154D67
+Reset	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^void EPD_WaveShare29::Reset(void) {$/;"	f	class:EPD_WaveShare29
+Reset	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^void EPD_WaveShare29T5::Reset(void) {$/;"	f	class:EPD_WaveShare29T5
+Reset	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^void EPD_WaveShare42::Reset(void) {$/;"	f	class:EPD_WaveShare42
+Reset	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^void EPD_WaveShare75::Reset(void) {$/;"	f	class:EPD_WaveShare75
+Result	./src/weather/src/SunMoonCalc.h	/^    typedef struct Result {$/;"	s	class:SunMoonCalc
+Result	./src/weather/src/SunMoonCalc.h	/^    } Result;$/;"	t	class:SunMoonCalc	typeref:struct:SunMoonCalc::Result
+Reverse_bits	./src/minigrafx/src/EPD_WaveShare.cpp	/^uint8_t EPD_WaveShare::Reverse_bits(uint8_t num){$/;"	f	class:EPD_WaveShare
+SECONDS_PER_DAY	./src/weather/src/SunMoonCalc.cpp	/^const double SECONDS_PER_DAY = 86400;$/;"	v
+SET_DUMMY_LINE_PERIOD	./src/minigrafx/src/EPD_WaveShare_154.h	52;"	d
+SET_DUMMY_LINE_PERIOD	./src/minigrafx/src/EPD_WaveShare_154D67.h	52;"	d
+SET_DUMMY_LINE_PERIOD	./src/minigrafx/src/EPD_WaveShare_29.h	52;"	d
+SET_GATE_TIME	./src/minigrafx/src/EPD_WaveShare_154.h	53;"	d
+SET_GATE_TIME	./src/minigrafx/src/EPD_WaveShare_154D67.h	53;"	d
+SET_GATE_TIME	./src/minigrafx/src/EPD_WaveShare_29.h	53;"	d
+SET_RAM_X_ADDRESS_COUNTER	./src/minigrafx/src/EPD_WaveShare_154.h	57;"	d
+SET_RAM_X_ADDRESS_COUNTER	./src/minigrafx/src/EPD_WaveShare_154D67.h	57;"	d
+SET_RAM_X_ADDRESS_COUNTER	./src/minigrafx/src/EPD_WaveShare_29.h	57;"	d
+SET_RAM_X_ADDRESS_START_END_POSITION	./src/minigrafx/src/EPD_WaveShare_154.h	55;"	d
+SET_RAM_X_ADDRESS_START_END_POSITION	./src/minigrafx/src/EPD_WaveShare_154D67.h	55;"	d
+SET_RAM_X_ADDRESS_START_END_POSITION	./src/minigrafx/src/EPD_WaveShare_29.h	55;"	d
+SET_RAM_Y_ADDRESS_COUNTER	./src/minigrafx/src/EPD_WaveShare_154.h	58;"	d
+SET_RAM_Y_ADDRESS_COUNTER	./src/minigrafx/src/EPD_WaveShare_154D67.h	58;"	d
+SET_RAM_Y_ADDRESS_COUNTER	./src/minigrafx/src/EPD_WaveShare_29.h	58;"	d
+SET_RAM_Y_ADDRESS_START_END_POSITION	./src/minigrafx/src/EPD_WaveShare_154.h	56;"	d
+SET_RAM_Y_ADDRESS_START_END_POSITION	./src/minigrafx/src/EPD_WaveShare_154D67.h	56;"	d
+SET_RAM_Y_ADDRESS_START_END_POSITION	./src/minigrafx/src/EPD_WaveShare_29.h	56;"	d
+SEVENZYYEARS	./src/weather/src/NTPClient.h	8;"	d
+SIDEREAL_DAY_LENGTH	./src/weather/src/SunMoonCalc.cpp	/^const double SIDEREAL_DAY_LENGTH = 1.00273781191135448;$/;"	v
+SLEEP_INTERVAL_SECS	./settings.h	/^const int SLEEP_INTERVAL_SECS = 0;        \/\/ Going to sleep after idle times, set 0 for insomnia$/;"	v
+SLIDE_DOWN	./src/minigrafx/src/Carousel.h	/^  SLIDE_DOWN,$/;"	e	enum:AnimationDirection
+SLIDE_LEFT	./src/minigrafx/src/Carousel.h	/^  SLIDE_LEFT,$/;"	e	enum:AnimationDirection
+SLIDE_RIGHT	./src/minigrafx/src/Carousel.h	/^  SLIDE_RIGHT$/;"	e	enum:AnimationDirection
+SLIDE_UP	./src/minigrafx/src/Carousel.h	/^  SLIDE_UP,$/;"	e	enum:AnimationDirection
+SPI_FLASH_CONTROL	./src/minigrafx/src/EPD_WaveShare_75.h	71;"	d
+SPI_Write	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::SPI_Write(unsigned char value)$/;"	f	class:EPD_WaveShare
+SPI_off	./src/minigrafx/src/EPaperPervasive.cpp	/^static void SPI_off() {$/;"	f	file:
+SPI_on	./src/minigrafx/src/EPaperPervasive.cpp	/^static void SPI_on() {$/;"	f	file:
+SPI_put	./src/minigrafx/src/EPaperPervasive.cpp	/^static void SPI_put(uint8_t c) {$/;"	f	file:
+SPI_read	./src/minigrafx/src/EPaperPervasive.cpp	/^static uint8_t SPI_read(uint8_t cs_pin, const uint8_t *buffer, uint16_t length) {$/;"	f	file:
+SPI_send	./src/minigrafx/src/EPaperPervasive.cpp	/^static void SPI_send(uint8_t cs_pin, const uint8_t *buffer, uint16_t length) {$/;"	f	file:
+SSD1331_CMD_CLOCKDIV	./src/minigrafx/src/SSD1331_SPI.h	65;"	d
+SSD1331_CMD_CONTRASTA	./src/minigrafx/src/SSD1331_SPI.h	48;"	d
+SSD1331_CMD_CONTRASTB	./src/minigrafx/src/SSD1331_SPI.h	49;"	d
+SSD1331_CMD_CONTRASTC	./src/minigrafx/src/SSD1331_SPI.h	50;"	d
+SSD1331_CMD_DISPLAYALLOFF	./src/minigrafx/src/SSD1331_SPI.h	57;"	d
+SSD1331_CMD_DISPLAYALLON	./src/minigrafx/src/SSD1331_SPI.h	56;"	d
+SSD1331_CMD_DISPLAYOFF	./src/minigrafx/src/SSD1331_SPI.h	61;"	d
+SSD1331_CMD_DISPLAYOFFSET	./src/minigrafx/src/SSD1331_SPI.h	54;"	d
+SSD1331_CMD_DISPLAYON	./src/minigrafx/src/SSD1331_SPI.h	62;"	d
+SSD1331_CMD_DRAWLINE	./src/minigrafx/src/SSD1331_SPI.h	43;"	d
+SSD1331_CMD_DRAWRECT	./src/minigrafx/src/SSD1331_SPI.h	44;"	d
+SSD1331_CMD_FILL	./src/minigrafx/src/SSD1331_SPI.h	45;"	d
+SSD1331_CMD_INVERTDISPLAY	./src/minigrafx/src/SSD1331_SPI.h	58;"	d
+SSD1331_CMD_MASTERCURRENT	./src/minigrafx/src/SSD1331_SPI.h	51;"	d
+SSD1331_CMD_NORMALDISPLAY	./src/minigrafx/src/SSD1331_SPI.h	55;"	d
+SSD1331_CMD_POWERMODE	./src/minigrafx/src/SSD1331_SPI.h	63;"	d
+SSD1331_CMD_PRECHARGE	./src/minigrafx/src/SSD1331_SPI.h	64;"	d
+SSD1331_CMD_PRECHARGEA	./src/minigrafx/src/SSD1331_SPI.h	66;"	d
+SSD1331_CMD_PRECHARGEB	./src/minigrafx/src/SSD1331_SPI.h	67;"	d
+SSD1331_CMD_PRECHARGEC	./src/minigrafx/src/SSD1331_SPI.h	68;"	d
+SSD1331_CMD_PRECHARGELEVEL	./src/minigrafx/src/SSD1331_SPI.h	69;"	d
+SSD1331_CMD_SETCOLUMN	./src/minigrafx/src/SSD1331_SPI.h	46;"	d
+SSD1331_CMD_SETMASTER	./src/minigrafx/src/SSD1331_SPI.h	60;"	d
+SSD1331_CMD_SETMULTIPLEX	./src/minigrafx/src/SSD1331_SPI.h	59;"	d
+SSD1331_CMD_SETREMAP	./src/minigrafx/src/SSD1331_SPI.h	52;"	d
+SSD1331_CMD_SETROW	./src/minigrafx/src/SSD1331_SPI.h	47;"	d
+SSD1331_CMD_STARTLINE	./src/minigrafx/src/SSD1331_SPI.h	53;"	d
+SSD1331_CMD_VCOMH	./src/minigrafx/src/SSD1331_SPI.h	70;"	d
+SSD1331_DELAYS_HWFILL	./src/minigrafx/src/SSD1331_SPI.h	39;"	d
+SSD1331_DELAYS_HWLINE	./src/minigrafx/src/SSD1331_SPI.h	40;"	d
+SSD1331_HEIGHT	./src/minigrafx/src/SSD1331_SPI.h	36;"	d
+SSD1331_SPI	./src/minigrafx/src/SSD1331_SPI.cpp	/^SSD1331_SPI::SSD1331_SPI(int8_t cs, int8_t dc, int8_t mosi,$/;"	f	class:SSD1331_SPI
+SSD1331_SPI	./src/minigrafx/src/SSD1331_SPI.cpp	/^SSD1331_SPI::SSD1331_SPI(int8_t cs, int8_t dc, int8_t rst) : DisplayDriver(SSD1331_WIDTH, SSD1331_HEIGHT) {$/;"	f	class:SSD1331_SPI
+SSD1331_SPI	./src/minigrafx/src/SSD1331_SPI.h	/^class SSD1331_SPI : public DisplayDriver {$/;"	c
+SSD1331_WIDTH	./src/minigrafx/src/SSD1331_SPI.h	35;"	d
+SUN_MOON_TEXT	./settings.h	/^const String SUN_MOON_TEXT[] = {"Sun", "Rise", "Set", "Moon", "Age", "Illum"};$/;"	v
+SW_RESET	./src/minigrafx/src/EPD_WaveShare_154.h	44;"	d
+SW_RESET	./src/minigrafx/src/EPD_WaveShare_154D67.h	44;"	d
+SW_RESET	./src/minigrafx/src/EPD_WaveShare_29.h	44;"	d
+SendBulkData	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::SendBulkData(unsigned char* data, uint32_t size) {$/;"	f	class:EPD_WaveShare154D67
+SendCommand	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^void EPD_WaveShare154::SendCommand(unsigned char command) {$/;"	f	class:EPD_WaveShare154
+SendCommand	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::SendCommand(unsigned char command) {$/;"	f	class:EPD_WaveShare154D67
+SendCommand	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^void EPD_WaveShare29::SendCommand(unsigned char command) {$/;"	f	class:EPD_WaveShare29
+SendCommand	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^void EPD_WaveShare29T5::SendCommand(unsigned char command) {$/;"	f	class:EPD_WaveShare29T5
+SendCommand	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^void EPD_WaveShare42::SendCommand(unsigned char command) {$/;"	f	class:EPD_WaveShare42
+SendCommand	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^void EPD_WaveShare75::SendCommand(unsigned char command) {$/;"	f	class:EPD_WaveShare75
+SendData	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^void EPD_WaveShare154::SendData(unsigned char data) {$/;"	f	class:EPD_WaveShare154
+SendData	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::SendData(unsigned char data) {$/;"	f	class:EPD_WaveShare154D67
+SendData	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^void EPD_WaveShare29::SendData(unsigned char data) {$/;"	f	class:EPD_WaveShare29
+SendData	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^void EPD_WaveShare29T5::SendData(unsigned char data) {$/;"	f	class:EPD_WaveShare29T5
+SendData	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^void EPD_WaveShare42::SendData(unsigned char data) {$/;"	f	class:EPD_WaveShare42
+SendData	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^void EPD_WaveShare75::SendData(unsigned char data) {$/;"	f	class:EPD_WaveShare75
+SetLut	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^void EPD_WaveShare154::SetLut(const unsigned char* lut) {$/;"	f	class:EPD_WaveShare154
+SetLut	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^void EPD_WaveShare29::SetLut(const unsigned char* lut) {$/;"	f	class:EPD_WaveShare29
+SetLut	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^void EPD_WaveShare29T5::SetLut() {$/;"	f	class:EPD_WaveShare29T5
+SetLut	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^void EPD_WaveShare42::SetLut(void) {$/;"	f	class:EPD_WaveShare42
+SetMemoryArea	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^void EPD_WaveShare154::SetMemoryArea(int x_start, int y_start, int x_end, int y_end) {$/;"	f	class:EPD_WaveShare154
+SetMemoryArea	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::SetMemoryArea(int x_start, int y_start, int x_end, int y_end) {$/;"	f	class:EPD_WaveShare154D67
+SetMemoryArea	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^void EPD_WaveShare29::SetMemoryArea(int x_start, int y_start, int x_end, int y_end) {$/;"	f	class:EPD_WaveShare29
+SetMemoryArea	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^void EPD_WaveShare29T5::SetMemoryArea(int x, int y, int xe, int ye) {$/;"	f	class:EPD_WaveShare29T5
+SetMemoryPointer	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^void EPD_WaveShare154::SetMemoryPointer(int x, int y) {$/;"	f	class:EPD_WaveShare154
+SetMemoryPointer	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::SetMemoryPointer(int x, int y) {$/;"	f	class:EPD_WaveShare154D67
+SetMemoryPointer	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^void EPD_WaveShare29::SetMemoryPointer(int x, int y) {$/;"	f	class:EPD_WaveShare29
+SetPartialWindow	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^void EPD_WaveShare42::SetPartialWindow(const unsigned char* buffer_black, int x, int y, int w, int l) {$/;"	f	class:EPD_WaveShare42
+Sleep	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^void EPD_WaveShare154::Sleep() {$/;"	f	class:EPD_WaveShare154
+Sleep	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::Sleep() {$/;"	f	class:EPD_WaveShare154D67
+Sleep	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^void EPD_WaveShare29::Sleep() {$/;"	f	class:EPD_WaveShare29
+Sleep	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^void EPD_WaveShare29T5::Sleep() {$/;"	f	class:EPD_WaveShare29T5
+Sleep	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^void EPD_WaveShare42::Sleep() {$/;"	f	class:EPD_WaveShare42
+Sleep	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^void EPD_WaveShare75::Sleep(void) {$/;"	f	class:EPD_WaveShare75
+SpiTransfer	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^void EPD_WaveShare154::SpiTransfer(unsigned char data) {$/;"	f	class:EPD_WaveShare154
+SpiTransfer	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::SpiTransfer(unsigned char data) {$/;"	f	class:EPD_WaveShare154D67
+SpiTransfer	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^void EPD_WaveShare29::SpiTransfer(unsigned char data) {$/;"	f	class:EPD_WaveShare29
+SpiTransfer	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^void EPD_WaveShare29T5::SpiTransfer(unsigned char data) {$/;"	f	class:EPD_WaveShare29T5
+SpiTransfer	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^void EPD_WaveShare42::SpiTransfer(unsigned char data) {$/;"	f	class:EPD_WaveShare42
+SpiTransfer	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^void EPD_WaveShare75::SpiTransfer(unsigned char data) {$/;"	f	class:EPD_WaveShare75
+StartRule	./settings.h	/^struct dstRule StartRule = {"CST", Last, Sun, Mar, 2, 0}; \/\/ Central European Summer Time = UTC\/GMT +2 hours$/;"	v	typeref:struct:dstRule
+Sun	./src/weather/src/SunMoonCalc.h	/^    typedef struct Sun {$/;"	s	class:SunMoonCalc
+Sun	./src/weather/src/SunMoonCalc.h	/^    } Sun;$/;"	t	class:SunMoonCalc	typeref:struct:SunMoonCalc::Sun
+SunMoonCalc	./src/weather/src/SunMoonCalc.cpp	/^SunMoonCalc::SunMoonCalc(const int16_t year, const uint8_t month, const uint8_t day, const uint8_t hour,$/;"	f	class:SunMoonCalc
+SunMoonCalc	./src/weather/src/SunMoonCalc.cpp	/^SunMoonCalc::SunMoonCalc(const time_t timestamp, const double lat, const double lon) {$/;"	f	class:SunMoonCalc
+SunMoonCalc	./src/weather/src/SunMoonCalc.h	/^class SunMoonCalc {$/;"	c
+TCON_RESOLUTION	./src/minigrafx/src/EPD_WaveShare_75.h	70;"	d
+TCON_SETTING	./src/minigrafx/src/EPD_WaveShare_42.h	61;"	d
+TCON_SETTING	./src/minigrafx/src/EPD_WaveShare_75.h	69;"	d
+TEMPERATURE_CALIBRATION	./src/minigrafx/src/EPD_WaveShare_75.h	64;"	d
+TEMPERATURE_SENSOR_COMMAND	./src/minigrafx/src/EPD_WaveShare_42.h	55;"	d
+TEMPERATURE_SENSOR_COMMAND	./src/minigrafx/src/EPD_WaveShare_75.h	63;"	d
+TEMPERATURE_SENSOR_CONTROL	./src/minigrafx/src/EPD_WaveShare_154.h	45;"	d
+TEMPERATURE_SENSOR_CONTROL	./src/minigrafx/src/EPD_WaveShare_154D67.h	45;"	d
+TEMPERATURE_SENSOR_CONTROL	./src/minigrafx/src/EPD_WaveShare_29.h	45;"	d
+TEMPERATURE_SENSOR_READ	./src/minigrafx/src/EPD_WaveShare_42.h	58;"	d
+TEMPERATURE_SENSOR_READ	./src/minigrafx/src/EPD_WaveShare_75.h	66;"	d
+TEMPERATURE_SENSOR_SELECTION	./src/minigrafx/src/EPD_WaveShare_42.h	56;"	d
+TEMPERATURE_SENSOR_WRITE	./src/minigrafx/src/EPD_WaveShare_42.h	57;"	d
+TEMPERATURE_SENSOR_WRITE	./src/minigrafx/src/EPD_WaveShare_75.h	65;"	d
+TERMINATE_FRAME_READ_WRITE	./src/minigrafx/src/EPD_WaveShare_154.h	59;"	d
+TERMINATE_FRAME_READ_WRITE	./src/minigrafx/src/EPD_WaveShare_154D67.h	59;"	d
+TERMINATE_FRAME_READ_WRITE	./src/minigrafx/src/EPD_WaveShare_29.h	59;"	d
+TEXT_ALIGNMENT	./src/minigrafx/src/MiniGrafx.h	/^enum TEXT_ALIGNMENT {$/;"	g
+TEXT_ALIGN_CENTER	./src/minigrafx/src/MiniGrafx.h	/^  TEXT_ALIGN_CENTER = 2,$/;"	e	enum:TEXT_ALIGNMENT
+TEXT_ALIGN_CENTER_BOTH	./src/minigrafx/src/MiniGrafx.h	/^  TEXT_ALIGN_CENTER_BOTH = 3$/;"	e	enum:TEXT_ALIGNMENT
+TEXT_ALIGN_LEFT	./src/minigrafx/src/MiniGrafx.h	/^  TEXT_ALIGN_LEFT = 0,$/;"	e	enum:TEXT_ALIGNMENT
+TEXT_ALIGN_RIGHT	./src/minigrafx/src/MiniGrafx.h	/^  TEXT_ALIGN_RIGHT = 1,$/;"	e	enum:TEXT_ALIGNMENT
+TFT_CS	./settings.h	112;"	d
+TFT_DC	./settings.h	114;"	d
+TFT_LED	./settings.h	115;"	d
+TFT_RESET	./settings.h	113;"	d
+TOP	./src/minigrafx/src/Carousel.h	/^  TOP,$/;"	e	enum:IndicatorPosition
+TOUCH_CS	./settings.h	118;"	d
+TOUCH_IRQ	./settings.h	119;"	d
+TTminusUT	./src/weather/src/SunMoonCalc.h	/^    double TTminusUT;$/;"	m	class:SunMoonCalc
+TWILIGHT	./src/weather/src/SunMoonCalc.h	/^    enum TWILIGHT {$/;"	g	class:SunMoonCalc
+TWILIGHT_ASTRONOMICAL	./src/weather/src/SunMoonCalc.h	/^         TWILIGHT_ASTRONOMICAL,$/;"	e	enum:SunMoonCalc::TWILIGHT
+TWILIGHT_CIVIL	./src/weather/src/SunMoonCalc.h	/^         TWILIGHT_CIVIL,$/;"	e	enum:SunMoonCalc::TWILIGHT
+TWILIGHT_NAUTICAL	./src/weather/src/SunMoonCalc.h	/^         TWILIGHT_NAUTICAL,$/;"	e	enum:SunMoonCalc::TWILIGHT
+TWO_PI_INVERSE	./src/weather/src/SunMoonCalc.cpp	/^const double TWO_PI_INVERSE = 1.0 \/ TWO_PI;$/;"	v
+ThingspeakClient	./src/weather/src/ThingspeakClient.cpp	/^ThingspeakClient::ThingspeakClient() {$/;"	f	class:ThingspeakClient
+ThingspeakClient	./src/weather/src/ThingspeakClient.h	/^class ThingspeakClient: public JsonListener {$/;"	c
+TimeClient	./src/weather/src/TimeClient.cpp	/^TimeClient::TimeClient(float utcOffset) {$/;"	f	class:TimeClient
+TimeClient	./src/weather/src/TimeClient.h	/^class TimeClient {$/;"	c
+TouchControllerWS	./TouchControllerWS.cpp	/^TouchControllerWS::TouchControllerWS(XPT2046_Touchscreen *touchScreen) {$/;"	f	class:TouchControllerWS
+TouchControllerWS	./TouchControllerWS.h	/^class TouchControllerWS {$/;"	c
+Tx19	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	562;"	d	file:
+UPDATE_INTERVAL_SECS	./settings.h	/^const int UPDATE_INTERVAL_SECS = 10 * 60; \/\/ Update every 10 minutes$/;"	v
+UTC_OFFSET	./settings.h	66;"	d
+VCM_DC_SETTING	./src/minigrafx/src/EPD_WaveShare_42.h	67;"	d
+VCM_DC_SETTING	./src/minigrafx/src/EPD_WaveShare_75.h	76;"	d
+VCOMVol	./src/minigrafx/src/EPD_WaveShare.h	/^static const unsigned char VCOMVol[] = {0x2c,0xa8}; \/\/ VCOM 7c$/;"	v
+VCOM_AND_DATA_INTERVAL_SETTING	./src/minigrafx/src/EPD_WaveShare_42.h	59;"	d
+VCOM_AND_DATA_INTERVAL_SETTING	./src/minigrafx/src/EPD_WaveShare_75.h	67;"	d
+WDAY_NAMES	./settings.h	/^const String WDAY_NAMES[] = {"SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"};$/;"	v
+WHITE	./src/minigrafx/src/EPD_WaveShare_43.h	50;"	d
+WIDTH	./src/minigrafx/src/DisplayDriver.h	/^    WIDTH, HEIGHT;   \/\/ This is the 'raw' display w\/h - never changes$/;"	m	class:DisplayDriver
+WIDTH_POS	./src/minigrafx/src/MiniGrafx.h	56;"	d
+WIFI_HOSTNAME	./settings.h	28;"	d
+WIFI_PASS	./settings.h	25;"	d
+WIFI_SSID	./settings.h	24;"	d
+WRITE_LUT_REGISTER	./src/minigrafx/src/EPD_WaveShare_154.h	51;"	d
+WRITE_LUT_REGISTER	./src/minigrafx/src/EPD_WaveShare_154D67.h	51;"	d
+WRITE_LUT_REGISTER	./src/minigrafx/src/EPD_WaveShare_29.h	51;"	d
+WRITE_RAM	./src/minigrafx/src/EPD_WaveShare_154.h	49;"	d
+WRITE_RAM	./src/minigrafx/src/EPD_WaveShare_154D67.h	49;"	d
+WRITE_RAM	./src/minigrafx/src/EPD_WaveShare_29.h	49;"	d
+WRITE_VCOM_REGISTER	./src/minigrafx/src/EPD_WaveShare_154.h	50;"	d
+WRITE_VCOM_REGISTER	./src/minigrafx/src/EPD_WaveShare_154D67.h	50;"	d
+WRITE_VCOM_REGISTER	./src/minigrafx/src/EPD_WaveShare_29.h	50;"	d
+WaitUntilIdle	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^void EPD_WaveShare154::WaitUntilIdle(void) {$/;"	f	class:EPD_WaveShare154
+WaitUntilIdle	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::WaitUntilIdle(void) {$/;"	f	class:EPD_WaveShare154D67
+WaitUntilIdle	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^void EPD_WaveShare29::WaitUntilIdle(void) {$/;"	f	class:EPD_WaveShare29
+WaitUntilIdle	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^void EPD_WaveShare29T5::WaitUntilIdle(void) {$/;"	f	class:EPD_WaveShare29T5
+WaitUntilIdle	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^void EPD_WaveShare42::WaitUntilIdle(void) {$/;"	f	class:EPD_WaveShare42
+WaitUntilIdle	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^void EPD_WaveShare75::WaitUntilIdle(void) {$/;"	f	class:EPD_WaveShare75
+WorldClockClient	./src/weather/src/WorldClockClient.cpp	/^WorldClockClient::WorldClockClient(String language, String country, String dateFormat, int numberOfTimeZones, String* timeZoneIds) {$/;"	f	class:WorldClockClient
+WorldClockClient	./src/weather/src/WorldClockClient.h	/^class WorldClockClient: public JsonListener {$/;"	c
+_EPD_WAVESHARE_43_	./src/minigrafx/src/EPD_WaveShare_43.h	29;"	d
+_MINIGRAFX_DRIVER_H	./src/minigrafx/src/DisplayDriver.h	29;"	d
+_MINIGRAFX_ILI9341H_	./src/minigrafx/src/ILI9341_SPI.h	29;"	d
+_MINIGRAFX_SSD1331_	./src/minigrafx/src/SSD1331_SPI.h	29;"	d
+_MINI_GRAFXH_	./src/minigrafx/src/MiniGrafx.h	38;"	d
+_TOUCH_CONTROLLERWSH_	./TouchControllerWS.h	5;"	d
+_cmd_buff	./src/minigrafx/src/EPD_WaveShare_43.h	/^   unsigned char _cmd_buff[CMD_SIZE];$/;"	m	class:EPD_WaveShare_43
+_cmd_handshake	./src/minigrafx/src/EPD_WaveShare_43.h	/^static const unsigned char _cmd_handshake[8] = {0xA5, 0x00, 0x09, CMD_HANDSHAKE, 0xCC, 0x33, 0xC3, 0x3C};				\/\/CMD_HANDSHAKE$/;"	v
+_cmd_load_font	./src/minigrafx/src/EPD_WaveShare_43.h	/^static const unsigned char _cmd_load_font[8] = {0xA5, 0x00, 0x09, CMD_LOAD_FONT, 0xCC, 0x33, 0xC3, 0x3C};				\/\/CMD_LOAD_FONT$/;"	v
+_cmd_load_pic	./src/minigrafx/src/EPD_WaveShare_43.h	/^static const unsigned char _cmd_load_pic[8] = {0xA5, 0x00, 0x09, CMD_LOAD_PIC, 0xCC, 0x33, 0xC3, 0x3C}; 				\/\/CMD_LOAD_PIC$/;"	v
+_cmd_read_baud	./src/minigrafx/src/EPD_WaveShare_43.h	/^static const unsigned char _cmd_read_baud[8] = {0xA5, 0x00, 0x09, CMD_READ_BAUD, 0xCC, 0x33, 0xC3, 0x3C};				\/\/CMD_READ_BAUD$/;"	v
+_cmd_stopmode	./src/minigrafx/src/EPD_WaveShare_43.h	/^static const unsigned char _cmd_stopmode[8] = {0xA5, 0x00, 0x09, CMD_STOPMODE, 0xCC, 0x33, 0xC3, 0x3C}; 				\/\/CMD_STOPMODE$/;"	v
+_cmd_update	./src/minigrafx/src/EPD_WaveShare_43.h	/^static const unsigned char _cmd_update[8] = {0xA5, 0x00, 0x09, CMD_UPDATE, 0xCC, 0x33, 0xC3, 0x3C}; 					\/\/CMD_UPDATE$/;"	v
+_cs	./src/minigrafx/src/ILI9341_SPI.h	/^  int32_t  _cs, _dc, _rst, _mosi, _miso, _sclk;$/;"	m	class:ILI9341_SPI
+_cs	./src/minigrafx/src/SSD1331_SPI.h	/^  int32_t  _cs, _dc, _rst, _mosi, _miso, _sclk;$/;"	m	class:SSD1331_SPI
+_currentEpoc	./src/weather/src/NTPClient.h	/^    unsigned long _currentEpoc;             \/\/ In s$/;"	m	class:NTPClient
+_dc	./src/minigrafx/src/ILI9341_SPI.h	/^  int32_t  _cs, _dc, _rst, _mosi, _miso, _sclk;$/;"	m	class:ILI9341_SPI
+_dc	./src/minigrafx/src/SSD1331_SPI.h	/^  int32_t  _cs, _dc, _rst, _mosi, _miso, _sclk;$/;"	m	class:SSD1331_SPI
+_height	./src/minigrafx/src/DisplayDriver.h	/^  int16_t _width, _height;$/;"	m	class:DisplayDriver
+_lastUpdate	./src/weather/src/NTPClient.h	/^    unsigned long _lastUpdate     = 0;      \/\/ In ms$/;"	m	class:NTPClient
+_miso	./src/minigrafx/src/ILI9341_SPI.h	/^  int32_t  _cs, _dc, _rst, _mosi, _miso, _sclk;$/;"	m	class:ILI9341_SPI
+_miso	./src/minigrafx/src/SSD1331_SPI.h	/^  int32_t  _cs, _dc, _rst, _mosi, _miso, _sclk;$/;"	m	class:SSD1331_SPI
+_mosi	./src/minigrafx/src/ILI9341_SPI.h	/^  int32_t  _cs, _dc, _rst, _mosi, _miso, _sclk;$/;"	m	class:ILI9341_SPI
+_mosi	./src/minigrafx/src/SSD1331_SPI.h	/^  int32_t  _cs, _dc, _rst, _mosi, _miso, _sclk;$/;"	m	class:SSD1331_SPI
+_packetBuffer	./src/weather/src/NTPClient.h	/^    byte          _packetBuffer[NTP_PACKET_SIZE];$/;"	m	class:NTPClient
+_poolServerName	./src/weather/src/NTPClient.h	/^    const char*   _poolServerName = "time.nist.gov"; \/\/ Default time server$/;"	m	class:NTPClient
+_port	./src/weather/src/NTPClient.h	/^    int           _port           = 1337;$/;"	m	class:NTPClient
+_rst	./src/minigrafx/src/ILI9341_SPI.h	/^  int32_t  _cs, _dc, _rst, _mosi, _miso, _sclk;$/;"	m	class:ILI9341_SPI
+_rst	./src/minigrafx/src/SSD1331_SPI.h	/^  int32_t  _cs, _dc, _rst, _mosi, _miso, _sclk;$/;"	m	class:SSD1331_SPI
+_sclk	./src/minigrafx/src/ILI9341_SPI.h	/^  int32_t  _cs, _dc, _rst, _mosi, _miso, _sclk;$/;"	m	class:ILI9341_SPI
+_sclk	./src/minigrafx/src/SSD1331_SPI.h	/^  int32_t  _cs, _dc, _rst, _mosi, _miso, _sclk;$/;"	m	class:SSD1331_SPI
+_swap_int16_t	./src/minigrafx/src/MiniGrafx.h	45;"	d
+_timeOffset	./src/weather/src/NTPClient.h	/^    int           _timeOffset;$/;"	m	class:NTPClient
+_udp	./src/weather/src/NTPClient.h	/^    WiFiUDP       _udp;$/;"	m	class:NTPClient
+_updateInterval	./src/weather/src/NTPClient.h	/^    unsigned int  _updateInterval = 60000;  \/\/ In ms$/;"	m	class:NTPClient
+_width	./src/minigrafx/src/DisplayDriver.h	/^  int16_t _width, _height;$/;"	m	class:DisplayDriver
+_ytab	./src/weather/src/SunMoonCalc.cpp	/^const int _ytab[2][12] = {$/;"	v
+activeSymbol	./src/minigrafx/src/Carousel.h	/^    const char*         activeSymbol              = ANIMATION_activeSymbol;$/;"	m	class:Carousel
+age	./src/weather/src/SunMoonCalc.h	/^        double age;$/;"	m	struct:SunMoonCalc::Moon
+allowedHours	./src/weather/src/OpenWeatherMapForecast.h	/^    uint8_t *allowedHours;$/;"	m	class:OpenWeatherMapForecast
+allowedHoursCount	./src/weather/src/OpenWeatherMapForecast.h	/^    uint8_t allowedHoursCount = 0;$/;"	m	class:OpenWeatherMapForecast
+altimeterIN	./src/weather/src/AerisObservations.h	/^    float altimeterIN;$/;"	m	struct:AerisObservationsData
+altimeterMB	./src/weather/src/AerisObservations.h	/^    uint16_t altimeterMB;$/;"	m	struct:AerisObservationsData
+angularRadius	./src/weather/src/SunMoonCalc.h	/^        double angularRadius;$/;"	m	struct:SunMoonCalc::PositionalData
+autoTransition	./src/minigrafx/src/Carousel.h	/^    bool                autoTransition            = true;$/;"	m	class:Carousel
+avgDewpointC	./src/weather/src/AerisForecasts.h	/^  sint16_t avgDewpointC; \/\/ 11$/;"	m	struct:AerisForecastData
+avgDewpointF	./src/weather/src/AerisForecasts.h	/^  sint16_t avgDewpointF; \/\/ 52$/;"	m	struct:AerisForecastData
+avgFeelslikeC	./src/weather/src/AerisForecasts.h	/^  sint16_t avgFeelslikeC; \/\/ 17$/;"	m	struct:AerisForecastData
+avgFeelslikeF	./src/weather/src/AerisForecasts.h	/^  sint16_t avgFeelslikeF; \/\/ 63$/;"	m	struct:AerisForecastData
+avgTempC	./src/weather/src/AerisForecasts.h	/^  sint16_t avgTempC; \/\/ 17$/;"	m	struct:AerisForecastData
+avgTempF	./src/weather/src/AerisForecasts.h	/^  sint16_t avgTempF; \/\/ 62$/;"	m	struct:AerisForecastData
+ax	./TouchControllerWS.h	/^    int ax = 0;$/;"	m	class:TouchControllerWS
+axisPositionAngle	./src/weather/src/SunMoonCalc.h	/^        double axisPositionAngle;$/;"	m	struct:SunMoonCalc::Moon
+ay	./TouchControllerWS.h	/^    int ay = 0;$/;"	m	class:TouchControllerWS
+azimuth	./src/weather/src/SunMoonCalc.h	/^        double azimuth;$/;"	m	struct:SunMoonCalc::Moon
+azimuth	./src/weather/src/SunMoonCalc.h	/^        double azimuth;$/;"	m	struct:SunMoonCalc::Sun
+begin	./src/weather/src/NTPClient.cpp	/^void NTPClient::begin() {$/;"	f	class:NTPClient
+bitMask	./src/minigrafx/src/MiniGrafx.h	/^  uint16_t bitMask;$/;"	m	class:MiniGrafx
+bitShift	./src/minigrafx/src/MiniGrafx.h	/^  uint8_t bitShift = 1;$/;"	m	class:MiniGrafx
+bitsPerPixel	./src/minigrafx/src/DisplayDriver.h	/^  uint8_t bitsPerPixel;$/;"	m	struct:BufferInfo
+bitsPerPixel	./src/minigrafx/src/MiniGrafx.h	/^  uint8_t bitsPerPixel = 4;$/;"	m	class:MiniGrafx
+border_dummy_line	./src/minigrafx/src/EPaperPervasive.cpp	/^void EPD_Class::border_dummy_line() {$/;"	f	class:EPD_Class
+brightLimbAngle	./src/weather/src/SunMoonCalc.h	/^        double brightLimbAngle;$/;"	m	struct:SunMoonCalc::Moon
+buffer	./src/minigrafx/src/DisplayDriver.h	/^  uint8_t *buffer;$/;"	m	struct:BufferInfo
+buffer	./src/minigrafx/src/MiniGrafx.h	/^  uint8_t *buffer = 0;$/;"	m	class:MiniGrafx
+bufferHeight	./src/minigrafx/src/DisplayDriver.h	/^  uint16_t bufferHeight;$/;"	m	struct:BufferInfo
+bufferHeight	./src/minigrafx/src/EPD_WaveShare.h	/^    uint16_t bufferHeight;$/;"	m	class:EPD_WaveShare
+bufferHeight	./src/minigrafx/src/EPD_WaveShare_42.h	/^    uint16_t bufferHeight;$/;"	m	class:EPD_WaveShare42
+bufferHeight	./src/minigrafx/src/EPD_WaveShare_75.h	/^    uint16_t bufferHeight;$/;"	m	class:EPD_WaveShare75
+bufferSize	./src/minigrafx/src/MiniGrafx.h	/^  uint16_t bufferSize = 0;$/;"	m	class:MiniGrafx
+bufferWidth	./src/minigrafx/src/DisplayDriver.h	/^  uint16_t bufferWidth;$/;"	m	struct:BufferInfo
+bufferWidth	./src/minigrafx/src/EPD_WaveShare.h	/^    uint16_t bufferWidth;$/;"	m	class:EPD_WaveShare
+bufferWidth	./src/minigrafx/src/EPD_WaveShare_42.h	/^    uint16_t bufferWidth;$/;"	m	class:EPD_WaveShare42
+bufferWidth	./src/minigrafx/src/EPD_WaveShare_75.h	/^    uint16_t bufferWidth;$/;"	m	class:EPD_WaveShare75
+buildPath	./src/weather/src/OpenWeatherMapCurrent.cpp	/^String OpenWeatherMapCurrent::buildPath(String appId, String locationParameter) {$/;"	f	class:OpenWeatherMapCurrent
+buildPath	./src/weather/src/OpenWeatherMapForecast.cpp	/^String OpenWeatherMapForecast::buildPath(String appId, String locationParameter) {$/;"	f	class:OpenWeatherMapForecast
+busyPin	./src/minigrafx/src/EPD_WaveShare.h	/^    uint8_t busyPin;$/;"	m	class:EPD_WaveShare
+busyPin	./src/minigrafx/src/EPD_WaveShare_42.h	/^    uint8_t busyPin;$/;"	m	class:EPD_WaveShare42
+busy_pin	./src/minigrafx/src/EPD_WaveShare_154.h	/^    unsigned int busy_pin;$/;"	m	class:EPD_WaveShare154
+busy_pin	./src/minigrafx/src/EPD_WaveShare_154D67.h	/^    unsigned int busy_pin;$/;"	m	class:EPD_WaveShare154D67
+busy_pin	./src/minigrafx/src/EPD_WaveShare_29.h	/^    unsigned int busy_pin;$/;"	m	class:EPD_WaveShare29
+busy_pin	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    unsigned int busy_pin;$/;"	m	class:EPD_WaveShare29T5
+busy_pin	./src/minigrafx/src/EPD_WaveShare_75.h	/^    uint8_t busy_pin;$/;"	m	class:EPD_WaveShare75
+bytes_per_line	./src/minigrafx/src/EPaperPervasive.h	/^  uint16_t bytes_per_line;$/;"	m	class:EPD_Class
+bytes_per_scan	./src/minigrafx/src/EPaperPervasive.h	/^  uint16_t bytes_per_scan;$/;"	m	class:EPD_Class
+calculateMoonData	./src/weather/src/Astronomy.cpp	/^Astronomy::MoonData Astronomy::calculateMoonData(time_t timestamp) {$/;"	f	class:Astronomy
+calculateMoonData	./src/weather/src/Astronomy.cpp	/^Astronomy::MoonData Astronomy::calculateMoonData(uint16_t year, uint8_t month, uint8_t day) {$/;"	f	class:Astronomy
+calculateMoonPhase	./src/weather/src/Astronomy.cpp	/^uint8_t Astronomy::calculateMoonPhase(time_t timestamp) {$/;"	f	class:Astronomy
+calculateMoonPhase	./src/weather/src/Astronomy.cpp	/^uint8_t Astronomy::calculateMoonPhase(uint16_t year, uint8_t month, uint8_t day) {$/;"	f	class:Astronomy
+calculateMoonPhase	./src/weather/src/SunMoonCalc.cpp	/^SunMoonCalc::MoonPhase SunMoonCalc::calculateMoonPhase(double lunarAge) const {$/;"	f	class:SunMoonCalc
+calculateSunAndMoonData	./src/weather/src/SunMoonCalc.cpp	/^SunMoonCalc::Result SunMoonCalc::calculateSunAndMoonData(){$/;"	f	class:SunMoonCalc
+calculateTwilightAdjustment	./src/weather/src/SunMoonCalc.cpp	/^double SunMoonCalc::calculateTwilightAdjustment(PositionalData position) const {$/;"	f	class:SunMoonCalc
+calibrationCallback	./TouchControllerWS.h	/^    CalibrationCallback *calibrationCallback;$/;"	m	class:TouchControllerWS
+callback	./src/minigrafx/src/Carousel.h	/^  void (*callback)();$/;"	m	struct:LoadingStage
+changeBitDepth	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::changeBitDepth(uint8_t bitsPerPixel, uint16_t *palette) {$/;"	f	class:MiniGrafx
+channel_select	./src/minigrafx/src/EPaperPervasive.h	/^  const uint8_t *channel_select;$/;"	m	class:EPD_Class
+channel_select_length	./src/minigrafx/src/EPaperPervasive.h	/^  uint16_t channel_select_length;$/;"	m	class:EPD_Class
+cityName	./src/weather/src/OpenWeatherMapCurrent.h	/^  String cityName;$/;"	m	struct:OpenWeatherMapCurrentData
+clear	./src/minigrafx/src/EPD_WaveShare_43.cpp	/^void EPD_WaveShare_43::clear(void)$/;"	f	class:EPD_WaveShare_43
+clear	./src/minigrafx/src/EPaperPervasive.h	/^  void clear() {$/;"	f	class:EPD_Class
+clear	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::clear() {$/;"	f	class:MiniGrafx
+clouds	./src/weather/src/OpenWeatherMapCurrent.h	/^  uint8_t clouds;$/;"	m	struct:OpenWeatherMapCurrentData
+clouds	./src/weather/src/OpenWeatherMapForecast.h	/^  uint8_t clouds;$/;"	m	struct:OpenWeatherMapForecastData
+cloudsCoded	./src/weather/src/AerisForecasts.h	/^  String cloudsCoded; \/\/ "OV"$/;"	m	struct:AerisForecastData
+cloudsCoded	./src/weather/src/AerisObservations.h	/^    String cloudsCoded;$/;"	m	struct:AerisObservationsData
+color	./src/minigrafx/src/MiniGrafx.h	/^  uint16_t color;$/;"	m	class:MiniGrafx
+colorSwap	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::colorSwap(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t color1, uint16_t color2) {$/;"	f	class:MiniGrafx
+commit	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::commit() {$/;"	f	class:MiniGrafx
+commit	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::commit(uint16_t srcXPos, uint16_t srcYPos, uint16_t srcWidth, uint16_t srcHeight, uint16_t targetXPos, uint16_t targetYPos) {$/;"	f	class:MiniGrafx
+commit	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::commit(uint16_t xPos, uint16_t yPos) {$/;"	f	class:MiniGrafx
+compensation	./src/minigrafx/src/EPaperPervasive.h	/^  const compensation_type *compensation;$/;"	m	class:EPD_Class
+compensation_type	./src/minigrafx/src/EPaperPervasive.h	/^  } compensation_type;$/;"	t	class:EPD_Class	typeref:struct:EPD_Class::__anon4
+continueCalibration	./TouchControllerWS.cpp	/^void TouchControllerWS::continueCalibration() {$/;"	f	class:TouchControllerWS
+count	./src/weather/src/MetOfficeClient.h	/^    int count = 0; \/\/ Count used to populate the above array with required forecast values on parsing$/;"	m	class:MetOfficeClient
+country	./src/weather/src/OpenWeatherMapCurrent.h	/^  String country;$/;"	m	struct:OpenWeatherMapCurrentData
+createdAt	./src/weather/src/ThingspeakClient.h	/^    String createdAt;$/;"	m	class:ThingspeakClient
+csPin	./src/minigrafx/src/EPD_WaveShare.h	/^    uint8_t csPin;$/;"	m	class:EPD_WaveShare
+csPin	./src/minigrafx/src/EPD_WaveShare_42.h	/^    uint8_t csPin;$/;"	m	class:EPD_WaveShare42
+cs_pin	./src/minigrafx/src/EPD_WaveShare_154.h	/^    unsigned int cs_pin;$/;"	m	class:EPD_WaveShare154
+cs_pin	./src/minigrafx/src/EPD_WaveShare_154D67.h	/^    unsigned int cs_pin;$/;"	m	class:EPD_WaveShare154D67
+cs_pin	./src/minigrafx/src/EPD_WaveShare_29.h	/^    unsigned int cs_pin;$/;"	m	class:EPD_WaveShare29
+cs_pin	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    unsigned int cs_pin;$/;"	m	class:EPD_WaveShare29T5
+cs_pin	./src/minigrafx/src/EPD_WaveShare_75.h	/^    uint8_t cs_pin;$/;"	m	class:EPD_WaveShare75
+currentDate	./src/weather/src/MetOfficeClient.h	/^    String currentDate = "";$/;"	m	class:MetOfficeClient
+currentForecast	./src/weather/src/AerisForecasts.h	/^    uint8_t currentForecast;$/;"	m	class:AerisForecasts
+currentForecast	./src/weather/src/MetOfficeClient.h	/^    String currentForecast = "";$/;"	m	class:MetOfficeClient
+currentForecast	./src/weather/src/OpenWeatherMapForecast.h	/^    uint8_t currentForecast;$/;"	m	class:OpenWeatherMapForecast
+currentFrame	./src/minigrafx/src/Carousel.h	/^  uint8_t       currentFrame              = 0;$/;"	m	struct:CarouselState
+currentKey	./src/weather/src/AerisForecasts.h	/^    String currentKey;$/;"	m	class:AerisForecasts
+currentKey	./src/weather/src/AerisObservations.h	/^    String currentKey;$/;"	m	class:AerisObservations
+currentKey	./src/weather/src/AerisSunMoon.h	/^    String currentKey;$/;"	m	class:AerisSunMoon
+currentKey	./src/weather/src/MetOfficeClient.h	/^    String currentKey;$/;"	m	class:MetOfficeClient
+currentKey	./src/weather/src/OpenWeatherMapCurrent.h	/^    String currentKey;$/;"	m	class:OpenWeatherMapCurrent
+currentKey	./src/weather/src/OpenWeatherMapForecast.h	/^    String currentKey;$/;"	m	class:OpenWeatherMapForecast
+currentKey	./src/weather/src/ThingspeakClient.h	/^    String currentKey = "";$/;"	m	class:ThingspeakClient
+currentKey	./src/weather/src/WorldClockClient.h	/^    String currentKey = "";$/;"	m	class:WorldClockClient
+currentParent	./src/weather/src/AerisForecasts.h	/^    String currentParent;$/;"	m	class:AerisForecasts
+currentParent	./src/weather/src/AerisObservations.h	/^    String currentParent;$/;"	m	class:AerisObservations
+currentParent	./src/weather/src/AerisSunMoon.h	/^    String currentParent;$/;"	m	class:AerisSunMoon
+currentParent	./src/weather/src/MetOfficeClient.h	/^    String currentParent = "";$/;"	m	class:MetOfficeClient
+currentParent	./src/weather/src/OpenWeatherMapCurrent.h	/^    String currentParent;$/;"	m	class:OpenWeatherMapCurrent
+currentParent	./src/weather/src/OpenWeatherMapForecast.h	/^    String currentParent;$/;"	m	class:OpenWeatherMapForecast
+currentTimeZoneIndex	./src/weather/src/WorldClockClient.h	/^    int currentTimeZoneIndex;$/;"	m	class:WorldClockClient
+data	./src/weather/src/OpenWeatherMapCurrent.h	/^    OpenWeatherMapCurrentData *data;$/;"	m	class:OpenWeatherMapCurrent
+data	./src/weather/src/OpenWeatherMapForecast.h	/^    OpenWeatherMapForecastData *data;$/;"	m	class:OpenWeatherMapForecast
+dateTimeISO	./src/weather/src/AerisForecasts.h	/^  String dateTimeISO; \/\/"2018-05-19T07:00:00+02:00"$/;"	m	struct:AerisForecastData
+dateTimeISO	./src/weather/src/AerisObservations.h	/^    String dateTimeISO;$/;"	m	struct:AerisObservationsData
+dcPin	./src/minigrafx/src/EPD_WaveShare.h	/^    uint8_t dcPin;$/;"	m	class:EPD_WaveShare
+dcPin	./src/minigrafx/src/EPD_WaveShare_42.h	/^    uint8_t dcPin;$/;"	m	class:EPD_WaveShare42
+dc_pin	./src/minigrafx/src/EPD_WaveShare_154.h	/^    unsigned int dc_pin;$/;"	m	class:EPD_WaveShare154
+dc_pin	./src/minigrafx/src/EPD_WaveShare_154D67.h	/^    unsigned int dc_pin;$/;"	m	class:EPD_WaveShare154D67
+dc_pin	./src/minigrafx/src/EPD_WaveShare_29.h	/^    unsigned int dc_pin;$/;"	m	class:EPD_WaveShare29
+dc_pin	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    unsigned int dc_pin;$/;"	m	class:EPD_WaveShare29T5
+dc_pin	./src/minigrafx/src/EPD_WaveShare_75.h	/^    uint8_t dc_pin;$/;"	m	class:EPD_WaveShare75
+delaytime	./src/minigrafx/src/EPD_WaveShare.h	/^    uint16_t delaytime;$/;"	m	class:EPD_WaveShare
+delaytime	./src/minigrafx/src/EPD_WaveShare_42.h	/^    uint16_t delaytime;$/;"	m	class:EPD_WaveShare42
+description	./src/weather/src/OpenWeatherMapCurrent.h	/^  String description;$/;"	m	struct:OpenWeatherMapCurrentData
+description	./src/weather/src/OpenWeatherMapForecast.h	/^  String description;$/;"	m	struct:OpenWeatherMapForecastData
+dewpointC	./src/weather/src/AerisForecasts.h	/^  sint16_t dewpointC; \/\/ 11$/;"	m	struct:AerisForecastData
+dewpointC	./src/weather/src/AerisObservations.h	/^    sint16_t dewpointC;$/;"	m	struct:AerisObservationsData
+dewpointF	./src/weather/src/AerisForecasts.h	/^  sint16_t dewpointF; \/\/ 51$/;"	m	struct:AerisForecastData
+dewpointF	./src/weather/src/AerisObservations.h	/^    sint16_t dewpointF;$/;"	m	struct:AerisObservationsData
+disableAllIndicators	./src/minigrafx/src/Carousel.cpp	/^void Carousel::disableAllIndicators(){$/;"	f	class:Carousel
+disableAutoTransition	./src/minigrafx/src/Carousel.cpp	/^void Carousel::disableAutoTransition(){$/;"	f	class:Carousel
+disableIndicator	./src/minigrafx/src/Carousel.cpp	/^void Carousel::disableIndicator(){$/;"	f	class:Carousel
+display	./src/minigrafx/src/EPaperPervasive.h	/^  void display(uint8_t *buffer) {$/;"	f	class:EPD_Class
+distance	./src/weather/src/SunMoonCalc.h	/^        double distance;$/;"	m	struct:SunMoonCalc::Moon
+distance	./src/weather/src/SunMoonCalc.h	/^        double distance;$/;"	m	struct:SunMoonCalc::PositionalData
+distance	./src/weather/src/SunMoonCalc.h	/^        double distance;$/;"	m	struct:SunMoonCalc::Sun
+doCalc	./src/weather/src/SunMoonCalc.cpp	/^double *SunMoonCalc::doCalc(PositionalData position) {$/;"	f	class:SunMoonCalc
+doUpdate	./src/weather/src/AerisForecasts.cpp	/^void AerisForecasts::doUpdate(AerisForecastData *forecasts, String path, uint8_t maxForecasts) {$/;"	f	class:AerisForecasts
+doUpdate	./src/weather/src/AerisObservations.cpp	/^void AerisObservations::doUpdate(AerisObservationsData *observations, String path) {$/;"	f	class:AerisObservations
+doUpdate	./src/weather/src/AerisSunMoon.cpp	/^void AerisSunMoon::doUpdate(AerisSunMoonData *sunMoonData, String path) {$/;"	f	class:AerisSunMoon
+doUpdate	./src/weather/src/MetOfficeClient.cpp	/^void MetOfficeClient::doUpdate(String url) {$/;"	f	class:MetOfficeClient
+doUpdate	./src/weather/src/OpenWeatherMapCurrent.cpp	/^void OpenWeatherMapCurrent::doUpdate(OpenWeatherMapCurrentData *data, String path) {$/;"	f	class:OpenWeatherMapCurrent
+doUpdate	./src/weather/src/OpenWeatherMapForecast.cpp	/^uint8_t OpenWeatherMapForecast::doUpdate(OpenWeatherMapForecastData *data, String path) {$/;"	f	class:OpenWeatherMapForecast
+dots_per_line	./src/minigrafx/src/EPaperPervasive.h	/^  uint16_t dots_per_line;$/;"	m	class:EPD_Class
+drawBmpFromFile	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::drawBmpFromFile(String filename, uint8_t xMove, uint16_t yMove) {$/;"	f	class:MiniGrafx
+drawBmpFromPgm	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::drawBmpFromPgm(const char *bmp, uint8_t x, uint16_t y) {$/;"	f	class:MiniGrafx
+drawCircle	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::drawCircle(int16_t x0, int16_t y0, uint16_t radius) {$/;"	f	class:MiniGrafx
+drawFrame	./src/minigrafx/src/Carousel.cpp	/^void Carousel::drawFrame(){$/;"	f	class:Carousel
+drawHorizontalLine	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::drawHorizontalLine(int16_t x, int16_t y, int16_t length) {$/;"	f	class:MiniGrafx
+drawIndicator	./src/minigrafx/src/Carousel.cpp	/^void Carousel::drawIndicator() {$/;"	f	class:Carousel
+drawInternal	./src/minigrafx/src/MiniGrafx.cpp	/^void inline MiniGrafx::drawInternal(int16_t xMove, int16_t yMove, int16_t width, int16_t height, const char *data, uint16_t offset, uint16_t bytesInData) {$/;"	f	class:MiniGrafx
+drawLine	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1) {$/;"	f	class:MiniGrafx
+drawOverlays	./src/minigrafx/src/Carousel.cpp	/^void Carousel::drawOverlays() {$/;"	f	class:Carousel
+drawPalettedBitmapFromFile	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::drawPalettedBitmapFromFile(uint16_t xMove, uint16_t yMove, String fileName) {$/;"	f	class:MiniGrafx
+drawPalettedBitmapFromPgm	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::drawPalettedBitmapFromPgm(uint16_t xMove, uint16_t yMove, const char *palBmp) {$/;"	f	class:MiniGrafx
+drawPixel	./src/minigrafx/src/EPD_WaveShare_43.cpp	/^void EPD_WaveShare_43::drawPixel(int x0, int y0)$/;"	f	class:EPD_WaveShare_43
+drawRect	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::drawRect(int16_t x, int16_t y, int16_t width, int16_t height) {$/;"	f	class:MiniGrafx
+drawString	./src/minigrafx/src/MiniGrafx.cpp	/^uint16_t MiniGrafx::drawString(int16_t xMove, int16_t yMove, String strUser) {$/;"	f	class:MiniGrafx
+drawStringInternal	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::drawStringInternal(int16_t xMove, int16_t yMove, char* text, uint16_t textLength, uint16_t textWidth) {$/;"	f	class:MiniGrafx
+drawStringMaxWidth	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::drawStringMaxWidth(int16_t xMove, int16_t yMove, uint16_t maxLineWidth, String strUser) {$/;"	f	class:MiniGrafx
+drawTriangle	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::drawTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3) {$/;"	f	class:MiniGrafx
+drawVerticalLine	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::drawVerticalLine(int16_t x, int16_t y, int16_t length) {$/;"	f	class:MiniGrafx
+drawXbm	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::drawXbm(int16_t xMove, int16_t yMove, int16_t width, int16_t height, const char *xbm) {$/;"	f	class:MiniGrafx
+driver	./src/minigrafx/src/MiniGrafx.h	/^  DisplayDriver *driver;$/;"	m	class:MiniGrafx
+driver_delay_xms	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::driver_delay_xms(unsigned long xms)$/;"	f	class:EPD_WaveShare
+dummy_line	./src/minigrafx/src/EPaperPervasive.cpp	/^void EPD_Class::dummy_line() {$/;"	f	class:EPD_Class
+dx	./TouchControllerWS.h	/^    float dx = 0.0;$/;"	m	class:TouchControllerWS
+dy	./TouchControllerWS.h	/^    float dy = 0.0;$/;"	m	class:TouchControllerWS
+elevation	./src/weather/src/SunMoonCalc.h	/^        double elevation;$/;"	m	struct:SunMoonCalc::Moon
+elevation	./src/weather/src/SunMoonCalc.h	/^        double elevation;$/;"	m	struct:SunMoonCalc::Sun
+enableAllIndicators	./src/minigrafx/src/Carousel.cpp	/^void Carousel::enableAllIndicators(){$/;"	f	class:Carousel
+enableAutoTransition	./src/minigrafx/src/Carousel.cpp	/^void Carousel::enableAutoTransition(){$/;"	f	class:Carousel
+enableIndicator	./src/minigrafx/src/Carousel.cpp	/^void Carousel::enableIndicator(){$/;"	f	class:Carousel
+end	./src/minigrafx/src/EPaperPervasive.cpp	/^void EPD_Class::end() {$/;"	f	class:EPD_Class
+endArray	./src/weather/src/AerisForecasts.cpp	/^void AerisForecasts::endArray() {$/;"	f	class:AerisForecasts
+endArray	./src/weather/src/AerisObservations.cpp	/^void AerisObservations::endArray() {$/;"	f	class:AerisObservations
+endArray	./src/weather/src/AerisSunMoon.cpp	/^void AerisSunMoon::endArray() {$/;"	f	class:AerisSunMoon
+endArray	./src/weather/src/MetOfficeClient.cpp	/^void MetOfficeClient::endArray() {$/;"	f	class:MetOfficeClient
+endArray	./src/weather/src/OpenWeatherMapCurrent.cpp	/^void OpenWeatherMapCurrent::endArray() {$/;"	f	class:OpenWeatherMapCurrent
+endArray	./src/weather/src/OpenWeatherMapForecast.cpp	/^void OpenWeatherMapForecast::endArray() {$/;"	f	class:OpenWeatherMapForecast
+endArray	./src/weather/src/ThingspeakClient.cpp	/^void ThingspeakClient::endArray() {$/;"	f	class:ThingspeakClient
+endArray	./src/weather/src/WorldClockClient.cpp	/^void WorldClockClient::endArray() {$/;"	f	class:WorldClockClient
+endDocument	./src/weather/src/AerisForecasts.cpp	/^void AerisForecasts::endDocument() {$/;"	f	class:AerisForecasts
+endDocument	./src/weather/src/AerisObservations.cpp	/^void AerisObservations::endDocument() {$/;"	f	class:AerisObservations
+endDocument	./src/weather/src/AerisSunMoon.cpp	/^void AerisSunMoon::endDocument() {$/;"	f	class:AerisSunMoon
+endDocument	./src/weather/src/MetOfficeClient.cpp	/^void MetOfficeClient::endDocument() {$/;"	f	class:MetOfficeClient
+endDocument	./src/weather/src/OpenWeatherMapCurrent.cpp	/^void OpenWeatherMapCurrent::endDocument() {$/;"	f	class:OpenWeatherMapCurrent
+endDocument	./src/weather/src/OpenWeatherMapForecast.cpp	/^void OpenWeatherMapForecast::endDocument() {$/;"	f	class:OpenWeatherMapForecast
+endDocument	./src/weather/src/ThingspeakClient.cpp	/^void ThingspeakClient::endDocument() {$/;"	f	class:ThingspeakClient
+endDocument	./src/weather/src/WorldClockClient.cpp	/^void WorldClockClient::endDocument() {$/;"	f	class:WorldClockClient
+endObject	./src/weather/src/AerisForecasts.cpp	/^void AerisForecasts::endObject() {$/;"	f	class:AerisForecasts
+endObject	./src/weather/src/AerisObservations.cpp	/^void AerisObservations::endObject() {$/;"	f	class:AerisObservations
+endObject	./src/weather/src/AerisSunMoon.cpp	/^void AerisSunMoon::endObject() {$/;"	f	class:AerisSunMoon
+endObject	./src/weather/src/MetOfficeClient.cpp	/^void MetOfficeClient::endObject() {$/;"	f	class:MetOfficeClient
+endObject	./src/weather/src/OpenWeatherMapCurrent.cpp	/^void OpenWeatherMapCurrent::endObject() {$/;"	f	class:OpenWeatherMapCurrent
+endObject	./src/weather/src/OpenWeatherMapForecast.cpp	/^void OpenWeatherMapForecast::endObject() {$/;"	f	class:OpenWeatherMapForecast
+endObject	./src/weather/src/ThingspeakClient.cpp	/^void ThingspeakClient::endObject() {$/;"	f	class:ThingspeakClient
+endObject	./src/weather/src/WorldClockClient.cpp	/^void WorldClockClient::endObject() {$/;"	f	class:WorldClockClient
+error	./src/minigrafx/src/EPaperPervasive.h	/^  EPD_error error() const {$/;"	f	class:EPD_Class
+feelsLikeTemp	./src/weather/src/MetOfficeClient.h	/^    String feelsLikeTemp = "";$/;"	m	class:MetOfficeClient
+feelslikeC	./src/weather/src/AerisForecasts.h	/^  sint16_t feelslikeC; \/\/ 14$/;"	m	struct:AerisForecastData
+feelslikeC	./src/weather/src/AerisObservations.h	/^    sint16_t feelslikeC;$/;"	m	struct:AerisObservationsData
+feelslikeF	./src/weather/src/AerisForecasts.h	/^  sint16_t feelslikeF; \/\/ 56$/;"	m	struct:AerisForecastData
+feelslikeF	./src/weather/src/AerisObservations.h	/^    sint16_t feelslikeF;$/;"	m	struct:AerisObservationsData
+fieldLabels	./src/weather/src/ThingspeakClient.h	/^    String fieldLabels[8];$/;"	m	class:ThingspeakClient
+fillBottomFlatTriangle	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::fillBottomFlatTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3)$/;"	f	class:MiniGrafx
+fillBuffer	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::fillBuffer(uint8_t pal) {$/;"	f	class:MiniGrafx
+fillCircle	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::fillCircle(int16_t x0, int16_t y0, int16_t radius) {$/;"	f	class:MiniGrafx
+fillRam	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::fillRam(uint8_t command, uint8_t value) {$/;"	f	class:EPD_WaveShare154D67
+fillRect	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::fillRect(int16_t xMove, int16_t yMove, int16_t width, int16_t height) {$/;"	f	class:MiniGrafx
+fillTopFlatTriangle	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::fillTopFlatTriangle(uint16_t x1, uint16_t y1, uint16_t x2, uint16_t y2, uint16_t x3, uint16_t y3)$/;"	f	class:MiniGrafx
+fillTriangle	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::fillTriangle(uint16_t x1In, uint16_t y1In, uint16_t x2In, uint16_t y2In, uint16_t x3In, uint16_t y3In)$/;"	f	class:MiniGrafx
+flightRule	./src/weather/src/AerisObservations.h	/^    String flightRule;$/;"	m	struct:AerisObservationsData
+fontData	./src/minigrafx/src/MiniGrafx.h	/^  const char *fontData = ArialMT_Plain_16;$/;"	m	class:MiniGrafx
+fontFile	./src/minigrafx/src/MiniGrafx.h	/^  File fontFile;$/;"	m	class:MiniGrafx
+forceUpdate	./src/weather/src/NTPClient.cpp	/^void NTPClient::forceUpdate() {$/;"	f	class:NTPClient
+forecastArray	./src/weather/src/MetOfficeClient.h	/^    String forecastArray[36] = { }; \/\/ String array to hold the segmented forecast data for the required 4 periods$/;"	m	class:MetOfficeClient
+forecasts	./src/weather/src/AerisForecasts.h	/^    AerisForecastData *forecasts;$/;"	m	class:AerisForecasts
+fourthForecast	./src/weather/src/MetOfficeClient.h	/^    String fourthForecast = "";$/;"	m	class:MetOfficeClient
+frameAnimationDirection	./src/minigrafx/src/Carousel.h	/^    AnimationDirection  frameAnimationDirection   = SLIDE_RIGHT;$/;"	m	class:Carousel
+frameCount	./src/minigrafx/src/Carousel.h	/^    uint8_t             frameCount                = 0;$/;"	m	class:Carousel
+frameFunctions	./src/minigrafx/src/Carousel.h	/^    FrameCallback*      frameFunctions;$/;"	m	class:Carousel
+frameState	./src/minigrafx/src/Carousel.h	/^  FrameState    frameState                = FIXED;$/;"	m	struct:CarouselState
+frameTransitionDirection	./src/minigrafx/src/Carousel.h	/^  int8_t        frameTransitionDirection  = 1;$/;"	m	struct:CarouselState
+frame_cb_13	./src/minigrafx/src/EPaperPervasive.cpp	/^void EPD_Class::frame_cb_13(uint32_t address, EPD_reader *reader, EPD_stage stage) {$/;"	f	class:EPD_Class
+frame_cb_13	./src/minigrafx/src/EPaperPervasive.cpp	/^void EPD_Class::frame_cb_13(uint8_t *buffer, EPD_stage stage) {$/;"	f	class:EPD_Class
+frame_data_13	./src/minigrafx/src/EPaperPervasive.cpp	/^void EPD_Class::frame_data_13(const uint8_t *image, EPD_stage stage, bool read_progmem) {$/;"	f	class:EPD_Class
+frame_fixed_13	./src/minigrafx/src/EPaperPervasive.cpp	/^void EPD_Class::frame_fixed_13(uint8_t value, EPD_stage stage) {$/;"	f	class:EPD_Class
+frame_fixed_timed	./src/minigrafx/src/EPaperPervasive.cpp	/^void EPD_Class::frame_fixed_timed(uint8_t fixed_value, long stage_time) {$/;"	f	class:EPD_Class
+frame_stage2	./src/minigrafx/src/EPaperPervasive.cpp	/^void EPD_Class::frame_stage2() {$/;"	f	class:EPD_Class
+freeBuffer	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::freeBuffer() {$/;"	f	class:MiniGrafx
+fromJulian	./src/weather/src/SunMoonCalc.cpp	/^time_t SunMoonCalc::fromJulian(double julianDays) const {$/;"	f	class:SunMoonCalc
+getCreatedAt	./src/weather/src/ThingspeakClient.cpp	/^String ThingspeakClient::getCreatedAt() {$/;"	f	class:ThingspeakClient
+getCurrentDate	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getCurrentDate() {$/;"	f	class:MetOfficeClient
+getCurrentEpoch	./src/weather/src/TimeClient.cpp	/^long TimeClient::getCurrentEpoch() {$/;"	f	class:TimeClient
+getCurrentEpochWithUtcOffset	./src/weather/src/TimeClient.cpp	/^long TimeClient::getCurrentEpochWithUtcOffset() {$/;"	f	class:TimeClient
+getCurrentFeelsLikeTemp	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getCurrentFeelsLikeTemp() {$/;"	f	class:MetOfficeClient
+getCurrentForecastTime	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getCurrentForecastTime() {$/;"	f	class:MetOfficeClient
+getCurrentMaxUvIndex	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getCurrentMaxUvIndex() {$/;"	f	class:MetOfficeClient
+getCurrentPrecipProb	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getCurrentPrecipProb() {$/;"	f	class:MetOfficeClient
+getCurrentTemperature	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getCurrentTemperature() {$/;"	f	class:MetOfficeClient
+getCurrentWeatherType	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getCurrentWeatherType() {$/;"	f	class:MetOfficeClient
+getCurrentWindDirection	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getCurrentWindDirection() {$/;"	f	class:MetOfficeClient
+getCurrentWindGust	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getCurrentWindGust() {$/;"	f	class:MetOfficeClient
+getCurrentWindSpeed	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getCurrentWindSpeed() {$/;"	f	class:MetOfficeClient
+getFieldLabel	./src/weather/src/ThingspeakClient.cpp	/^String ThingspeakClient::getFieldLabel(int index) {$/;"	f	class:ThingspeakClient
+getFieldValue	./src/weather/src/ThingspeakClient.cpp	/^String ThingspeakClient::getFieldValue(int index) {$/;"	f	class:ThingspeakClient
+getFormattedTime	./src/weather/src/NTPClient.cpp	/^String NTPClient::getFormattedTime() {$/;"	f	class:NTPClient
+getFormattedTime	./src/weather/src/TimeClient.cpp	/^String TimeClient::getFormattedTime() {$/;"	f	class:TimeClient
+getFormattedTime	./src/weather/src/WorldClockClient.cpp	/^String WorldClockClient::getFormattedTime(int timeZoneIndex) {$/;"	f	class:WorldClockClient
+getFourthFeelsLikeTemp	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getFourthFeelsLikeTemp() {$/;"	f	class:MetOfficeClient
+getFourthForecastTime	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getFourthForecastTime() {$/;"	f	class:MetOfficeClient
+getFourthMaxUvIndex	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getFourthMaxUvIndex() {$/;"	f	class:MetOfficeClient
+getFourthPrecipProb	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getFourthPrecipProb() {$/;"	f	class:MetOfficeClient
+getFourthTemperature	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getFourthTemperature() {$/;"	f	class:MetOfficeClient
+getFourthWeatherType	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getFourthWeatherType() {$/;"	f	class:MetOfficeClient
+getFourthWindDirection	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getFourthWindDirection() {$/;"	f	class:MetOfficeClient
+getFourthWindGust	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getFourthWindGust() {$/;"	f	class:MetOfficeClient
+getFourthWindSpeed	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getFourthWindSpeed() {$/;"	f	class:MetOfficeClient
+getHeight	./src/minigrafx/src/EPD_WaveShare.cpp	/^int EPD_WaveShare::getHeight(EPD_TYPE epdType) {$/;"	f	class:EPD_WaveShare
+getHeight	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^int EPD_WaveShare42::getHeight() {$/;"	f	class:EPD_WaveShare42
+getHeight	./src/minigrafx/src/MiniGrafx.cpp	/^uint16_t MiniGrafx::getHeight() {$/;"	f	class:MiniGrafx
+getHours	./src/weather/src/NTPClient.cpp	/^String NTPClient::getHours() {$/;"	f	class:NTPClient
+getHours	./src/weather/src/TimeClient.cpp	/^String TimeClient::getHours() {$/;"	f	class:TimeClient
+getHours	./src/weather/src/WorldClockClient.cpp	/^String WorldClockClient::getHours(int timeZoneIndex) {$/;"	f	class:WorldClockClient
+getLanguage	./src/weather/src/OpenWeatherMapCurrent.h	/^    String getLanguage() { return language; }$/;"	f	class:OpenWeatherMapCurrent
+getLanguage	./src/weather/src/OpenWeatherMapForecast.h	/^    String getLanguage() { return this->language; }$/;"	f	class:OpenWeatherMapForecast
+getLastChannelItem	./src/weather/src/ThingspeakClient.cpp	/^void ThingspeakClient::getLastChannelItem(String channelId, String readApiKey) {$/;"	f	class:ThingspeakClient
+getLocationName	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getLocationName() {$/;"	f	class:MetOfficeClient
+getMeteoconIcon	./src/weather/src/AerisForecasts.cpp	/^String AerisForecasts::getMeteoconIcon(String iconText) {$/;"	f	class:AerisForecasts
+getMeteoconIcon	./src/weather/src/AerisObservations.cpp	/^String AerisObservations::getMeteoconIcon(String iconText) {$/;"	f	class:AerisObservations
+getMeteoconIcon	./src/weather/src/OpenWeatherMapCurrent.cpp	/^String OpenWeatherMapCurrent::getMeteoconIcon(String icon) {$/;"	f	class:OpenWeatherMapCurrent
+getMeteoconIcon	./src/weather/src/OpenWeatherMapForecast.cpp	/^String OpenWeatherMapForecast::getMeteoconIcon(String icon) {$/;"	f	class:OpenWeatherMapForecast
+getMeteoconIconFromProgmem	./weathericons.h	/^const char* getMeteoconIconFromProgmem(String iconText) {$/;"	f
+getMiniMeteoconIconFromProgmem	./weathericons.h	/^const char* getMiniMeteoconIconFromProgmem(String iconText) {$/;"	f
+getMinutes	./src/weather/src/NTPClient.cpp	/^String NTPClient::getMinutes() {$/;"	f	class:NTPClient
+getMinutes	./src/weather/src/TimeClient.cpp	/^String TimeClient::getMinutes() {$/;"	f	class:TimeClient
+getMinutes	./src/weather/src/WorldClockClient.cpp	/^String WorldClockClient::getMinutes(int timeZoneIndex) {$/;"	f	class:WorldClockClient
+getMoonDiskOrientationAngles	./src/weather/src/SunMoonCalc.cpp	/^double *SunMoonCalc::getMoonDiskOrientationAngles(double lst, double sunRA, double sunDec, double moonLon,$/;"	f	class:SunMoonCalc
+getMoonPosition	./src/weather/src/SunMoonCalc.cpp	/^SunMoonCalc::PositionalData SunMoonCalc::getMoonPosition() {$/;"	f	class:SunMoonCalc
+getNextFrameNumber	./src/minigrafx/src/Carousel.cpp	/^uint8_t Carousel::getNextFrameNumber(){$/;"	f	class:Carousel
+getPixel	./src/minigrafx/src/EPD_WaveShare.cpp	/^uint8_t EPD_WaveShare::getPixel(uint8_t *buffer, uint16_t x, uint16_t y) {$/;"	f	class:EPD_WaveShare
+getPixel	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^uint8_t EPD_WaveShare154::getPixel(uint8_t *buffer, uint16_t x, uint16_t y, uint16_t bufferWidth, uint16_t bufferHeight) {$/;"	f	class:EPD_WaveShare154
+getPixel	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^uint8_t EPD_WaveShare154D67::getPixel(uint8_t *buffer, uint16_t x, uint16_t y, uint16_t bufferWidth, uint16_t bufferHeight) {$/;"	f	class:EPD_WaveShare154D67
+getPixel	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^uint8_t EPD_WaveShare29::getPixel(uint8_t *buffer, uint16_t x, uint16_t y, uint16_t bufferWidth, uint16_t bufferHeight) {$/;"	f	class:EPD_WaveShare29
+getPixel	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^uint8_t EPD_WaveShare29T5::getPixel(uint8_t *buffer, uint16_t x, uint16_t y, uint16_t bufferWidth, uint16_t bufferHeight) {$/;"	f	class:EPD_WaveShare29T5
+getPixel	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^uint8_t EPD_WaveShare42::getPixel(const unsigned char *buffer, uint16_t x, uint16_t y) {$/;"	f	class:EPD_WaveShare42
+getPixel	./src/minigrafx/src/EPD_WaveShare_43.cpp	/^uint16_t EPD_WaveShare_43::getPixel(uint8_t *buffer, uint16_t x, uint16_t y) {$/;"	f	class:EPD_WaveShare_43
+getPixel	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^uint8_t EPD_WaveShare75::getPixel(const unsigned char* buffer, uint16_t x, uint16_t y) {$/;"	f	class:EPD_WaveShare75
+getPixel	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^uint8_t EPD_WaveShare75::getPixel(const unsigned char* buffer, uint16_t x, uint16_t y, uint8_t bitsPerPixel) {$/;"	f	class:EPD_WaveShare75
+getPixel	./src/minigrafx/src/MiniGrafx.cpp	/^uint16_t MiniGrafx::getPixel(uint16_t x, uint16_t y) {$/;"	f	class:MiniGrafx
+getPoint	./TouchControllerWS.cpp	/^TS_Point TouchControllerWS::getPoint() {$/;"	f	class:TouchControllerWS
+getRawTime	./src/weather/src/NTPClient.cpp	/^unsigned long NTPClient::getRawTime() {$/;"	f	class:NTPClient
+getRotation	./src/minigrafx/src/DisplayDriver.cpp	/^uint8_t DisplayDriver::getRotation(void) const {$/;"	f	class:DisplayDriver
+getSecondFeelsLikeTemp	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getSecondFeelsLikeTemp() {$/;"	f	class:MetOfficeClient
+getSecondForecastTime	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getSecondForecastTime() {$/;"	f	class:MetOfficeClient
+getSecondMaxUvIndex	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getSecondMaxUvIndex() {$/;"	f	class:MetOfficeClient
+getSecondPrecipProb	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getSecondPrecipProb() {$/;"	f	class:MetOfficeClient
+getSecondTemperature	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getSecondTemperature() {$/;"	f	class:MetOfficeClient
+getSecondWeatherType	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getSecondWeatherType() {$/;"	f	class:MetOfficeClient
+getSecondWindDirection	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getSecondWindDirection() {$/;"	f	class:MetOfficeClient
+getSecondWindGust	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getSecondWindGust() {$/;"	f	class:MetOfficeClient
+getSecondWindSpeed	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getSecondWindSpeed() {$/;"	f	class:MetOfficeClient
+getSeconds	./src/weather/src/NTPClient.cpp	/^String NTPClient::getSeconds() {$/;"	f	class:NTPClient
+getSeconds	./src/weather/src/TimeClient.cpp	/^String TimeClient::getSeconds() {$/;"	f	class:TimeClient
+getSeconds	./src/weather/src/WorldClockClient.cpp	/^String WorldClockClient::getSeconds(int timeZoneIndex) {$/;"	f	class:WorldClockClient
+getSecondsOfDay	./src/weather/src/WorldClockClient.cpp	/^long WorldClockClient::getSecondsOfDay(int timeZoneIndex) {$/;"	f	class:WorldClockClient
+getStringWidth	./src/minigrafx/src/MiniGrafx.cpp	/^uint16_t MiniGrafx::getStringWidth(const char* text, uint16_t length) {$/;"	f	class:MiniGrafx
+getSunPosition	./src/weather/src/SunMoonCalc.cpp	/^SunMoonCalc::PositionalData SunMoonCalc::getSunPosition() {$/;"	f	class:SunMoonCalc
+getThirdFeelsLikeTemp	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getThirdFeelsLikeTemp() {$/;"	f	class:MetOfficeClient
+getThirdForecastTime	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getThirdForecastTime() {$/;"	f	class:MetOfficeClient
+getThirdMaxUvIndex	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getThirdMaxUvIndex() {$/;"	f	class:MetOfficeClient
+getThirdPrecipProb	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getThirdPrecipProb() {$/;"	f	class:MetOfficeClient
+getThirdTemperature	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getThirdTemperature() {$/;"	f	class:MetOfficeClient
+getThirdWeatherType	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getThirdWeatherType() {$/;"	f	class:MetOfficeClient
+getThirdWindDirection	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getThirdWindDirection() {$/;"	f	class:MetOfficeClient
+getThirdWindGust	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getThirdWindGust() {$/;"	f	class:MetOfficeClient
+getThirdWindSpeed	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getThirdWindSpeed() {$/;"	f	class:MetOfficeClient
+getUiState	./src/minigrafx/src/Carousel.cpp	/^CarouselState* Carousel::getUiState(){$/;"	f	class:Carousel
+getWeatherIconName	./src/weather/src/MetOfficeClient.cpp	/^String MetOfficeClient::getWeatherIconName(String weatherType) {$/;"	f	class:MetOfficeClient
+getWidth	./src/minigrafx/src/EPD_WaveShare.cpp	/^int EPD_WaveShare::getWidth(EPD_TYPE epdType) {$/;"	f	class:EPD_WaveShare
+getWidth	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^int EPD_WaveShare42::getWidth() {$/;"	f	class:EPD_WaveShare42
+getWidth	./src/minigrafx/src/MiniGrafx.cpp	/^uint16_t MiniGrafx::getWidth() {$/;"	f	class:MiniGrafx
+heatindexC	./src/weather/src/AerisObservations.h	/^    sint16_t heatindexC;$/;"	m	struct:AerisObservationsData
+heatindexF	./src/weather/src/AerisObservations.h	/^    sint16_t heatindexF;$/;"	m	struct:AerisObservationsData
+height	./src/minigrafx/src/Carousel.h	/^    uint16_t            x, y, width, height;$/;"	m	class:Carousel
+height	./src/minigrafx/src/DisplayDriver.cpp	/^int16_t DisplayDriver::height(void) const {$/;"	f	class:DisplayDriver
+height	./src/minigrafx/src/EPD_WaveShare_154.h	/^    unsigned long height;$/;"	m	class:EPD_WaveShare154
+height	./src/minigrafx/src/EPD_WaveShare_154D67.h	/^    unsigned long height;$/;"	m	class:EPD_WaveShare154D67
+height	./src/minigrafx/src/EPD_WaveShare_29.h	/^    unsigned long height;$/;"	m	class:EPD_WaveShare29
+height	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    unsigned long height;$/;"	m	class:EPD_WaveShare29T5
+height	./src/minigrafx/src/EPD_WaveShare_42.h	/^    uint16_t height, width;$/;"	m	class:EPD_WaveShare42
+height	./src/minigrafx/src/EPD_WaveShare_75.h	/^    uint16_t height;$/;"	m	class:EPD_WaveShare75
+height	./src/minigrafx/src/MiniGrafx.h	/^  uint16_t width, height;$/;"	m	class:MiniGrafx
+host	./src/weather/src/AerisForecasts.h	/^    const String host = "api.aerisapi.com";$/;"	m	class:AerisForecasts
+host	./src/weather/src/AerisObservations.h	/^    const String host = "api.aerisapi.com";$/;"	m	class:AerisObservations
+host	./src/weather/src/AerisSunMoon.h	/^    const String host = "api.aerisapi.com";$/;"	m	class:AerisSunMoon
+host	./src/weather/src/OpenWeatherMapCurrent.h	/^    const String host = "api.openweathermap.org";$/;"	m	class:OpenWeatherMapCurrent
+host	./src/weather/src/OpenWeatherMapForecast.h	/^    const String host = "api.openweathermap.org";$/;"	m	class:OpenWeatherMapForecast
+humidity	./src/weather/src/AerisForecasts.h	/^  uint8_t humidity; \/\/ 68$/;"	m	struct:AerisForecastData
+humidity	./src/weather/src/AerisObservations.h	/^    uint8_t humidity;$/;"	m	struct:AerisObservationsData
+humidity	./src/weather/src/OpenWeatherMapCurrent.h	/^  uint8_t humidity;$/;"	m	struct:OpenWeatherMapCurrentData
+humidity	./src/weather/src/OpenWeatherMapForecast.h	/^  uint8_t humidity;$/;"	m	struct:OpenWeatherMapForecastData
+hwSPI	./src/minigrafx/src/ILI9341_SPI.h	/^  boolean  hwSPI;$/;"	m	class:ILI9341_SPI
+hwSPI	./src/minigrafx/src/SSD1331_SPI.h	/^  boolean  hwSPI;$/;"	m	class:SSD1331_SPI
+iceaccum	./src/weather/src/AerisForecasts.h	/^  float iceaccum; \/\/ null$/;"	m	struct:AerisForecastData
+iceaccumIN	./src/weather/src/AerisForecasts.h	/^  float iceaccumIN; \/\/ null$/;"	m	struct:AerisForecastData
+iceaccumMM	./src/weather/src/AerisForecasts.h	/^  float iceaccumMM; \/\/ null$/;"	m	struct:AerisForecastData
+icon	./src/weather/src/AerisForecasts.h	/^  String icon; \/\/ "drizzle.png"$/;"	m	struct:AerisForecastData
+icon	./src/weather/src/AerisObservations.h	/^    String icon;$/;"	m	struct:AerisObservationsData
+icon	./src/weather/src/OpenWeatherMapCurrent.h	/^  String icon;$/;"	m	struct:OpenWeatherMapCurrentData
+icon	./src/weather/src/OpenWeatherMapForecast.h	/^  String icon;$/;"	m	struct:OpenWeatherMapForecastData
+iconMeteoCon	./src/weather/src/AerisForecasts.h	/^  String iconMeteoCon; \/\/ Q$/;"	m	struct:AerisForecastData
+iconMeteoCon	./src/weather/src/AerisObservations.h	/^    String iconMeteoCon;$/;"	m	struct:AerisObservationsData
+iconMeteoCon	./src/weather/src/OpenWeatherMapCurrent.h	/^  String iconMeteoCon;$/;"	m	struct:OpenWeatherMapCurrentData
+iconMeteoCon	./src/weather/src/OpenWeatherMapForecast.h	/^  String iconMeteoCon;$/;"	m	struct:OpenWeatherMapForecastData
+illumination	./src/weather/src/Astronomy.h	/^      double illumination;$/;"	m	struct:Astronomy::MoonData
+illumination	./src/weather/src/SunMoonCalc.h	/^        double illumination;$/;"	m	struct:SunMoonCalc::Moon
+image	./src/minigrafx/src/EPaperPervasive.h	/^  void image(const uint8_t *image_data) {$/;"	f	class:EPD_Class
+image_sram	./src/minigrafx/src/EPaperPervasive.h	/^  void image_sram(const uint8_t *image_data) {$/;"	f	class:EPD_Class
+inactiveSymbol	./src/minigrafx/src/Carousel.h	/^    const char*         inactiveSymbol            = ANIMATION_inactiveSymbol;$/;"	m	class:Carousel
+index	./src/weather/src/SunMoonCalc.h	/^        uint8_t index;$/;"	m	struct:SunMoonCalc::MoonPhase
+indicatorDirection	./src/minigrafx/src/Carousel.h	/^    IndicatorDirection  indicatorDirection        = LEFT_RIGHT;$/;"	m	class:Carousel
+indicatorDrawState	./src/minigrafx/src/Carousel.h	/^    uint8_t                indicatorDrawState        = 1;$/;"	m	class:Carousel
+indicatorPosition	./src/minigrafx/src/Carousel.h	/^    IndicatorPosition   indicatorPosition         = BOTTOM;$/;"	m	class:Carousel
+init	./src/minigrafx/src/Carousel.cpp	/^void Carousel::init() {$/;"	f	class:Carousel
+init	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::init() {$/;"	f	class:EPD_WaveShare
+init	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^void EPD_WaveShare154::init() {$/;"	f	class:EPD_WaveShare154
+init	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::init() {$/;"	f	class:EPD_WaveShare154D67
+init	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^void EPD_WaveShare29::init() {$/;"	f	class:EPD_WaveShare29
+init	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^void EPD_WaveShare29T5::init() {$/;"	f	class:EPD_WaveShare29T5
+init	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^void EPD_WaveShare42::init() {$/;"	f	class:EPD_WaveShare42
+init	./src/minigrafx/src/EPD_WaveShare_43.cpp	/^void EPD_WaveShare_43::init(void) {$/;"	f	class:EPD_WaveShare_43
+init	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^void EPD_WaveShare75::init(void) {$/;"	f	class:EPD_WaveShare75
+init	./src/minigrafx/src/EPaperPervasive.cpp	/^void EPD_Class::init() {$/;"	f	class:EPD_Class
+init	./src/minigrafx/src/ILI9341_SPI.cpp	/^void ILI9341_SPI::init(void) {$/;"	f	class:ILI9341_SPI
+init	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::init() {$/;"	f	class:MiniGrafx
+init	./src/minigrafx/src/SSD1331_SPI.cpp	/^void SSD1331_SPI::init(void) {$/;"	f	class:SSD1331_SPI
+initialHeight	./src/minigrafx/src/MiniGrafx.h	/^  uint16_t initialWidth, initialHeight;$/;"	m	class:MiniGrafx
+initialWidth	./src/minigrafx/src/MiniGrafx.h	/^  uint16_t initialWidth, initialHeight;$/;"	m	class:MiniGrafx
+initializeBuffer	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::initializeBuffer() {$/;"	f	class:MiniGrafx
+isCalibrationFinished	./TouchControllerWS.cpp	/^bool TouchControllerWS::isCalibrationFinished() {$/;"	f	class:TouchControllerWS
+isCurrentForecastAllowed	./src/weather/src/OpenWeatherMapForecast.h	/^    boolean isCurrentForecastAllowed = true;$/;"	m	class:OpenWeatherMapForecast
+isDay	./src/weather/src/AerisForecasts.h	/^  boolean isDay; \/\/ true$/;"	m	struct:AerisForecastData
+isDay	./src/weather/src/AerisObservations.h	/^    boolean isDay;$/;"	m	struct:AerisObservationsData
+isFastRefreshEnabled	./src/minigrafx/src/DisplayDriver.h	/^  boolean isFastRefreshEnabled = false;$/;"	m	class:DisplayDriver
+isFastRefreshEnabled	./src/minigrafx/src/EPD_WaveShare_42.h	/^    boolean isFastRefreshEnabled;$/;"	m	class:EPD_WaveShare42
+isHeader	./src/weather/src/ThingspeakClient.h	/^    boolean isHeader = true;$/;"	m	class:ThingspeakClient
+isHeader	./src/weather/src/WorldClockClient.h	/^    boolean isHeader = true;$/;"	m	class:WorldClockClient
+isIndicatorDrawen	./src/minigrafx/src/Carousel.h	/^  bool          isIndicatorDrawen         = true;$/;"	m	struct:CarouselState
+isInitialRefresh	./src/minigrafx/src/EPD_WaveShare_154D67.h	/^    bool isInitialRefresh = true;$/;"	m	class:EPD_WaveShare154D67
+isMetric	./src/weather/src/AerisForecasts.h	/^    boolean isMetric = true;$/;"	m	class:AerisForecasts
+isMetric	./src/weather/src/AerisObservations.h	/^    boolean isMetric = true;$/;"	m	class:AerisObservations
+isMetric	./src/weather/src/AerisSunMoon.h	/^    boolean isMetric = true;$/;"	m	class:AerisSunMoon
+isMetric	./src/weather/src/OpenWeatherMapCurrent.h	/^    boolean isMetric() { return metric; }$/;"	f	class:OpenWeatherMapCurrent
+isMetric	./src/weather/src/OpenWeatherMapForecast.h	/^    boolean isMetric() { return this->metric; }$/;"	f	class:OpenWeatherMapForecast
+isMirroredHorizontally	./src/minigrafx/src/MiniGrafx.h	/^  boolean isMirroredHorizontally = false;$/;"	m	class:MiniGrafx
+isMirroredVertically	./src/minigrafx/src/MiniGrafx.h	/^  boolean isMirroredVertically = false;$/;"	m	class:MiniGrafx
+isPartialUpdate	./src/minigrafx/src/DisplayDriver.h	/^  bool isPartialUpdate = false;$/;"	m	struct:BufferInfo
+isPgmFont	./src/minigrafx/src/MiniGrafx.h	/^  boolean isPgmFont = true;$/;"	m	class:MiniGrafx
+isTouched	./TouchControllerWS.cpp	/^bool TouchControllerWS::isTouched() {$/;"	f	class:TouchControllerWS
+isTouched	./TouchControllerWS.cpp	/^bool TouchControllerWS::isTouched(int16_t debounceMillis) {$/;"	f	class:TouchControllerWS
+is_leap_year	./src/weather/src/SunMoonCalc.cpp	/^static int is_leap_year(int year) {$/;"	f	file:
+jd_UT	./src/weather/src/SunMoonCalc.h	/^    double jd_UT;$/;"	m	class:SunMoonCalc
+key	./src/weather/src/AerisForecasts.cpp	/^void AerisForecasts::key(String key) {$/;"	f	class:AerisForecasts
+key	./src/weather/src/AerisObservations.cpp	/^void AerisObservations::key(String key) {$/;"	f	class:AerisObservations
+key	./src/weather/src/AerisSunMoon.cpp	/^void AerisSunMoon::key(String key) {$/;"	f	class:AerisSunMoon
+key	./src/weather/src/MetOfficeClient.cpp	/^void MetOfficeClient::key(String key) {$/;"	f	class:MetOfficeClient
+key	./src/weather/src/OpenWeatherMapCurrent.cpp	/^void OpenWeatherMapCurrent::key(String key) {$/;"	f	class:OpenWeatherMapCurrent
+key	./src/weather/src/OpenWeatherMapForecast.cpp	/^void OpenWeatherMapForecast::key(String key) {$/;"	f	class:OpenWeatherMapForecast
+key	./src/weather/src/ThingspeakClient.cpp	/^void ThingspeakClient::key(String key) {$/;"	f	class:ThingspeakClient
+key	./src/weather/src/WorldClockClient.cpp	/^void WorldClockClient::key(String key) {$/;"	f	class:WorldClockClient
+language	./src/weather/src/OpenWeatherMapCurrent.h	/^    String language;$/;"	m	class:OpenWeatherMapCurrent
+language	./src/weather/src/OpenWeatherMapForecast.h	/^    String language = "en";$/;"	m	class:OpenWeatherMapForecast
+lastFields	./src/weather/src/ThingspeakClient.h	/^    String lastFields[8];$/;"	m	class:ThingspeakClient
+lastStateChange	./TouchControllerWS.h	/^    long lastStateChange = 0;$/;"	m	class:TouchControllerWS
+lastTouched	./TouchControllerWS.h	/^    long lastTouched = 0;$/;"	m	class:TouchControllerWS
+lastTransitionDirection	./src/minigrafx/src/Carousel.h	/^    int8_t              lastTransitionDirection   = 1;$/;"	m	class:Carousel
+lastUpdate	./src/minigrafx/src/Carousel.h	/^  uint64_t     lastUpdate                = 0;$/;"	m	struct:CarouselState
+lat	./src/weather/src/OpenWeatherMapCurrent.h	/^  float lat;$/;"	m	struct:OpenWeatherMapCurrentData
+lat	./src/weather/src/SunMoonCalc.h	/^    double lat; \/\/ internal value is in radians!$/;"	m	class:SunMoonCalc
+latitude	./src/weather/src/SunMoonCalc.h	/^        double latitude;$/;"	m	struct:SunMoonCalc::PositionalData
+leap_days	./src/weather/src/SunMoonCalc.cpp	/^static int leap_days(int y1, int y2) {$/;"	f	file:
+light	./src/weather/src/AerisObservations.h	/^    uint16_t light;$/;"	m	struct:AerisObservationsData
+line	./src/minigrafx/src/EPaperPervasive.cpp	/^void EPD_Class::line(uint16_t line, const uint8_t *data, uint8_t fixed_value,$/;"	f	class:EPD_Class
+lines_per_display	./src/minigrafx/src/EPaperPervasive.h	/^  uint16_t lines_per_display;$/;"	m	class:EPD_Class
+loadCalibration	./TouchControllerWS.cpp	/^bool TouchControllerWS::loadCalibration() {$/;"	f	class:TouchControllerWS
+loadingDrawFunction	./src/minigrafx/src/Carousel.h	/^    LoadingDrawFunction loadingDrawFunction       = [](MiniGrafx *miniGrafx, LoadingStage* stage, uint8_t progress) {$/;"	m	class:Carousel
+localEpoc	./src/weather/src/TimeClient.h	/^    long localEpoc = 0;$/;"	m	class:TimeClient
+localMillisAtUpdate	./src/weather/src/TimeClient.h	/^    unsigned long localMillisAtUpdate;$/;"	m	class:TimeClient
+localMillisAtUpdate	./src/weather/src/WorldClockClient.h	/^    unsigned long localMillisAtUpdate;$/;"	m	class:WorldClockClient
+localPort	./src/weather/src/TimeClient.h	/^    unsigned int localPort = 2390;$/;"	m	class:TimeClient
+locationName	./src/weather/src/MetOfficeClient.h	/^    String locationName = "";$/;"	m	class:MetOfficeClient
+lon	./src/weather/src/OpenWeatherMapCurrent.h	/^  float lon;$/;"	m	struct:OpenWeatherMapCurrentData
+lon	./src/weather/src/SunMoonCalc.h	/^    double lon; \/\/ internal value is in radians!$/;"	m	class:SunMoonCalc
+longitude	./src/weather/src/SunMoonCalc.h	/^        double longitude;$/;"	m	struct:SunMoonCalc::PositionalData
+lut	./src/minigrafx/src/EPD_WaveShare_154.h	/^    const unsigned char* lut;$/;"	m	class:EPD_WaveShare154
+lut	./src/minigrafx/src/EPD_WaveShare_29.h	/^    const unsigned char* lut;$/;"	m	class:EPD_WaveShare29
+lut_20_vcomDC	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^const unsigned char EPD_WaveShare29T5::lut_20_vcomDC[] =$/;"	m	class:EPD_WaveShare29T5	file:
+lut_20_vcomDC	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    static const unsigned char lut_20_vcomDC[];$/;"	m	class:EPD_WaveShare29T5
+lut_20_vcomDC_2bit	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^const unsigned char EPD_WaveShare29T5::lut_20_vcomDC_2bit[] =$/;"	m	class:EPD_WaveShare29T5	file:
+lut_20_vcomDC_2bit	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    static const unsigned char lut_20_vcomDC_2bit[];$/;"	m	class:EPD_WaveShare29T5
+lut_20_vcomDC_partial	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^const unsigned char EPD_WaveShare29T5::lut_20_vcomDC_partial[] =$/;"	m	class:EPD_WaveShare29T5	file:
+lut_20_vcomDC_partial	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    static const unsigned char lut_20_vcomDC_partial[];$/;"	m	class:EPD_WaveShare29T5
+lut_21_ww	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^const unsigned char EPD_WaveShare29T5::lut_21_ww[] =$/;"	m	class:EPD_WaveShare29T5	file:
+lut_21_ww	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    static const unsigned char lut_21_ww[];$/;"	m	class:EPD_WaveShare29T5
+lut_21_ww_2bit	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^const unsigned char EPD_WaveShare29T5::lut_21_ww_2bit[] ={$/;"	m	class:EPD_WaveShare29T5	file:
+lut_21_ww_2bit	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    static const unsigned char lut_21_ww_2bit[];$/;"	m	class:EPD_WaveShare29T5
+lut_21_ww_partial	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^const unsigned char EPD_WaveShare29T5::lut_21_ww_partial[] =$/;"	m	class:EPD_WaveShare29T5	file:
+lut_21_ww_partial	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    static const unsigned char lut_21_ww_partial[];$/;"	m	class:EPD_WaveShare29T5
+lut_22_bw	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^const unsigned char EPD_WaveShare29T5::lut_22_bw[] =$/;"	m	class:EPD_WaveShare29T5	file:
+lut_22_bw	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    static const unsigned char lut_22_bw[];$/;"	m	class:EPD_WaveShare29T5
+lut_22_bw_2bit	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^const unsigned char EPD_WaveShare29T5::lut_22_bw_2bit[] ={$/;"	m	class:EPD_WaveShare29T5	file:
+lut_22_bw_2bit	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    static const unsigned char lut_22_bw_2bit[];$/;"	m	class:EPD_WaveShare29T5
+lut_22_bw_partial	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^const unsigned char EPD_WaveShare29T5::lut_22_bw_partial[] =$/;"	m	class:EPD_WaveShare29T5	file:
+lut_22_bw_partial	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    static const unsigned char lut_22_bw_partial[];$/;"	m	class:EPD_WaveShare29T5
+lut_23_wb	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^const unsigned char EPD_WaveShare29T5::lut_23_wb[] =$/;"	m	class:EPD_WaveShare29T5	file:
+lut_23_wb	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    static const unsigned char lut_23_wb[];$/;"	m	class:EPD_WaveShare29T5
+lut_23_wb_2bit	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^const unsigned char EPD_WaveShare29T5::lut_23_wb_2bit[] ={$/;"	m	class:EPD_WaveShare29T5	file:
+lut_23_wb_2bit	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    static const unsigned char lut_23_wb_2bit[];$/;"	m	class:EPD_WaveShare29T5
+lut_23_wb_partial	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^const unsigned char EPD_WaveShare29T5::lut_23_wb_partial[] =$/;"	m	class:EPD_WaveShare29T5	file:
+lut_23_wb_partial	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    static const unsigned char lut_23_wb_partial[];$/;"	m	class:EPD_WaveShare29T5
+lut_24_bb	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^const unsigned char EPD_WaveShare29T5::lut_24_bb[] =$/;"	m	class:EPD_WaveShare29T5	file:
+lut_24_bb	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    static const unsigned char lut_24_bb[];$/;"	m	class:EPD_WaveShare29T5
+lut_24_bb_2bit	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^const unsigned char EPD_WaveShare29T5::lut_24_bb_2bit[] ={$/;"	m	class:EPD_WaveShare29T5	file:
+lut_24_bb_2bit	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    static const unsigned char lut_24_bb_2bit[];$/;"	m	class:EPD_WaveShare29T5
+lut_24_bb_partial	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^const unsigned char EPD_WaveShare29T5::lut_24_bb_partial[] =$/;"	m	class:EPD_WaveShare29T5	file:
+lut_24_bb_partial	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    static const unsigned char lut_24_bb_partial[];$/;"	m	class:EPD_WaveShare29T5
+lut_2bit	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^const unsigned char* EPD_WaveShare29T5::lut_2bit[] = {$/;"	m	class:EPD_WaveShare29T5	file:
+lut_2bit	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    static const unsigned char* lut_2bit[];$/;"	m	class:EPD_WaveShare29T5
+lut_bb	./src/minigrafx/src/EPD_WaveShare_42.h	/^const unsigned char lut_bb[] ={$/;"	v
+lut_bb_quick	./src/minigrafx/src/EPD_WaveShare_42.h	/^const unsigned char lut_bb_quick[] ={$/;"	v
+lut_bw	./src/minigrafx/src/EPD_WaveShare_42.h	/^const unsigned char lut_bw[] ={$/;"	v
+lut_bw_quick	./src/minigrafx/src/EPD_WaveShare_42.h	/^const unsigned char lut_bw_quick[] ={$/;"	v
+lut_full	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^const unsigned char* EPD_WaveShare29T5::lut_full[] = {$/;"	m	class:EPD_WaveShare29T5	file:
+lut_full	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    static const unsigned char* lut_full[];$/;"	m	class:EPD_WaveShare29T5
+lut_full_update	./src/minigrafx/src/EPD_WaveShare_154.h	/^const unsigned char lut_full_update[] =$/;"	v
+lut_full_update	./src/minigrafx/src/EPD_WaveShare_29.h	/^const unsigned char lut_full_update[] =$/;"	v
+lut_partial	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^const unsigned char* EPD_WaveShare29T5::lut_partial[] = {$/;"	m	class:EPD_WaveShare29T5	file:
+lut_partial	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    static const unsigned char* lut_partial[];$/;"	m	class:EPD_WaveShare29T5
+lut_partial_update	./src/minigrafx/src/EPD_WaveShare_154.h	/^const unsigned char lut_partial_update[] =$/;"	v
+lut_partial_update	./src/minigrafx/src/EPD_WaveShare_29.h	/^const unsigned char lut_partial_update[] =$/;"	v
+lut_vcom0	./src/minigrafx/src/EPD_WaveShare_42.h	/^const unsigned char lut_vcom0[] =$/;"	v
+lut_vcom0_quick	./src/minigrafx/src/EPD_WaveShare_42.h	/^const unsigned char lut_vcom0_quick[] =$/;"	v
+lut_wb	./src/minigrafx/src/EPD_WaveShare_42.h	/^const unsigned char lut_wb[] ={$/;"	v
+lut_wb_quick	./src/minigrafx/src/EPD_WaveShare_42.h	/^const unsigned char lut_wb_quick[] ={$/;"	v
+lut_ww	./src/minigrafx/src/EPD_WaveShare_42.h	/^const unsigned char lut_ww[] ={$/;"	v
+lut_ww_quick	./src/minigrafx/src/EPD_WaveShare_42.h	/^const unsigned char lut_ww_quick[] ={$/;"	v
+main	./src/weather/src/OpenWeatherMapCurrent.h	/^  String main;$/;"	m	struct:OpenWeatherMapCurrentData
+main	./src/weather/src/OpenWeatherMapForecast.h	/^  String main;$/;"	m	struct:OpenWeatherMapForecastData
+manuelControll	./src/minigrafx/src/Carousel.h	/^  bool          manuelControll            = false;$/;"	m	struct:CarouselState
+max	./src/minigrafx/src/MiniGrafx.h	78;"	d
+max	./src/minigrafx/src/MiniGrafx.h	79;"	d
+maxDewpointC	./src/weather/src/AerisForecasts.h	/^  sint16_t maxDewpointC; \/\/ 13$/;"	m	struct:AerisForecastData
+maxDewpointF	./src/weather/src/AerisForecasts.h	/^  sint16_t maxDewpointF; \/\/ 55$/;"	m	struct:AerisForecastData
+maxFeelslikeC	./src/weather/src/AerisForecasts.h	/^  sint16_t maxFeelslikeC; \/\/ 20$/;"	m	struct:AerisForecastData
+maxFeelslikeF	./src/weather/src/AerisForecasts.h	/^  sint16_t maxFeelslikeF; \/\/ 69$/;"	m	struct:AerisForecastData
+maxForecasts	./src/weather/src/AerisForecasts.h	/^    uint8_t maxForecasts;$/;"	m	class:AerisForecasts
+maxForecasts	./src/weather/src/OpenWeatherMapForecast.h	/^    uint8_t maxForecasts;$/;"	m	class:OpenWeatherMapForecast
+maxHumidity	./src/weather/src/AerisForecasts.h	/^  uint8_t maxHumidity; \/\/ 82$/;"	m	struct:AerisForecastData
+maxTempC	./src/weather/src/AerisForecasts.h	/^  sint16_t maxTempC; \/\/20$/;"	m	struct:AerisForecastData
+maxTempF	./src/weather/src/AerisForecasts.h	/^  sint16_t maxTempF; \/\/69$/;"	m	struct:AerisForecastData
+maxUvIndex	./src/weather/src/MetOfficeClient.h	/^    String maxUvIndex = "";$/;"	m	class:MetOfficeClient
+metric	./src/weather/src/OpenWeatherMapCurrent.h	/^    boolean metric = true;$/;"	m	class:OpenWeatherMapCurrent
+metric	./src/weather/src/OpenWeatherMapForecast.h	/^    boolean metric = true;$/;"	m	class:OpenWeatherMapForecast
+midnightSun	./src/weather/src/AerisSunMoon.h	/^  boolean midnightSun; \/\/ "midnightSun":false,$/;"	m	struct:AerisSunMoonData
+millisOfDayAtUpdate	./src/weather/src/WorldClockClient.h	/^    unsigned long millisOfDayAtUpdate = 0;$/;"	m	class:WorldClockClient
+min	./src/minigrafx/src/MiniGrafx.h	80;"	d
+min	./src/minigrafx/src/MiniGrafx.h	81;"	d
+minDewpointC	./src/weather/src/AerisForecasts.h	/^  sint16_t minDewpointC; \/\/ 10$/;"	m	struct:AerisForecastData
+minDewpointF	./src/weather/src/AerisForecasts.h	/^  sint16_t minDewpointF; \/\/ 51$/;"	m	struct:AerisForecastData
+minFeelslikeC	./src/weather/src/AerisForecasts.h	/^  sint16_t minFeelslikeC; \/\/ 14$/;"	m	struct:AerisForecastData
+minFeelslikeF	./src/weather/src/AerisForecasts.h	/^  sint16_t minFeelslikeF; \/\/ 56$/;"	m	struct:AerisForecastData
+minHumidity	./src/weather/src/AerisForecasts.h	/^  uint8_t minHumidity; \/\/ 53$/;"	m	struct:AerisForecastData
+minTempC	./src/weather/src/AerisForecasts.h	/^  sint16_t minTempC; \/\/14$/;"	m	struct:AerisForecastData
+minTempF	./src/weather/src/AerisForecasts.h	/^  sint16_t minTempF; \/\/ 56$/;"	m	struct:AerisForecastData
+miniGrafx	./src/minigrafx/src/Carousel.h	/^    MiniGrafx             *miniGrafx;$/;"	m	class:Carousel
+monoff	./src/weather/src/SunMoonCalc.cpp	/^static const int monoff[] = {0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334};$/;"	v	file:
+moon	./src/weather/src/SunMoonCalc.h	/^        Moon moon;$/;"	m	struct:SunMoonCalc::Result
+moonAge	./src/weather/src/AerisSunMoon.h	/^  float moonAge; \/\/ "age":1.52,$/;"	m	struct:AerisSunMoonData
+moonAge	./src/weather/src/SunMoonCalc.h	/^    double moonAge; \/\/ this is calculated as a by-product in getMoonPosition()$/;"	m	class:SunMoonCalc
+moonAngle	./src/weather/src/AerisSunMoon.h	/^  float moonAngle; \/\/ "angle":0.55$/;"	m	struct:AerisSunMoonData
+moonIllum	./src/weather/src/AerisSunMoon.h	/^  uint8_t moonIllum; \/\/ "illum":3,$/;"	m	struct:AerisSunMoonData
+moonPhase	./src/weather/src/AerisSunMoon.h	/^  float moonPhase; \/\/ "phase":0.0516,$/;"	m	struct:AerisSunMoonData
+moonPhaseName	./src/weather/src/AerisSunMoon.h	/^  String moonPhaseName; \/\/ "name":"waxing crescent",$/;"	m	struct:AerisSunMoonData
+moonRise	./src/weather/src/AerisSunMoon.h	/^  uint64_t moonRise; \/\/"rise":1493295480,$/;"	m	struct:AerisSunMoonData
+moonRiseISO	./src/weather/src/AerisSunMoon.h	/^  String moonRiseISO; \/\/ "riseISO":"2017-04-27T07:18:00-05:00",$/;"	m	struct:AerisSunMoonData
+moonSet	./src/weather/src/AerisSunMoon.h	/^  uint64_t moonSet; \/\/ "set":1493347800,$/;"	m	struct:AerisSunMoonData
+moonSetISO	./src/weather/src/AerisSunMoon.h	/^  String moonSetISO; \/\/ "setISO":"2017-04-27T21:50:00-05:00",$/;"	m	struct:AerisSunMoonData
+moonTransit	./src/weather/src/AerisSunMoon.h	/^  uint64_t moonTransit; \/\/ "transit":1493321340,$/;"	m	struct:AerisSunMoonData
+moonTransitISO	./src/weather/src/AerisSunMoon.h	/^  String moonTransitISO; \/\/ "transitISO":"2017-04-27T14:29:00-05:00",$/;"	m	struct:AerisSunMoonData
+moonUnderfoot	./src/weather/src/AerisSunMoon.h	/^  uint64_t moonUnderfoot; \/\/ "underfoot":1493276400,$/;"	m	struct:AerisSunMoonData
+moonUnderfootISO	./src/weather/src/AerisSunMoon.h	/^  String moonUnderfootISO; \/\/ "underfootISO":"2017-04-27T02:00:00-05:00",$/;"	m	struct:AerisSunMoonData
+myCountry	./src/weather/src/WorldClockClient.h	/^    String myCountry;$/;"	m	class:WorldClockClient
+myDateFormat	./src/weather/src/WorldClockClient.h	/^    String myDateFormat;$/;"	m	class:WorldClockClient
+myLanguage	./src/weather/src/WorldClockClient.h	/^    String myLanguage;$/;"	m	class:WorldClockClient
+myNumberOfTimeZoneIds	./src/weather/src/WorldClockClient.h	/^    int myNumberOfTimeZoneIds;$/;"	m	class:WorldClockClient
+myTimeZoneIds	./src/weather/src/WorldClockClient.h	/^    String* myTimeZoneIds;$/;"	m	class:WorldClockClient
+myUtcOffset	./src/weather/src/TimeClient.h	/^    float myUtcOffset = 0;$/;"	m	class:TimeClient
+name	./src/weather/src/SunMoonCalc.h	/^        String name;$/;"	m	struct:SunMoonCalc::MoonPhase
+nextFrame	./src/minigrafx/src/Carousel.cpp	/^void Carousel::nextFrame() {$/;"	f	class:Carousel
+nextFrameNumber	./src/minigrafx/src/Carousel.h	/^    int8_t              nextFrameNumber           = -1;$/;"	m	class:Carousel
+normalizeRadians	./src/weather/src/SunMoonCalc.cpp	/^double SunMoonCalc::normalizeRadians(double r) {$/;"	f	class:SunMoonCalc
+nothing_frame	./src/minigrafx/src/EPaperPervasive.cpp	/^void EPD_Class::nothing_frame() {$/;"	f	class:EPD_Class
+ntpServerName	./src/weather/src/TimeClient.h	/^    const char* ntpServerName = "time.nist.gov";$/;"	m	class:TimeClient
+observationTime	./src/weather/src/OpenWeatherMapCurrent.h	/^  uint32_t observationTime;$/;"	m	struct:OpenWeatherMapCurrentData
+observationTime	./src/weather/src/OpenWeatherMapForecast.h	/^  uint32_t observationTime;$/;"	m	struct:OpenWeatherMapForecastData
+observationTimeText	./src/weather/src/OpenWeatherMapForecast.h	/^  String observationTimeText;$/;"	m	struct:OpenWeatherMapForecastData
+observations	./src/weather/src/AerisObservations.h	/^    AerisObservationsData *observations;$/;"	m	class:AerisObservations
+obtainAccurateRiseSetTransit	./src/weather/src/SunMoonCalc.cpp	/^double SunMoonCalc::obtainAccurateRiseSetTransit(double riseSetJd, const int index, const int niter, const bool sun) {$/;"	f	class:SunMoonCalc
+operator !	./src/minigrafx/src/EPaperPervasive.h	/^  bool operator!() const {$/;"	f	class:EPD_Class
+overlayCount	./src/minigrafx/src/Carousel.h	/^    uint8_t             overlayCount              = 0;$/;"	m	class:Carousel
+overlayFunctions	./src/minigrafx/src/Carousel.h	/^    OverlayCallback*    overlayFunctions;$/;"	m	class:Carousel
+p1	./TouchControllerWS.h	/^    TS_Point p1, p2;$/;"	m	class:TouchControllerWS
+p2	./TouchControllerWS.h	/^    TS_Point p1, p2;$/;"	m	class:TouchControllerWS
+packetBuffer	./src/weather/src/TimeClient.h	/^    byte packetBuffer[ NTP_PACKET_SIZE]; \/\/buffer to hold incoming and outgoing packets$/;"	m	class:TimeClient
+palette	./src/minigrafx/src/DisplayDriver.h	/^  uint16_t *palette;$/;"	m	struct:BufferInfo
+palette	./src/minigrafx/src/MiniGrafx.h	/^  uint16_t* palette = 0;$/;"	m	class:MiniGrafx
+paralacticAngle	./src/weather/src/SunMoonCalc.h	/^        double paralacticAngle;$/;"	m	struct:SunMoonCalc::Moon
+phase	./src/weather/src/Astronomy.h	/^      uint8_t phase;$/;"	m	struct:Astronomy::MoonData
+phase	./src/weather/src/SunMoonCalc.h	/^        MoonPhase phase;$/;"	m	struct:SunMoonCalc::Moon
+pixelsPerByte	./src/minigrafx/src/MiniGrafx.h	/^  uint8_t pixelsPerByte;$/;"	m	class:MiniGrafx
+polarNight	./src/weather/src/AerisSunMoon.h	/^  boolean polarNight; \/\/ "polarNight":false,$/;"	m	struct:AerisSunMoonData
+pop	./src/weather/src/AerisForecasts.h	/^  sint16_t pop; \/\/ 20$/;"	m	struct:AerisForecastData
+port	./src/weather/src/AerisForecasts.h	/^    const uint8_t port = 80;$/;"	m	class:AerisForecasts
+port	./src/weather/src/AerisObservations.h	/^    const uint8_t port = 80;$/;"	m	class:AerisObservations
+port	./src/weather/src/AerisSunMoon.h	/^    const uint8_t port = 80;$/;"	m	class:AerisSunMoon
+port	./src/weather/src/OpenWeatherMapCurrent.h	/^    const uint8_t port = 80;$/;"	m	class:OpenWeatherMapCurrent
+port	./src/weather/src/OpenWeatherMapForecast.h	/^    const uint8_t port = 80;$/;"	m	class:OpenWeatherMapForecast
+power_off	./src/minigrafx/src/EPaperPervasive.cpp	/^void EPD_Class::power_off() {$/;"	f	class:EPD_Class
+precipIN	./src/weather/src/AerisForecasts.h	/^  float precipIN; \/\/ 0.14$/;"	m	struct:AerisForecastData
+precipIN	./src/weather/src/AerisObservations.h	/^    uint16_t precipIN;$/;"	m	struct:AerisObservationsData
+precipMM	./src/weather/src/AerisForecasts.h	/^  float precipMM; \/\/ 3.53$/;"	m	struct:AerisForecastData
+precipMM	./src/weather/src/AerisObservations.h	/^    uint16_t precipMM;$/;"	m	struct:AerisObservationsData
+precipProb	./src/weather/src/MetOfficeClient.h	/^    String precipProb = "";$/;"	m	class:MetOfficeClient
+pressure	./src/weather/src/OpenWeatherMapCurrent.h	/^  uint16_t pressure;$/;"	m	struct:OpenWeatherMapCurrentData
+pressure	./src/weather/src/OpenWeatherMapForecast.h	/^  float pressure;$/;"	m	struct:OpenWeatherMapForecastData
+pressureGroundLevel	./src/weather/src/OpenWeatherMapForecast.h	/^  float pressureGroundLevel;$/;"	m	struct:OpenWeatherMapForecastData
+pressureIN	./src/weather/src/AerisForecasts.h	/^  float pressureIN; \/\/ 30.06$/;"	m	struct:AerisForecastData
+pressureIN	./src/weather/src/AerisObservations.h	/^    float pressureIN;$/;"	m	struct:AerisObservationsData
+pressureMB	./src/weather/src/AerisForecasts.h	/^  uint16_t pressureMB; \/\/ 1018$/;"	m	struct:AerisForecastData
+pressureMB	./src/weather/src/AerisObservations.h	/^    uint16_t pressureMB;$/;"	m	struct:AerisObservationsData
+pressureSeaLevel	./src/weather/src/OpenWeatherMapForecast.h	/^  float pressureSeaLevel;$/;"	m	struct:OpenWeatherMapForecastData
+previousFrame	./src/minigrafx/src/Carousel.cpp	/^void Carousel::previousFrame() {$/;"	f	class:Carousel
+process	./src/minigrafx/src/Carousel.h	/^  const char* process;$/;"	m	struct:LoadingStage
+pushColor	./src/minigrafx/src/ILI9341_SPI.cpp	/^void ILI9341_SPI::pushColor(uint16_t color) {$/;"	f	class:ILI9341_SPI
+putchars	./src/minigrafx/src/EPD_WaveShare_43.cpp	/^void EPD_WaveShare_43::putchars(const unsigned char * ptr, int n)$/;"	f	class:EPD_WaveShare_43
+rain	./src/weather/src/OpenWeatherMapForecast.h	/^  float rain;$/;"	m	struct:OpenWeatherMapForecastData
+read16	./src/minigrafx/src/MiniGrafx.cpp	/^uint16_t MiniGrafx::read16(File &f) {$/;"	f	class:MiniGrafx
+read32	./src/minigrafx/src/MiniGrafx.cpp	/^uint32_t MiniGrafx::read32(File &f) {$/;"	f	class:MiniGrafx
+readFontData	./src/minigrafx/src/MiniGrafx.cpp	/^uint8_t MiniGrafx::readFontData(const char * start, uint32_t offset) {$/;"	f	class:MiniGrafx
+resetState	./src/minigrafx/src/Carousel.cpp	/^void Carousel::resetState() {$/;"	f	class:Carousel
+reset_pin	./src/minigrafx/src/EPD_WaveShare_154.h	/^    unsigned int reset_pin;$/;"	m	class:EPD_WaveShare154
+reset_pin	./src/minigrafx/src/EPD_WaveShare_154D67.h	/^    unsigned int reset_pin;$/;"	m	class:EPD_WaveShare154D67
+reset_pin	./src/minigrafx/src/EPD_WaveShare_29.h	/^    unsigned int reset_pin;$/;"	m	class:EPD_WaveShare29
+reset_pin	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    unsigned int reset_pin;$/;"	m	class:EPD_WaveShare29T5
+reset_pin	./src/minigrafx/src/EPD_WaveShare_75.h	/^    uint8_t reset_pin;$/;"	m	class:EPD_WaveShare75
+reverse	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^uint8_t EPD_WaveShare154::reverse(uint8_t in)$/;"	f	class:EPD_WaveShare154
+reverse	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^uint8_t EPD_WaveShare154D67::reverse(uint8_t in)$/;"	f	class:EPD_WaveShare154D67
+reverse	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^uint8_t EPD_WaveShare29::reverse(uint8_t in)$/;"	f	class:EPD_WaveShare29
+reverse	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^uint8_t EPD_WaveShare29T5::reverse(uint8_t in)$/;"	f	class:EPD_WaveShare29T5
+reverse	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^uint8_t EPD_WaveShare42::reverse(uint8_t in)$/;"	f	class:EPD_WaveShare42
+reverse	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^uint8_t EPD_WaveShare75::reverse(uint8_t in)$/;"	f	class:EPD_WaveShare75
+rise	./src/weather/src/SunMoonCalc.h	/^        time_t rise; \/\/ timestamp in UTC$/;"	m	struct:SunMoonCalc::Moon
+rise	./src/weather/src/SunMoonCalc.h	/^        time_t rise; \/\/ timestamp in UTC$/;"	m	struct:SunMoonCalc::Sun
+riseJd	./src/weather/src/SunMoonCalc.h	/^        double riseJd; \/\/ jd = Julian Day$/;"	m	struct:SunMoonCalc::Moon
+riseJd	./src/weather/src/SunMoonCalc.h	/^        double riseJd; \/\/ jd = Julian Day$/;"	m	struct:SunMoonCalc::Sun
+rotation	./src/minigrafx/src/DisplayDriver.h	/^  uint8_t rotation;$/;"	m	class:DisplayDriver
+rotation	./src/minigrafx/src/EPD_WaveShare.h	/^    uint8_t rotation;$/;"	m	class:EPD_WaveShare
+rotation	./src/minigrafx/src/EPD_WaveShare_154.h	/^    uint8_t rotation;$/;"	m	class:EPD_WaveShare154
+rotation	./src/minigrafx/src/EPD_WaveShare_154D67.h	/^    uint8_t rotation;$/;"	m	class:EPD_WaveShare154D67
+rotation	./src/minigrafx/src/EPD_WaveShare_29.h	/^    uint8_t rotation;$/;"	m	class:EPD_WaveShare29
+rotation	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    uint8_t rotation;$/;"	m	class:EPD_WaveShare29T5
+rotation	./src/minigrafx/src/EPD_WaveShare_42.h	/^    uint8_t rotation;$/;"	m	class:EPD_WaveShare42
+rotation	./src/minigrafx/src/EPD_WaveShare_75.h	/^    uint8_t rotation;$/;"	m	class:EPD_WaveShare75
+rotation	./src/minigrafx/src/MiniGrafx.h	/^  uint8_t rotation;$/;"	m	class:MiniGrafx
+rstPin	./src/minigrafx/src/EPD_WaveShare.h	/^    uint8_t rstPin;$/;"	m	class:EPD_WaveShare
+rstPin	./src/minigrafx/src/EPD_WaveShare_42.h	/^    uint8_t rstPin;$/;"	m	class:EPD_WaveShare42
+runLoadingProcess	./src/minigrafx/src/Carousel.cpp	/^void Carousel::runLoadingProcess(LoadingStage* stages, uint8_t stagesCount) {$/;"	f	class:Carousel
+sanomaly	./src/weather/src/SunMoonCalc.h	/^    double sanomaly; \/\/ sun anomaly$/;"	m	class:SunMoonCalc
+saveCalibration	./TouchControllerWS.cpp	/^bool TouchControllerWS::saveCalibration() {$/;"	f	class:TouchControllerWS
+secondForecast	./src/weather/src/MetOfficeClient.h	/^    String secondForecast = "";$/;"	m	class:MetOfficeClient
+sendNTPPacket	./src/weather/src/NTPClient.cpp	/^void NTPClient::sendNTPPacket(IPAddress ip) {$/;"	f	class:NTPClient
+serial	./src/minigrafx/src/EPD_WaveShare_43.h	/^   Stream *serial;$/;"	m	class:EPD_WaveShare_43
+set	./src/weather/src/SunMoonCalc.h	/^        time_t set;$/;"	m	struct:SunMoonCalc::Moon
+set	./src/weather/src/SunMoonCalc.h	/^        time_t set;$/;"	m	struct:SunMoonCalc::Sun
+setActiveSymbol	./src/minigrafx/src/Carousel.cpp	/^void Carousel::setActiveSymbol(const char* symbol) {$/;"	f	class:Carousel
+setAddrWindow	./src/minigrafx/src/ILI9341_SPI.cpp	/^void ILI9341_SPI::setAddrWindow(uint16_t x0, uint16_t y0, uint16_t x1,$/;"	f	class:ILI9341_SPI
+setAddrWindow	./src/minigrafx/src/SSD1331_SPI.cpp	/^void SSD1331_SPI::setAddrWindow(uint16_t x0, uint16_t y0, uint16_t x1, uint16_t y1) {$/;"	f	class:SSD1331_SPI
+setAllowedHours	./src/weather/src/OpenWeatherMapForecast.h	/^    void setAllowedHours(uint8_t *allowedHours, uint8_t allowedHoursCount) {$/;"	f	class:OpenWeatherMapForecast
+setAutoTransitionBackwards	./src/minigrafx/src/Carousel.cpp	/^void Carousel::setAutoTransitionBackwards(){$/;"	f	class:Carousel
+setAutoTransitionForwards	./src/minigrafx/src/Carousel.cpp	/^void Carousel::setAutoTransitionForwards(){$/;"	f	class:Carousel
+setBaud	./src/minigrafx/src/EPD_WaveShare_43.cpp	/^void EPD_WaveShare_43::setBaud(long baud)$/;"	f	class:EPD_WaveShare_43
+setColor	./src/minigrafx/src/EPD_WaveShare_43.cpp	/^void EPD_WaveShare_43::setColor(unsigned char color, unsigned char bkcolor)$/;"	f	class:EPD_WaveShare_43
+setColor	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::setColor(uint16_t color) {$/;"	f	class:MiniGrafx
+setFactor	./src/minigrafx/src/EPaperPervasive.cpp	/^void  EPD_Class::setFactor(int temperature) {$/;"	f	class:EPD_Class
+setFastRefresh	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::setFastRefresh(boolean isFastRefreshEnabled) {$/;"	f	class:EPD_WaveShare
+setFastRefresh	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^void EPD_WaveShare154::setFastRefresh(boolean isFastRefreshEnabled) {$/;"	f	class:EPD_WaveShare154
+setFastRefresh	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::setFastRefresh(boolean isFastRefreshEnabled) {$/;"	f	class:EPD_WaveShare154D67
+setFastRefresh	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^void EPD_WaveShare29::setFastRefresh(boolean isFastRefreshEnabled) {$/;"	f	class:EPD_WaveShare29
+setFastRefresh	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^void EPD_WaveShare29T5::setFastRefresh(boolean isFastRefreshEnabled) {$/;"	f	class:EPD_WaveShare29T5
+setFastRefresh	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^void EPD_WaveShare42::setFastRefresh(boolean isFastRefreshEnabled) {$/;"	f	class:EPD_WaveShare42
+setFastRefresh	./src/minigrafx/src/EPD_WaveShare_43.cpp	/^void EPD_WaveShare_43::setFastRefresh(boolean isFastRefreshEnabled) {$/;"	f	class:EPD_WaveShare_43
+setFastRefresh	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^void EPD_WaveShare75::setFastRefresh(boolean isFastRefreshEnabled) {$/;"	f	class:EPD_WaveShare75
+setFastRefresh	./src/minigrafx/src/EPaperPervasive.cpp	/^void EPD_Class::setFastRefresh(boolean isFastRefreshEnabled) {$/;"	f	class:EPD_Class
+setFastRefresh	./src/minigrafx/src/ILI9341_SPI.cpp	/^void ILI9341_SPI::setFastRefresh(boolean isFastRefreshEnabled) {$/;"	f	class:ILI9341_SPI
+setFastRefresh	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::setFastRefresh(boolean isFastRefreshEnabled) {$/;"	f	class:MiniGrafx
+setFastRefresh	./src/minigrafx/src/SSD1331_SPI.cpp	/^void SSD1331_SPI::setFastRefresh(boolean isFastRefreshEnabled) {$/;"	f	class:SSD1331_SPI
+setFont	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::setFont(const char *fontData) {$/;"	f	class:MiniGrafx
+setFontFile	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::setFontFile(String fileName) {$/;"	f	class:MiniGrafx
+setFrameAnimation	./src/minigrafx/src/Carousel.cpp	/^void Carousel::setFrameAnimation(AnimationDirection dir) {$/;"	f	class:Carousel
+setFrames	./src/minigrafx/src/Carousel.cpp	/^void Carousel::setFrames(FrameCallback* frameFunctions, uint8_t frameCount) {$/;"	f	class:Carousel
+setInactiveSymbol	./src/minigrafx/src/Carousel.cpp	/^void Carousel::setInactiveSymbol(const char* symbol) {$/;"	f	class:Carousel
+setIndicatorDirection	./src/minigrafx/src/Carousel.cpp	/^void Carousel::setIndicatorDirection(IndicatorDirection dir) {$/;"	f	class:Carousel
+setIndicatorPosition	./src/minigrafx/src/Carousel.cpp	/^void Carousel::setIndicatorPosition(IndicatorPosition pos) {$/;"	f	class:Carousel
+setInternalTime	./src/weather/src/SunMoonCalc.cpp	/^void SunMoonCalc::setInternalTime(const int16_t year, const uint8_t month, const uint8_t day, const uint8_t hour,$/;"	f	class:SunMoonCalc
+setJd	./src/weather/src/SunMoonCalc.h	/^        double setJd;$/;"	m	struct:SunMoonCalc::Moon
+setJd	./src/weather/src/SunMoonCalc.h	/^        double setJd;$/;"	m	struct:SunMoonCalc::Sun
+setLanguage	./src/weather/src/OpenWeatherMapCurrent.h	/^    void setLanguage(String language) { this->language = language; }$/;"	f	class:OpenWeatherMapCurrent
+setLanguage	./src/weather/src/OpenWeatherMapForecast.h	/^    void setLanguage(String language) { this->language = language; }$/;"	f	class:OpenWeatherMapForecast
+setLoadingDrawFunction	./src/minigrafx/src/Carousel.cpp	/^void Carousel::setLoadingDrawFunction(LoadingDrawFunction loadingDrawFunction) {$/;"	f	class:Carousel
+setMemory	./src/minigrafx/src/EPD_WaveShare_43.cpp	/^void EPD_WaveShare_43::setMemory(unsigned char mode)$/;"	f	class:EPD_WaveShare_43
+setMetric	./src/weather/src/OpenWeatherMapCurrent.h	/^    void setMetric(boolean metric) {this->metric = metric;}$/;"	f	class:OpenWeatherMapCurrent
+setMetric	./src/weather/src/OpenWeatherMapForecast.h	/^    void setMetric(boolean metric) { this->metric = metric; }$/;"	f	class:OpenWeatherMapForecast
+setMirroredHorizontally	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::setMirroredHorizontally(boolean isMirroredHorizontally) {$/;"	f	class:MiniGrafx
+setMirroredVertically	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::setMirroredVertically(boolean isMirroredVertically) {$/;"	f	class:MiniGrafx
+setOverlays	./src/minigrafx/src/Carousel.cpp	/^void Carousel::setOverlays(OverlayCallback* overlayFunctions, uint8_t overlayCount){$/;"	f	class:Carousel
+setPixel	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::setPixel(uint16_t xPos, uint16_t yPos) {$/;"	f	class:MiniGrafx
+setRotation	./src/minigrafx/src/DisplayDriver.cpp	/^void DisplayDriver::setRotation(uint8_t x) {$/;"	f	class:DisplayDriver
+setRotation	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::setRotation(uint8_t r) {$/;"	f	class:EPD_WaveShare
+setRotation	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^void EPD_WaveShare154::setRotation(uint8_t r) {$/;"	f	class:EPD_WaveShare154
+setRotation	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::setRotation(uint8_t r) {$/;"	f	class:EPD_WaveShare154D67
+setRotation	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^void EPD_WaveShare29::setRotation(uint8_t r) {$/;"	f	class:EPD_WaveShare29
+setRotation	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^void EPD_WaveShare29T5::setRotation(uint8_t r) {$/;"	f	class:EPD_WaveShare29T5
+setRotation	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^void EPD_WaveShare42::setRotation(uint8_t r) {$/;"	f	class:EPD_WaveShare42
+setRotation	./src/minigrafx/src/EPD_WaveShare_43.cpp	/^void EPD_WaveShare_43::setRotation(uint8_t r) {$/;"	f	class:EPD_WaveShare_43
+setRotation	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^void EPD_WaveShare75::setRotation(uint8_t r) {$/;"	f	class:EPD_WaveShare75
+setRotation	./src/minigrafx/src/ILI9341_SPI.cpp	/^void ILI9341_SPI::setRotation(uint8_t m) {$/;"	f	class:ILI9341_SPI
+setRotation	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::setRotation(uint8_t m) {$/;"	f	class:MiniGrafx
+setRotation	./src/minigrafx/src/SSD1331_SPI.cpp	/^void SSD1331_SPI::setRotation(uint8_t r) {$/;"	f	class:SSD1331_SPI
+setTargetFPS	./src/minigrafx/src/Carousel.cpp	/^void Carousel::setTargetFPS(uint8_t fps){$/;"	f	class:Carousel
+setTemperature	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^void EPD_WaveShare154::setTemperature(float temperature) {$/;"	f	class:EPD_WaveShare154
+setTemperature	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::setTemperature(float temperature) {$/;"	f	class:EPD_WaveShare154D67
+setTextAlignment	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::setTextAlignment(TEXT_ALIGNMENT textAlignment) {$/;"	f	class:MiniGrafx
+setTimePerFrame	./src/minigrafx/src/Carousel.cpp	/^void Carousel::setTimePerFrame(uint16_t time){$/;"	f	class:Carousel
+setTimePerTransition	./src/minigrafx/src/Carousel.cpp	/^void Carousel::setTimePerTransition(uint16_t time){$/;"	f	class:Carousel
+setTransparentColor	./src/minigrafx/src/MiniGrafx.cpp	/^void MiniGrafx::setTransparentColor(uint16_t transparentColor) {$/;"	f	class:MiniGrafx
+setUTDate	./src/weather/src/SunMoonCalc.cpp	/^void SunMoonCalc::setUTDate(const double jd) {$/;"	f	class:SunMoonCalc
+setUtcOffset	./src/weather/src/TimeClient.cpp	/^void TimeClient::setUtcOffset(float utcOffset) {$/;"	f	class:TimeClient
+shouldDrawIndicators	./src/minigrafx/src/Carousel.h	/^    bool                shouldDrawIndicators      = true;$/;"	m	class:Carousel
+size	./src/minigrafx/src/EPaperPervasive.h	/^  EPD_size size;$/;"	m	class:EPD_Class
+sky	./src/weather/src/AerisForecasts.h	/^  uint8_t sky; \/\/ 99$/;"	m	struct:AerisForecastData
+sky	./src/weather/src/AerisObservations.h	/^    uint16_t sky;$/;"	m	struct:AerisObservationsData
+slongitude	./src/weather/src/SunMoonCalc.h	/^    double slongitude; \/\/ sun longitude$/;"	m	class:SunMoonCalc
+snowCM	./src/weather/src/AerisForecasts.h	/^  uint16_t snowCM; \/\/ 0$/;"	m	struct:AerisForecastData
+snowDepthCM	./src/weather/src/AerisObservations.h	/^    uint16_t snowDepthCM;$/;"	m	struct:AerisObservationsData
+snowDepthIN	./src/weather/src/AerisObservations.h	/^    uint16_t snowDepthIN;$/;"	m	struct:AerisObservationsData
+snowIN	./src/weather/src/AerisForecasts.h	/^  uint16_t snowIN; \/\/ 0$/;"	m	struct:AerisForecastData
+softstart	./src/minigrafx/src/EPD_WaveShare.h	/^static const unsigned char softstart[]={0x0c,0xd7,0xd6,0x9d};$/;"	v
+solradMethod	./src/weather/src/AerisObservations.h	/^    String solradMethod;$/;"	m	struct:AerisObservationsData
+solradWM2	./src/weather/src/AerisObservations.h	/^    uint16_t solradWM2;$/;"	m	struct:AerisObservationsData
+spi_begin	./src/minigrafx/src/ILI9341_SPI.cpp	/^static inline void spi_begin(void) {$/;"	f	file:
+spi_begin	./src/minigrafx/src/ILI9341_SPI.cpp	64;"	d	file:
+spi_begin	./src/minigrafx/src/SSD1331_SPI.cpp	/^static inline void spi_begin(void) {$/;"	f	file:
+spi_begin	./src/minigrafx/src/SSD1331_SPI.cpp	49;"	d	file:
+spi_end	./src/minigrafx/src/ILI9341_SPI.cpp	/^static inline void spi_end(void) {$/;"	f	file:
+spi_end	./src/minigrafx/src/ILI9341_SPI.cpp	65;"	d	file:
+spi_end	./src/minigrafx/src/SSD1331_SPI.cpp	/^static inline void spi_end(void) {$/;"	f	file:
+spi_end	./src/minigrafx/src/SSD1331_SPI.cpp	50;"	d	file:
+spiwrite	./src/minigrafx/src/ILI9341_SPI.cpp	/^void ILI9341_SPI::spiwrite(uint8_t c) {$/;"	f	class:ILI9341_SPI
+spiwrite	./src/minigrafx/src/SSD1331_SPI.cpp	/^void SSD1331_SPI::spiwrite(uint8_t c) {$/;"	f	class:SSD1331_SPI
+spressureIN	./src/weather/src/AerisObservations.h	/^    float spressureIN;$/;"	m	struct:AerisObservationsData
+spressureMB	./src/weather/src/AerisObservations.h	/^    uint16_t spressureMB;$/;"	m	struct:AerisObservationsData
+stage1_block	./src/minigrafx/src/EPaperPervasive.h	/^    uint16_t stage1_block;$/;"	m	struct:EPD_Class::__anon4
+stage1_repeat	./src/minigrafx/src/EPaperPervasive.h	/^    uint16_t stage1_repeat;$/;"	m	struct:EPD_Class::__anon4
+stage1_step	./src/minigrafx/src/EPaperPervasive.h	/^    uint16_t stage1_step;$/;"	m	struct:EPD_Class::__anon4
+stage2_repeat	./src/minigrafx/src/EPaperPervasive.h	/^    uint16_t stage2_repeat;$/;"	m	struct:EPD_Class::__anon4
+stage2_t1	./src/minigrafx/src/EPaperPervasive.h	/^    uint16_t stage2_t1;$/;"	m	struct:EPD_Class::__anon4
+stage2_t2	./src/minigrafx/src/EPaperPervasive.h	/^    uint16_t stage2_t2;$/;"	m	struct:EPD_Class::__anon4
+stage3_block	./src/minigrafx/src/EPaperPervasive.h	/^    uint16_t stage3_block;$/;"	m	struct:EPD_Class::__anon4
+stage3_repeat	./src/minigrafx/src/EPaperPervasive.h	/^    uint16_t stage3_repeat;$/;"	m	struct:EPD_Class::__anon4
+stage3_step	./src/minigrafx/src/EPaperPervasive.h	/^    uint16_t stage3_step;$/;"	m	struct:EPD_Class::__anon4
+startArray	./src/weather/src/AerisForecasts.cpp	/^void AerisForecasts::startArray() {$/;"	f	class:AerisForecasts
+startArray	./src/weather/src/AerisObservations.cpp	/^void AerisObservations::startArray() {$/;"	f	class:AerisObservations
+startArray	./src/weather/src/AerisSunMoon.cpp	/^void AerisSunMoon::startArray() {$/;"	f	class:AerisSunMoon
+startArray	./src/weather/src/MetOfficeClient.cpp	/^void MetOfficeClient::startArray() {$/;"	f	class:MetOfficeClient
+startArray	./src/weather/src/OpenWeatherMapCurrent.cpp	/^void OpenWeatherMapCurrent::startArray() {$/;"	f	class:OpenWeatherMapCurrent
+startArray	./src/weather/src/OpenWeatherMapForecast.cpp	/^void OpenWeatherMapForecast::startArray() {$/;"	f	class:OpenWeatherMapForecast
+startArray	./src/weather/src/ThingspeakClient.cpp	/^void ThingspeakClient::startArray() {$/;"	f	class:ThingspeakClient
+startArray	./src/weather/src/WorldClockClient.cpp	/^void WorldClockClient::startArray() {$/;"	f	class:WorldClockClient
+startCalibration	./TouchControllerWS.cpp	/^void TouchControllerWS::startCalibration(CalibrationCallback *calibrationCallback) {$/;"	f	class:TouchControllerWS
+startDocument	./src/weather/src/AerisForecasts.cpp	/^void AerisForecasts::startDocument() {$/;"	f	class:AerisForecasts
+startDocument	./src/weather/src/AerisObservations.cpp	/^void AerisObservations::startDocument() {$/;"	f	class:AerisObservations
+startDocument	./src/weather/src/AerisSunMoon.cpp	/^void AerisSunMoon::startDocument() {$/;"	f	class:AerisSunMoon
+startDocument	./src/weather/src/MetOfficeClient.cpp	/^void MetOfficeClient::startDocument() {$/;"	f	class:MetOfficeClient
+startDocument	./src/weather/src/OpenWeatherMapCurrent.cpp	/^void OpenWeatherMapCurrent::startDocument() {$/;"	f	class:OpenWeatherMapCurrent
+startDocument	./src/weather/src/OpenWeatherMapForecast.cpp	/^void OpenWeatherMapForecast::startDocument() {$/;"	f	class:OpenWeatherMapForecast
+startDocument	./src/weather/src/ThingspeakClient.cpp	/^void ThingspeakClient::startDocument() {$/;"	f	class:ThingspeakClient
+startDocument	./src/weather/src/WorldClockClient.cpp	/^void WorldClockClient::startDocument() {$/;"	f	class:WorldClockClient
+startObject	./src/weather/src/AerisForecasts.cpp	/^void AerisForecasts::startObject() {$/;"	f	class:AerisForecasts
+startObject	./src/weather/src/AerisObservations.cpp	/^void AerisObservations::startObject() {$/;"	f	class:AerisObservations
+startObject	./src/weather/src/AerisSunMoon.cpp	/^void AerisSunMoon::startObject() {$/;"	f	class:AerisSunMoon
+startObject	./src/weather/src/MetOfficeClient.cpp	/^void MetOfficeClient::startObject() {$/;"	f	class:MetOfficeClient
+startObject	./src/weather/src/OpenWeatherMapCurrent.cpp	/^void OpenWeatherMapCurrent::startObject() {$/;"	f	class:OpenWeatherMapCurrent
+startObject	./src/weather/src/OpenWeatherMapForecast.cpp	/^void OpenWeatherMapForecast::startObject() {$/;"	f	class:OpenWeatherMapForecast
+startObject	./src/weather/src/ThingspeakClient.cpp	/^void ThingspeakClient::startObject() {$/;"	f	class:ThingspeakClient
+startObject	./src/weather/src/WorldClockClient.cpp	/^void WorldClockClient::startObject() {$/;"	f	class:WorldClockClient
+state	./TouchControllerWS.h	/^    int state = 0;$/;"	m	class:TouchControllerWS
+state	./src/minigrafx/src/Carousel.h	/^    CarouselState      state;$/;"	m	class:Carousel
+status	./src/minigrafx/src/EPaperPervasive.h	/^  EPD_error status;$/;"	m	class:EPD_Class
+sun	./src/weather/src/SunMoonCalc.h	/^        Sun sun;$/;"	m	struct:SunMoonCalc::Result
+sunMoonData	./src/weather/src/AerisSunMoon.h	/^    AerisSunMoonData *sunMoonData;$/;"	m	class:AerisSunMoon
+sunRise	./src/weather/src/AerisSunMoon.h	/^  uint64_t sunRise; \/\/ "rise":1493291184,$/;"	m	struct:AerisSunMoonData
+sunRiseISO	./src/weather/src/AerisSunMoon.h	/^  String sunRiseISO; \/\/ "riseISO":"2017-04-27T06:06:24-05:00",$/;"	m	struct:AerisSunMoonData
+sunSet	./src/weather/src/AerisSunMoon.h	/^  uint64_t sunSet; \/\/ "set":1493342079,$/;"	m	struct:AerisSunMoonData
+sunSetISO	./src/weather/src/AerisSunMoon.h	/^  String sunSetISO; \/\/"setISO":"2017-04-27T20:14:39-05:00",$/;"	m	struct:AerisSunMoonData
+sunTransit	./src/weather/src/AerisSunMoon.h	/^  uint64_t sunTransit; \/\/ "transit":1493316631,$/;"	m	struct:AerisSunMoonData
+sunTransitISO	./src/weather/src/AerisSunMoon.h	/^  String sunTransitISO; \/\/ "transitISO":"2017-04-27T13:10:31-05:00",$/;"	m	struct:AerisSunMoonData
+sunrise	./src/weather/src/AerisForecasts.h	/^  uint64_t sunrise; \/\/ 1526701425$/;"	m	struct:AerisForecastData
+sunrise	./src/weather/src/AerisObservations.h	/^    uint64_t sunrise;$/;"	m	struct:AerisObservationsData
+sunrise	./src/weather/src/OpenWeatherMapCurrent.h	/^  uint32_t sunrise;$/;"	m	struct:OpenWeatherMapCurrentData
+sunriseISO	./src/weather/src/AerisForecasts.h	/^  String sunriseISO; \/\/ "2018-05-19T05:43:45+02:00"$/;"	m	struct:AerisForecastData
+sunriseISO	./src/weather/src/AerisObservations.h	/^    String sunriseISO;$/;"	m	struct:AerisObservationsData
+sunset	./src/weather/src/AerisForecasts.h	/^  uint64_t sunset; \/\/ 1526756450$/;"	m	struct:AerisForecastData
+sunset	./src/weather/src/AerisObservations.h	/^    uint64_t sunset;$/;"	m	struct:AerisObservationsData
+sunset	./src/weather/src/OpenWeatherMapCurrent.h	/^  uint32_t sunset;$/;"	m	struct:OpenWeatherMapCurrentData
+sunsetISO	./src/weather/src/AerisForecasts.h	/^  String sunsetISO; \/\/ "2018-05-19T21:00:50+02:00"$/;"	m	struct:AerisForecastData
+sunsetISO	./src/weather/src/AerisObservations.h	/^    String sunsetISO;$/;"	m	struct:AerisObservationsData
+switchToFrame	./src/minigrafx/src/Carousel.cpp	/^void Carousel::switchToFrame(uint8_t frame) {$/;"	f	class:Carousel
+t	./src/weather/src/SunMoonCalc.h	/^    double t;$/;"	m	class:SunMoonCalc
+targetX	./src/minigrafx/src/DisplayDriver.h	/^  uint16_t targetX;$/;"	m	struct:BufferInfo
+targetY	./src/minigrafx/src/DisplayDriver.h	/^  uint16_t targetY;$/;"	m	struct:BufferInfo
+temp	./src/weather/src/OpenWeatherMapCurrent.h	/^  float temp;$/;"	m	struct:OpenWeatherMapCurrentData
+temp	./src/weather/src/OpenWeatherMapForecast.h	/^  float temp;$/;"	m	struct:OpenWeatherMapForecastData
+tempC	./src/weather/src/AerisForecasts.h	/^  sint16_t tempC; \/\/ null$/;"	m	struct:AerisForecastData
+tempC	./src/weather/src/AerisObservations.h	/^    sint16_t tempC;$/;"	m	struct:AerisObservationsData
+tempF	./src/weather/src/AerisForecasts.h	/^  sint16_t tempF; \/\/ null$/;"	m	struct:AerisForecastData
+tempF	./src/weather/src/AerisObservations.h	/^    sint16_t tempF;$/;"	m	struct:AerisObservationsData
+tempMax	./src/weather/src/OpenWeatherMapCurrent.h	/^  float tempMax;$/;"	m	struct:OpenWeatherMapCurrentData
+tempMax	./src/weather/src/OpenWeatherMapForecast.h	/^  float tempMax;$/;"	m	struct:OpenWeatherMapForecastData
+tempMin	./src/weather/src/OpenWeatherMapCurrent.h	/^  float tempMin;$/;"	m	struct:OpenWeatherMapCurrentData
+tempMin	./src/weather/src/OpenWeatherMapForecast.h	/^  float tempMin;$/;"	m	struct:OpenWeatherMapForecastData
+temperature	./src/weather/src/MetOfficeClient.h	/^    String temperature = "";$/;"	m	class:MetOfficeClient
+temperature_offset	./src/minigrafx/src/EPaperPervasive.h	/^  uint16_t temperature_offset;$/;"	m	class:EPD_Class
+textAlignment	./src/minigrafx/src/MiniGrafx.h	/^  TEXT_ALIGNMENT textAlignment;$/;"	m	class:MiniGrafx
+thirdForecast	./src/weather/src/MetOfficeClient.h	/^    String thirdForecast = "";$/;"	m	class:MetOfficeClient
+tick	./src/minigrafx/src/Carousel.cpp	/^void Carousel::tick() {$/;"	f	class:Carousel
+ticksPerFrame	./src/minigrafx/src/Carousel.h	/^    uint16_t            ticksPerFrame             = 151; \/\/ ~ 5000ms at 30 FPS$/;"	m	class:Carousel
+ticksPerTransition	./src/minigrafx/src/Carousel.h	/^    uint16_t            ticksPerTransition        = 15;  \/\/ ~  500ms at 30 FPS$/;"	m	class:Carousel
+ticksSinceLastStateSwitch	./src/minigrafx/src/Carousel.h	/^  uint16_t      ticksSinceLastStateSwitch = 0;$/;"	m	struct:CarouselState
+timeZoneOffsetToUtcMillis	./src/weather/src/WorldClockClient.h	/^    long* timeZoneOffsetToUtcMillis;$/;"	m	class:WorldClockClient
+timegm	./src/weather/src/SunMoonCalc.cpp	/^time_t timegm(const struct tm *tm) {$/;"	f
+timestamp	./src/weather/src/AerisForecasts.h	/^  uint64_t timestamp; \/\/  1526706000$/;"	m	struct:AerisForecastData
+timestamp	./src/weather/src/AerisObservations.h	/^    uint64_t timestamp;$/;"	m	struct:AerisObservationsData
+toJulian	./src/weather/src/SunMoonCalc.cpp	/^double SunMoonCalc::toJulian(const int16_t year, const uint8_t month, const uint8_t day, const uint8_t hour,$/;"	f	class:SunMoonCalc
+touchScreen	./TouchControllerWS.h	/^    XPT2046_Touchscreen *touchScreen;$/;"	m	class:TouchControllerWS
+transit	./src/weather/src/SunMoonCalc.h	/^        time_t transit;$/;"	m	struct:SunMoonCalc::Moon
+transit	./src/weather/src/SunMoonCalc.h	/^        time_t transit;$/;"	m	struct:SunMoonCalc::Sun
+transitElevation	./src/weather/src/SunMoonCalc.h	/^        double transitElevation;$/;"	m	struct:SunMoonCalc::Moon
+transitElevation	./src/weather/src/SunMoonCalc.h	/^        double transitElevation;$/;"	m	struct:SunMoonCalc::Sun
+transitJd	./src/weather/src/SunMoonCalc.h	/^        double transitJd;$/;"	m	struct:SunMoonCalc::Moon
+transitJd	./src/weather/src/SunMoonCalc.h	/^        double transitJd;$/;"	m	struct:SunMoonCalc::Sun
+transitionToFrame	./src/minigrafx/src/Carousel.cpp	/^void Carousel::transitionToFrame(uint8_t frame) {$/;"	f	class:Carousel
+translateToHumanReadable	./src/weather/src/SunMoonCalc.cpp	/^SunMoonCalc::Result SunMoonCalc::translateToHumanReadable(SunMoonCalc::Result result) const {$/;"	f	class:SunMoonCalc
+transparentColor	./src/minigrafx/src/MiniGrafx.h	/^  int16_t transparentColor = -1;$/;"	m	class:MiniGrafx
+twilight	./src/weather/src/SunMoonCalc.h	/^    TWILIGHT twilight = HORIZON_34arcmin;$/;"	m	class:SunMoonCalc
+update	./src/minigrafx/src/Carousel.cpp	/^int8_t Carousel::update(){$/;"	f	class:Carousel
+update	./src/minigrafx/src/EPD_WaveShare_43.cpp	/^void EPD_WaveShare_43::update(void)$/;"	f	class:EPD_WaveShare_43
+update	./src/weather/src/NTPClient.cpp	/^void NTPClient::update() {$/;"	f	class:NTPClient
+updateConditions	./src/weather/src/MetOfficeClient.cpp	/^void MetOfficeClient::updateConditions(String currentForecastPeriod, int location, String apiKey) {$/;"	f	class:MetOfficeClient
+updateCurrent	./src/weather/src/OpenWeatherMapCurrent.cpp	/^void OpenWeatherMapCurrent::updateCurrent(OpenWeatherMapCurrentData *data, String appId, String location) {$/;"	f	class:OpenWeatherMapCurrent
+updateCurrentById	./src/weather/src/OpenWeatherMapCurrent.cpp	/^void OpenWeatherMapCurrent::updateCurrentById(OpenWeatherMapCurrentData *data, String appId, String locationId) {$/;"	f	class:OpenWeatherMapCurrent
+updateForecasts	./src/weather/src/AerisForecasts.cpp	/^void AerisForecasts::updateForecasts(AerisForecastData *forecasts, String clientId, String clientSecret, String location, uint8_t maxForecasts) {$/;"	f	class:AerisForecasts
+updateForecasts	./src/weather/src/OpenWeatherMapForecast.cpp	/^uint8_t OpenWeatherMapForecast::updateForecasts(OpenWeatherMapForecastData *data, String appId, String location, uint8_t maxForecasts) {$/;"	f	class:OpenWeatherMapForecast
+updateForecastsById	./src/weather/src/OpenWeatherMapForecast.cpp	/^uint8_t OpenWeatherMapForecast::updateForecastsById(OpenWeatherMapForecastData *data, String appId, String locationId, uint8_t maxForecasts) {$/;"	f	class:OpenWeatherMapForecast
+updateInterval	./src/minigrafx/src/Carousel.h	/^    uint8_t             updateInterval            = 33;$/;"	m	class:Carousel
+updateObservations	./src/weather/src/AerisObservations.cpp	/^void AerisObservations::updateObservations(AerisObservationsData *observations, String clientId, String clientSecret, String location) {$/;"	f	class:AerisObservations
+updateSunMoon	./src/weather/src/AerisSunMoon.cpp	/^void AerisSunMoon::updateSunMoon(AerisSunMoonData *sunMoonData, String clientId, String clientSecret, String location) {$/;"	f	class:AerisSunMoon
+updateTime	./src/weather/src/TimeClient.cpp	/^void TimeClient::updateTime() {$/;"	f	class:TimeClient
+updateTime	./src/weather/src/WorldClockClient.cpp	/^void WorldClockClient::updateTime() {$/;"	f	class:WorldClockClient
+userData	./src/minigrafx/src/Carousel.h	/^  void*         userData                  = NULL;$/;"	m	struct:CarouselState
+utf8ascii	./src/minigrafx/src/MiniGrafx.cpp	/^char* MiniGrafx::utf8ascii(String str) {$/;"	f	class:MiniGrafx
+utf8ascii	./src/minigrafx/src/MiniGrafx.cpp	/^uint8_t MiniGrafx::utf8ascii(byte ascii) {$/;"	f	class:MiniGrafx
+uvi	./src/weather/src/AerisForecasts.h	/^  uint8_t uvi; \/\/ 6$/;"	m	struct:AerisForecastData
+validTime	./src/weather/src/AerisForecasts.h	/^  String validTime; \/\/ "2018-05-19T07:00:00+02:00"$/;"	m	struct:AerisForecastData
+value	./src/weather/src/AerisForecasts.cpp	/^void AerisForecasts::value(String value) {$/;"	f	class:AerisForecasts
+value	./src/weather/src/AerisObservations.cpp	/^void AerisObservations::value(String value) {$/;"	f	class:AerisObservations
+value	./src/weather/src/AerisSunMoon.cpp	/^void AerisSunMoon::value(String value) {$/;"	f	class:AerisSunMoon
+value	./src/weather/src/MetOfficeClient.cpp	/^void MetOfficeClient::value(String value) {$/;"	f	class:MetOfficeClient
+value	./src/weather/src/OpenWeatherMapCurrent.cpp	/^void OpenWeatherMapCurrent::value(String value) {$/;"	f	class:OpenWeatherMapCurrent
+value	./src/weather/src/OpenWeatherMapForecast.cpp	/^void OpenWeatherMapForecast::value(String value) {$/;"	f	class:OpenWeatherMapForecast
+value	./src/weather/src/ThingspeakClient.cpp	/^void ThingspeakClient::value(String value) {$/;"	f	class:ThingspeakClient
+value	./src/weather/src/WorldClockClient.cpp	/^void WorldClockClient::value(String value) {$/;"	f	class:WorldClockClient
+verify	./src/minigrafx/src/EPD_WaveShare_43.cpp	/^unsigned char EPD_WaveShare_43::verify(const void * ptr, int n)$/;"	f	class:EPD_WaveShare_43
+visibility	./src/weather/src/OpenWeatherMapCurrent.h	/^  uint16_t visibility;$/;"	m	struct:OpenWeatherMapCurrentData
+visibilityKM	./src/weather/src/AerisObservations.h	/^    float visibilityKM;$/;"	m	struct:AerisObservationsData
+visibilityMI	./src/weather/src/AerisObservations.h	/^    float visibilityMI;$/;"	m	struct:AerisObservationsData
+voltage_level	./src/minigrafx/src/EPaperPervasive.h	/^  uint8_t voltage_level;$/;"	m	class:EPD_Class
+weather	./src/weather/src/AerisForecasts.h	/^  String weather; \/\/ "Cloudy with Drizzle"$/;"	m	struct:AerisForecastData
+weather	./src/weather/src/AerisObservations.h	/^    String weather;$/;"	m	struct:AerisObservationsData
+weatherCoded	./src/weather/src/AerisObservations.h	/^    String weatherCoded;$/;"	m	struct:AerisObservationsData
+weatherId	./src/weather/src/OpenWeatherMapCurrent.h	/^  uint16_t weatherId;$/;"	m	struct:OpenWeatherMapCurrentData
+weatherId	./src/weather/src/OpenWeatherMapForecast.h	/^  uint16_t weatherId;$/;"	m	struct:OpenWeatherMapForecastData
+weatherItemCounter	./src/weather/src/OpenWeatherMapCurrent.h	/^    uint8_t weatherItemCounter = 0;$/;"	m	class:OpenWeatherMapCurrent
+weatherItemCounter	./src/weather/src/OpenWeatherMapForecast.h	/^    uint8_t weatherItemCounter = 0;$/;"	m	class:OpenWeatherMapForecast
+weatherPrimary	./src/weather/src/AerisForecasts.h	/^  String weatherPrimary; \/\/ "Drizzle"$/;"	m	struct:AerisForecastData
+weatherPrimary	./src/weather/src/AerisObservations.h	/^    String weatherPrimary;$/;"	m	struct:AerisObservationsData
+weatherPrimaryCoded	./src/weather/src/AerisForecasts.h	/^  String weatherPrimaryCoded; \/\/ "IS:VL:RW"$/;"	m	struct:AerisForecastData
+weatherPrimaryCoded	./src/weather/src/AerisObservations.h	/^    String weatherPrimaryCoded;$/;"	m	struct:AerisObservationsData
+weatherShort	./src/weather/src/AerisObservations.h	/^    String weatherShort;$/;"	m	struct:AerisObservationsData
+weatherType	./src/weather/src/MetOfficeClient.h	/^    String weatherType = "";$/;"	m	class:MetOfficeClient
+whitespace	./src/weather/src/AerisForecasts.cpp	/^void AerisForecasts::whitespace(char c) {$/;"	f	class:AerisForecasts
+whitespace	./src/weather/src/AerisObservations.cpp	/^void AerisObservations::whitespace(char c) {$/;"	f	class:AerisObservations
+whitespace	./src/weather/src/AerisSunMoon.cpp	/^void AerisSunMoon::whitespace(char c) {$/;"	f	class:AerisSunMoon
+whitespace	./src/weather/src/MetOfficeClient.cpp	/^void MetOfficeClient::whitespace(char c) {$/;"	f	class:MetOfficeClient
+whitespace	./src/weather/src/OpenWeatherMapCurrent.cpp	/^void OpenWeatherMapCurrent::whitespace(char c) {$/;"	f	class:OpenWeatherMapCurrent
+whitespace	./src/weather/src/OpenWeatherMapForecast.cpp	/^void OpenWeatherMapForecast::whitespace(char c) {$/;"	f	class:OpenWeatherMapForecast
+whitespace	./src/weather/src/ThingspeakClient.cpp	/^void ThingspeakClient::whitespace(char c) {$/;"	f	class:ThingspeakClient
+whitespace	./src/weather/src/WorldClockClient.cpp	/^void WorldClockClient::whitespace(char c) {$/;"	f	class:WorldClockClient
+width	./src/minigrafx/src/Carousel.h	/^    uint16_t            x, y, width, height;$/;"	m	class:Carousel
+width	./src/minigrafx/src/DisplayDriver.cpp	/^int16_t DisplayDriver::width(void) const {$/;"	f	class:DisplayDriver
+width	./src/minigrafx/src/EPD_WaveShare_154.h	/^    unsigned long width;$/;"	m	class:EPD_WaveShare154
+width	./src/minigrafx/src/EPD_WaveShare_154D67.h	/^    unsigned long width;$/;"	m	class:EPD_WaveShare154D67
+width	./src/minigrafx/src/EPD_WaveShare_29.h	/^    unsigned long width;$/;"	m	class:EPD_WaveShare29
+width	./src/minigrafx/src/EPD_WaveShare_29T5.h	/^    unsigned long width;$/;"	m	class:EPD_WaveShare29T5
+width	./src/minigrafx/src/EPD_WaveShare_42.h	/^    uint16_t height, width;$/;"	m	class:EPD_WaveShare42
+width	./src/minigrafx/src/EPD_WaveShare_75.h	/^    uint16_t width;$/;"	m	class:EPD_WaveShare75
+width	./src/minigrafx/src/MiniGrafx.h	/^  uint16_t width, height;$/;"	m	class:MiniGrafx
+windDeg	./src/weather/src/OpenWeatherMapCurrent.h	/^  float windDeg;$/;"	m	struct:OpenWeatherMapCurrentData
+windDeg	./src/weather/src/OpenWeatherMapForecast.h	/^  float windDeg;$/;"	m	struct:OpenWeatherMapForecastData
+windDir	./src/weather/src/AerisForecasts.h	/^  String windDir; \/\/ "N"$/;"	m	struct:AerisForecastData
+windDir	./src/weather/src/AerisObservations.h	/^    String windDir;$/;"	m	struct:AerisObservationsData
+windDir80m	./src/weather/src/AerisForecasts.h	/^  String windDir80m; \/\/ "N"$/;"	m	struct:AerisForecastData
+windDir80mDEG	./src/weather/src/AerisForecasts.h	/^  uint16_t windDir80mDEG; \/\/ 5$/;"	m	struct:AerisForecastData
+windDirDEG	./src/weather/src/AerisForecasts.h	/^  uint16_t windDirDEG; \/\/ 2$/;"	m	struct:AerisForecastData
+windDirDEG	./src/weather/src/AerisObservations.h	/^    uint16_t windDirDEG;$/;"	m	struct:AerisObservationsData
+windDirMax	./src/weather/src/AerisForecasts.h	/^  String windDirMax; \/\/ "NE"$/;"	m	struct:AerisForecastData
+windDirMax80m	./src/weather/src/AerisForecasts.h	/^  String windDirMax80m; \/\/ "NE"$/;"	m	struct:AerisForecastData
+windDirMax80mDEG	./src/weather/src/AerisForecasts.h	/^  uint16_t windDirMax80mDEG; \/\/ 40$/;"	m	struct:AerisForecastData
+windDirMaxDEG	./src/weather/src/AerisForecasts.h	/^  uint16_t windDirMaxDEG; \/\/ 40$/;"	m	struct:AerisForecastData
+windDirMin	./src/weather/src/AerisForecasts.h	/^  String windDirMin; \/\/ "NE"$/;"	m	struct:AerisForecastData
+windDirMin80m	./src/weather/src/AerisForecasts.h	/^  String windDirMin80m; \/\/ "NE"$/;"	m	struct:AerisForecastData
+windDirMin80mDEG	./src/weather/src/AerisForecasts.h	/^  uint16_t windDirMin80mDEG; \/\/ 39$/;"	m	struct:AerisForecastData
+windDirMinDEG	./src/weather/src/AerisForecasts.h	/^  sint16_t windDirMinDEG; \/\/ 39$/;"	m	struct:AerisForecastData
+windDirection	./src/weather/src/MetOfficeClient.h	/^    String windDirection = "";$/;"	m	class:MetOfficeClient
+windGust	./src/weather/src/MetOfficeClient.h	/^    String windGust = "";$/;"	m	class:MetOfficeClient
+windGust80mKPH	./src/weather/src/AerisForecasts.h	/^  uint16_t windGust80mKPH; \/\/ 17$/;"	m	struct:AerisForecastData
+windGust80mKTS	./src/weather/src/AerisForecasts.h	/^  uint16_t windGust80mKTS; \/\/ 9$/;"	m	struct:AerisForecastData
+windGust80mMPH	./src/weather/src/AerisForecasts.h	/^  uint16_t windGust80mMPH; \/\/ 11$/;"	m	struct:AerisForecastData
+windGustKPH	./src/weather/src/AerisForecasts.h	/^  uint16_t windGustKPH; \/\/ 11$/;"	m	struct:AerisForecastData
+windGustKPH	./src/weather/src/AerisObservations.h	/^    uint16_t windGustKPH;$/;"	m	struct:AerisObservationsData
+windGustKTS	./src/weather/src/AerisForecasts.h	/^  uint16_t windGustKTS; \/\/ 6$/;"	m	struct:AerisForecastData
+windGustKTS	./src/weather/src/AerisObservations.h	/^    uint16_t windGustKTS;$/;"	m	struct:AerisObservationsData
+windGustMPH	./src/weather/src/AerisForecasts.h	/^  uint16_t windGustMPH; \/\/ 7$/;"	m	struct:AerisForecastData
+windGustMPH	./src/weather/src/AerisObservations.h	/^    uint16_t windGustMPH;$/;"	m	struct:AerisObservationsData
+windSpeed	./src/weather/src/MetOfficeClient.h	/^    String windSpeed = "";$/;"	m	class:MetOfficeClient
+windSpeed	./src/weather/src/OpenWeatherMapCurrent.h	/^  float windSpeed;$/;"	m	struct:OpenWeatherMapCurrentData
+windSpeed	./src/weather/src/OpenWeatherMapForecast.h	/^  float windSpeed;$/;"	m	struct:OpenWeatherMapForecastData
+windSpeed80mKPH	./src/weather/src/AerisForecasts.h	/^  uint16_t windSpeed80mKPH; \/\/ 11$/;"	m	struct:AerisForecastData
+windSpeed80mKTS	./src/weather/src/AerisForecasts.h	/^  uint16_t windSpeed80mKTS; \/\/ 6$/;"	m	struct:AerisForecastData
+windSpeed80mMPH	./src/weather/src/AerisForecasts.h	/^  uint16_t windSpeed80mMPH; \/\/ 7$/;"	m	struct:AerisForecastData
+windSpeedKPH	./src/weather/src/AerisForecasts.h	/^  uint16_t windSpeedKPH; \/\/ 7$/;"	m	struct:AerisForecastData
+windSpeedKPH	./src/weather/src/AerisObservations.h	/^    uint16_t windSpeedKPH;$/;"	m	struct:AerisObservationsData
+windSpeedKTS	./src/weather/src/AerisForecasts.h	/^  uint16_t windSpeedKTS; \/\/ 4$/;"	m	struct:AerisForecastData
+windSpeedKTS	./src/weather/src/AerisObservations.h	/^    uint16_t windSpeedKTS;$/;"	m	struct:AerisObservationsData
+windSpeedMPH	./src/weather/src/AerisForecasts.h	/^  uint16_t windSpeedMPH; \/\/ 5$/;"	m	struct:AerisForecastData
+windSpeedMPH	./src/weather/src/AerisObservations.h	/^    uint16_t windSpeedMPH;$/;"	m	struct:AerisObservationsData
+windSpeedMax80mKPH	./src/weather/src/AerisForecasts.h	/^  uint16_t windSpeedMax80mKPH; \/\/ 17$/;"	m	struct:AerisForecastData
+windSpeedMax80mKTS	./src/weather/src/AerisForecasts.h	/^  uint16_t windSpeedMax80mKTS; \/\/ 9$/;"	m	struct:AerisForecastData
+windSpeedMax80mMPH	./src/weather/src/AerisForecasts.h	/^  uint16_t windSpeedMax80mMPH; \/\/ 11$/;"	m	struct:AerisForecastData
+windSpeedMaxKPH	./src/weather/src/AerisForecasts.h	/^  uint16_t windSpeedMaxKPH; \/\/ 11$/;"	m	struct:AerisForecastData
+windSpeedMaxKTS	./src/weather/src/AerisForecasts.h	/^  uint16_t windSpeedMaxKTS; \/\/ 6$/;"	m	struct:AerisForecastData
+windSpeedMaxMPH	./src/weather/src/AerisForecasts.h	/^  uint16_t windSpeedMaxMPH; \/\/ 7$/;"	m	struct:AerisForecastData
+windSpeedMin80mKPH	./src/weather/src/AerisForecasts.h	/^  uint16_t windSpeedMin80mKPH; \/\/ 7$/;"	m	struct:AerisForecastData
+windSpeedMin80mKTS	./src/weather/src/AerisForecasts.h	/^  uint16_t windSpeedMin80mKTS; \/\/ 4$/;"	m	struct:AerisForecastData
+windSpeedMin80mMPH	./src/weather/src/AerisForecasts.h	/^  uint16_t windSpeedMin80mMPH; \/\/ 4$/;"	m	struct:AerisForecastData
+windSpeedMinKPH	./src/weather/src/AerisForecasts.h	/^  uint16_t windSpeedMinKPH; \/\/ 2$/;"	m	struct:AerisForecastData
+windSpeedMinKTS	./src/weather/src/AerisForecasts.h	/^  uint16_t windSpeedMinKTS; \/\/ 1$/;"	m	struct:AerisForecastData
+windSpeedMinMPH	./src/weather/src/AerisForecasts.h	/^  uint16_t windSpeedMinMPH; \/\/ 1$/;"	m	struct:AerisForecastData
+windchillC	./src/weather/src/AerisObservations.h	/^    sint16_t windchillC;$/;"	m	struct:AerisObservationsData
+windchillF	./src/weather/src/AerisObservations.h	/^    sint16_t windchillF;$/;"	m	struct:AerisObservationsData
+windowHeight	./src/minigrafx/src/DisplayDriver.h	/^  uint16_t windowHeight;$/;"	m	struct:BufferInfo
+windowWidth	./src/minigrafx/src/DisplayDriver.h	/^  uint16_t windowWidth;$/;"	m	struct:BufferInfo
+windowX	./src/minigrafx/src/DisplayDriver.h	/^  uint16_t windowX;$/;"	m	struct:BufferInfo
+windowY	./src/minigrafx/src/DisplayDriver.h	/^  uint16_t windowY;$/;"	m	struct:BufferInfo
+writeBuffer	./src/minigrafx/src/EPD_WaveShare.cpp	/^void EPD_WaveShare::writeBuffer(BufferInfo *bufferInfo) {$/;"	f	class:EPD_WaveShare
+writeBuffer	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^void EPD_WaveShare154::writeBuffer(BufferInfo *bufferInfo) {$/;"	f	class:EPD_WaveShare154
+writeBuffer	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::writeBuffer(BufferInfo *bufferInfo) {$/;"	f	class:EPD_WaveShare154D67
+writeBuffer	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^void EPD_WaveShare29::writeBuffer(BufferInfo *bufferInfo) {$/;"	f	class:EPD_WaveShare29
+writeBuffer	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^void EPD_WaveShare29T5::writeBuffer(BufferInfo *bufferInfo) {$/;"	f	class:EPD_WaveShare29T5
+writeBuffer	./src/minigrafx/src/EPD_WaveShare_42.cpp	/^void EPD_WaveShare42::writeBuffer(BufferInfo *bufferInfo) {$/;"	f	class:EPD_WaveShare42
+writeBuffer	./src/minigrafx/src/EPD_WaveShare_43.cpp	/^void EPD_WaveShare_43::writeBuffer(BufferInfo *bufferInfo) {$/;"	f	class:EPD_WaveShare_43
+writeBuffer	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^void EPD_WaveShare75::writeBuffer(BufferInfo *bufferInfo) {$/;"	f	class:EPD_WaveShare75
+writeBuffer	./src/minigrafx/src/EPaperPervasive.cpp	/^void EPD_Class::writeBuffer(uint8_t *buffer, uint8_t bitsPerPixel, uint16_t *palette, EPD_stage stage) {$/;"	f	class:EPD_Class
+writeBuffer	./src/minigrafx/src/EPaperPervasive.h	/^  void writeBuffer(BufferInfo *bufferInfo) {$/;"	f	class:EPD_Class
+writeBuffer	./src/minigrafx/src/ILI9341_SPI.cpp	/^void ILI9341_SPI::writeBuffer(BufferInfo *bufferInfo) {$/;"	f	class:ILI9341_SPI
+writeBuffer	./src/minigrafx/src/SSD1331_SPI.cpp	/^void SSD1331_SPI::writeBuffer(BufferInfo *bufferInfo) {$/;"	f	class:SSD1331_SPI
+writeBufferWithCommand	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^void EPD_WaveShare154D67::writeBufferWithCommand(uint8_t command, BufferInfo *bufferInfo) {$/;"	f	class:EPD_WaveShare154D67
+writeCommand	./src/minigrafx/src/SSD1331_SPI.cpp	/^void SSD1331_SPI::writeCommand(uint8_t c) {$/;"	f	class:SSD1331_SPI
+writecommand	./src/minigrafx/src/ILI9341_SPI.cpp	/^void ILI9341_SPI::writecommand(uint8_t c) {$/;"	f	class:ILI9341_SPI
+writedata	./src/minigrafx/src/ILI9341_SPI.cpp	/^void ILI9341_SPI::writedata(uint8_t c) {$/;"	f	class:ILI9341_SPI
+writedata	./src/minigrafx/src/SSD1331_SPI.cpp	/^void SSD1331_SPI::writedata(uint8_t c) {$/;"	f	class:SSD1331_SPI
+x	./src/minigrafx/src/Carousel.h	/^    uint16_t            x, y, width, height;$/;"	m	class:Carousel
+xDot	./src/minigrafx/src/EPD_WaveShare.h	/^    uint16_t xDot;$/;"	m	class:EPD_WaveShare
+y	./src/minigrafx/src/Carousel.h	/^    uint16_t            x, y, width, height;$/;"	m	class:Carousel
+yDot	./src/minigrafx/src/EPD_WaveShare.h	/^    uint16_t yDot;$/;"	m	class:EPD_WaveShare
+~EPD_WaveShare154	./src/minigrafx/src/EPD_WaveShare_154.cpp	/^EPD_WaveShare154::~EPD_WaveShare154() {$/;"	f	class:EPD_WaveShare154
+~EPD_WaveShare154D67	./src/minigrafx/src/EPD_WaveShare_154D67.cpp	/^EPD_WaveShare154D67::~EPD_WaveShare154D67() {$/;"	f	class:EPD_WaveShare154D67
+~EPD_WaveShare29	./src/minigrafx/src/EPD_WaveShare_29.cpp	/^EPD_WaveShare29::~EPD_WaveShare29() {$/;"	f	class:EPD_WaveShare29
+~EPD_WaveShare29T5	./src/minigrafx/src/EPD_WaveShare_29T5.cpp	/^EPD_WaveShare29T5::~EPD_WaveShare29T5() {$/;"	f	class:EPD_WaveShare29T5
+~EPD_WaveShare75	./src/minigrafx/src/EPD_WaveShare_75.cpp	/^EPD_WaveShare75::~EPD_WaveShare75() {$/;"	f	class:EPD_WaveShare75
