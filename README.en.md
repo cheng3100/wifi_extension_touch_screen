@@ -10,7 +10,7 @@ This is a **small 2.4-inch touch screen with WiFi connectivity**. The current in
 
 **The whole project was completed by me alone, including circuit schematic diagram design, code writing and 3D shell design**, and the material cost of the whole project was only about a few dozen CNY. The main controller used is ESP8266EX, which is a WiFi chip from Espressif which is very popular in open source projects, and it is also very cheap. The screen is a 2.4-inch TFT screen powered by the ILI9341, and an XPT2046 drives the touchscreen for interactive control.
 
-
+![real effect](doc/pic/real_effect_1.png)
 
 ***This is my first complete personal project involving the whole process of circuit, software and 3D modeling design. Welcome to star and thumb up attention !***
 
