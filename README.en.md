@@ -8,9 +8,9 @@
 	<img alt="License" src="https://img.shields.io/tokei/lines/github/cheng3100/wifi_extension_touch_screen">
 </p>
 
-![assembly](doc/pic/assemble.jpeg)
-
 Reading the other language version: [简体中文](README.md)
+
+![assembly](doc/pic/assemble.jpeg)
 
 # 0. Wifi Touch Extension Screen
 

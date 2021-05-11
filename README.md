@@ -9,12 +9,12 @@
 	<img alt="License" src="https://img.shields.io/tokei/lines/github/cheng3100/wifi_extension_touch_screen">
 </p>
 
+其他语言版本: [English](README.en.md)
 
 <!-- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![activity](https://img.shields.io/github/commit-activity/m/cheng3100/wifi_extension_touch_screen) ![repo size](https://img.shields.io/github/repo-size/cheng3100/wifi_extension_touch_screen) ![lines](https://img.shields.io/tokei/lines/github/cheng3100/wifi_extension_touch_screen) -->
 
 ![assembly](doc/pic/assemble.jpeg)
 
-其他语言版本: [English](README.en.md)
 
 
 <!-- TODO add the bilibili video link -->
