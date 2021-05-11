@@ -1,4 +1,5 @@
 **/tags
 **/tag
 **/*.swp
+**/*.swo
 **/.ycm_extra_conf.py
