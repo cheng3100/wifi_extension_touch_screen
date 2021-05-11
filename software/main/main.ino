@@ -627,7 +627,8 @@ void drawBili() {
   gfx.fillBuffer(MINI_BLACK);
   // gfx.drawPalettedBitmapFromPgm(0, 0, bili_logo_240x100);
   gfx.drawPalettedBitmapFromPgm(0, 0, bili_logo2_240x100);
-  gfx.drawPalettedBitmapFromPgm(0, 220, bili_three_combo_240x90);
+  // gfx.drawPalettedBitmapFromPgm(0, 220, bili_three_combo_240x90);
+  gfx.drawPalettedBitmapFromPgm(0, 180, bili_three_combo_3_240x140);
 
   gfx.setFont(ArialRoundedMTBold_14);
   gfx.setTextAlignment(TEXT_ALIGN_CENTER);
