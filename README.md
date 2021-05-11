@@ -1,6 +1,21 @@
+<!-- [![sun_wifi_logo](doc/pic/logo.png)](https://longcheng.zone) -->
+<p align="center"><img alt="sun wifi logo" src="https://github.com/cheng3100/wifi_extension_touch_screen/blob/master/doc/pic/logo.png?raw=true" width="300"></p>
+<p align="center">
+	<b>A extension screen with wifi connection ability.</b>
+	<br><br>
+	<a href="https://opensource.org/licenses/MIT"><img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+	<img alt="License" src="https://img.shields.io/github/commit-activity/m/cheng3100/wifi_extension_touch_screen">
+	<img alt="License" src="https://img.shields.io/github/repo-size/cheng3100/wifi_extension_touch_screen">
+	<img alt="License" src="https://img.shields.io/tokei/lines/github/cheng3100/wifi_extension_touch_screen">
+</p>
+
+
+<!-- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![activity](https://img.shields.io/github/commit-activity/m/cheng3100/wifi_extension_touch_screen) ![repo size](https://img.shields.io/github/repo-size/cheng3100/wifi_extension_touch_screen) ![lines](https://img.shields.io/tokei/lines/github/cheng3100/wifi_extension_touch_screen) -->
+
 ![assembly](doc/pic/assemble.jpeg)
 
 其他语言版本: [English](README.en.md)
+
 
 <!-- TODO add the bilibili video link -->
 

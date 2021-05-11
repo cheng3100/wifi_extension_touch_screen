@@ -1,3 +1,13 @@
+<p align="center"><img alt="sun wifi logo" src="https://github.com/cheng3100/wifi_extension_touch_screen/blob/master/doc/pic/logo.png?raw=true" width="300"></p>
+<p align="center">
+	<b>A extension screen with wifi connection ability.</b>
+	<br><br>
+	<a href="https://opensource.org/licenses/MIT"><img alt="License" src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+	<img alt="License" src="https://img.shields.io/github/commit-activity/m/cheng3100/wifi_extension_touch_screen">
+	<img alt="License" src="https://img.shields.io/github/repo-size/cheng3100/wifi_extension_touch_screen">
+	<img alt="License" src="https://img.shields.io/tokei/lines/github/cheng3100/wifi_extension_touch_screen">
+</p>
+
 ![assembly](doc/pic/assemble.jpeg)
 
 Reading the other language version: [简体中文](README.md)
