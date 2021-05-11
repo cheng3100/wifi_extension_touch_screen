@@ -11,8 +11,7 @@ const int SLEEP_INTERVAL_SECS = 0;        // Going to sleep after idle times, se
 #define SCREEN_COUNT (6)
 
 // bilibili info
-#define BILI_VID ""
-
+#define BILI_UID ""
 
 // OpenWeatherMap Settings
 // Sign up here to get an API key: https://docs.thingpulse.com/how-tos/openweathermap-key/

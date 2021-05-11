@@ -7,7 +7,14 @@ BilibiliInfo::BilibiliInfo() {
 }
 
 void BilibiliInfo::updateFansState(BilibiliInfoData *info, String uid) {
+  this->infoSource = FANS_INFO;
   doUpdate(info, "/x/relation/stat?vmid=" + uid);
+}
+
+void BilibiliInfo::updateVideoState(BilibiliInfoData *info, String bvid) {
+  this->infoSource = VIDEO_INFO;
+  doUpdate(info, "/x/web-interface/archive/stat?" + bvid);
+
 }
 
 void BilibiliInfo::doUpdate(BilibiliInfoData *info, String path) {
@@ -69,11 +76,18 @@ void BilibiliInfo::value(String value) {
   // Serial.printf("Key: %s, Parent: %s, value: %s\n", currentKey.c_str(), currentParent.c_str(), value.c_str());
   //uint64_t timestamp;
 	
-  if (currentParent == "data") {
+  if (infoSource == FANS_INFO 
+	  &&currentParent == "data") {
 	  if (currentKey == "following") {
 		this->info->following_number = value.toInt();
 	  } else if (currentKey == "follower") {
 		this->info->fans_number = value.toInt();
+	  }
+  
+  } else if (infoSource == VIDEO_INFO
+		      && currentParent == "data") {
+	  if (currentKey == "view")  {
+		this->info->view_number = value.toInt(); 
 	  }
   
   }

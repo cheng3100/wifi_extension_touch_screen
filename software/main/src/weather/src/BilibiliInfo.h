@@ -7,7 +7,13 @@
 typedef struct BilibiliInfoData {
 	uint32_t fans_number;
 	uint32_t following_number;
+	uint32_t view_number;
 } BilibiliInfoData;
+
+typedef enum BiliInfoSource {
+	FANS_INFO,
+	VIDEO_INFO
+} BiliInfoSource;
 
 class BilibiliInfo: public JsonListener {
   private:
@@ -17,6 +23,7 @@ class BilibiliInfo: public JsonListener {
     String currentKey;
     String currentParent;
     BilibiliInfoData *info;
+	uint32_t infoSource;
 
 
   void doUpdate(BilibiliInfoData *info, String url);
@@ -24,6 +31,7 @@ class BilibiliInfo: public JsonListener {
   public:
     BilibiliInfo();
     void updateFansState(BilibiliInfoData *info, String uid);
+    void updateVideoState(BilibiliInfoData *info, String bvid);
 
     virtual void whitespace(char c);
 

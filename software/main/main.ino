@@ -310,7 +310,8 @@ void updateData() {
 
   // get bilibili info
   drawProgress(30, "Updating bilibili info...");
-  biliClient->updateFansState(&biliData, BILI_VID);
+  biliClient->updateFansState(&biliData, BILI_UID);
+  biliClient->updateVideoState(&biliData, BILI_BVID);
 
 
   drawProgress(50, "Updating conditions...");
@@ -640,6 +641,7 @@ void drawBili() {
   gfx.setTextAlignment(TEXT_ALIGN_CENTER);
   drawLabelValue(8, "Fans Num:", String(biliData.fans_number));
   drawLabelValue(9, "Following Num:", String(biliData.following_number));
+  drawLabelValue(10, "View Num:", String(biliData.view_number));
 
 
 
