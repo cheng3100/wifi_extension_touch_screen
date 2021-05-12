@@ -2,6 +2,15 @@
 #include <WiFiClient.h>
 #include "BilibiliInfo.h"
 
+#define BILI_DEBUG 0
+
+#if BILI_DEBUG == 1
+#define DP(fmt, args...) Serial.printf(fmt, ##args)
+#else
+#define DP(fmt, args...)
+#endif
+
+
 BilibiliInfo::BilibiliInfo() {
 
 }
@@ -13,8 +22,7 @@ void BilibiliInfo::updateFansState(BilibiliInfoData *info, String uid) {
 
 void BilibiliInfo::updateVideoState(BilibiliInfoData *info, String bvid) {
   this->infoSource = VIDEO_INFO;
-  doUpdate(info, "/x/web-interface/archive/stat?" + bvid);
-
+  doUpdate(info, "/x/web-interface/archive/stat?bvid=" + bvid);
 }
 
 void BilibiliInfo::doUpdate(BilibiliInfoData *info, String path) {
@@ -74,7 +82,7 @@ void BilibiliInfo::key(String key) {
 
 void BilibiliInfo::value(String value) {
   // Serial.printf("Key: %s, Parent: %s, value: %s\n", currentKey.c_str(), currentParent.c_str(), value.c_str());
-  //uint64_t timestamp;
+  DP("Key: %s, Parent: %s, value: %s\n", currentKey.c_str(), currentParent.c_str(), value.c_str());
 	
   if (infoSource == FANS_INFO 
 	  &&currentParent == "data") {
@@ -88,29 +96,44 @@ void BilibiliInfo::value(String value) {
 		      && currentParent == "data") {
 	  if (currentKey == "view")  {
 		this->info->view_number = value.toInt(); 
+	  } else if (currentKey == "favorite") {
+		this->info->fav_number = value.toInt();
+	  } else if (currentKey == "coin") {
+		this->info->coins_number = value.toInt();
+	  } else if (currentKey == "like") {
+		this->info->like_number = value.toInt();
+	  } else if (currentKey == "danmaku") {
+		this->info->danmaku_number = value.toInt();
+	  } else if (currentKey == "share") {
+		this->info->share_number = value.toInt();
+	  } else if (currentKey == "reply") {
+		this->info->reply_number = value.toInt();
 	  }
   
   }
 }
 
 void BilibiliInfo::endArray() {
-
+	DP("End array\n");
 }
 
 
 void BilibiliInfo::startObject() {
+	DP("Start obj\n");
   currentParent = currentKey;
 }
 
 void BilibiliInfo::endObject() {
+  DP("end obj\n");
   currentParent = "";
 }
 
 void BilibiliInfo::endDocument() {
+  DP("end doc\n");
 
 }
 
 void BilibiliInfo::startArray() {
-
+  DP("start array\n");
 }
 

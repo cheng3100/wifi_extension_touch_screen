@@ -8,6 +8,12 @@ typedef struct BilibiliInfoData {
 	uint32_t fans_number;
 	uint32_t following_number;
 	uint32_t view_number;
+	uint32_t like_number;
+	uint32_t coins_number;
+	uint32_t fav_number;
+	uint32_t share_number;
+	uint32_t reply_number;
+	uint32_t danmaku_number;
 } BilibiliInfoData;
 
 typedef enum BiliInfoSource {

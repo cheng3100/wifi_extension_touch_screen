@@ -624,28 +624,53 @@ void drawForecastTable(uint8_t start) {
   }
 }
 
+void drawLabelPos(uint8_t line, uint8_t labelX, uint8_t valueX, String label, String value) {
+  // const uint8_t labelX = 15;
+  // const uint8_t valueX = 150;
+  gfx.setTextAlignment(TEXT_ALIGN_LEFT);
+  gfx.setColor(MINI_YELLOW);
+  gfx.drawString(labelX, 30 + line * 15, label);
+  gfx.setColor(MINI_WHITE);
+  gfx.drawString(valueX, 30 + line * 15, value);
+}
+
 void drawBili() {
   gfx.fillBuffer(MINI_BLACK);
   // gfx.drawPalettedBitmapFromPgm(0, 0, bili_logo_240x100);
   gfx.drawPalettedBitmapFromPgm(0, 0, bili_logo2_240x100);
   // gfx.drawPalettedBitmapFromPgm(0, 220, bili_three_combo_240x90);
+  // gfx.setFont(ArialRoundedMTBold_14);
+  // gfx.setTextAlignment(TEXT_ALIGN_CENTER);
+  // gfx.setColor(MINI_WHITE);
+  // gfx.drawString(105, 110, "https://bilibili.com");
+
   gfx.drawPalettedBitmapFromPgm(0, 180, bili_three_combo_3_240x140);
 
-  gfx.setFont(ArialRoundedMTBold_14);
-  gfx.setTextAlignment(TEXT_ALIGN_CENTER);
-  gfx.setColor(MINI_WHITE);
-  gfx.drawString(120, 110, "https://bilibili.com");
 
+  const uint8_t baseLine = 5;
+  const uint8_t baseX1 = 25;
+  const uint8_t baseX2 = 140;
+  const uint8_t kvDis = 70;
 
-  gfx.setFont(ArialRoundedMTBold_14);
-  gfx.setTextAlignment(TEXT_ALIGN_CENTER);
-  drawLabelValue(8, "Fans Num:", String(biliData.fans_number));
-  drawLabelValue(9, "Following Num:", String(biliData.following_number));
-  drawLabelValue(10, "View Num:", String(biliData.view_number));
+  // drawLabelPos(5, 5, 65, "Fans:", String(biliData.fans_number));
+  // drawLabelPos(5, 120, 180, "Like:", String(biliData.like_number));
+  // drawLabelPos(6, 5, 65, "danmaku:", String(biliData.danmaku_number));
+  // drawLabelPos(6, 120, 180, "Coin::", String(biliData.coins_number));
+  // drawLabelPos(7, 5, 65, "View:", String(biliData.view_number));
+  // drawLabelPos(7, 120, 180, "Favor:", String(biliData.fav_number));
+  // drawLabelPos(8, 25, 85, "reply:", String(biliData.reply_number));
+  // drawLabelPos(8, 140, 200, "share::", String(biliData.share_number));
 
-
-
+  drawLabelPos(baseLine, baseX1, baseX1 + kvDis, "Fans:", String(biliData.fans_number));
+  drawLabelPos(baseLine, baseX2, baseX2 + kvDis, "Like:", String(biliData.like_number));
+  drawLabelPos(baseLine + 1, baseX1, baseX1 + kvDis, "danmaku:", String(biliData.danmaku_number));
+  drawLabelPos(baseLine + 1, baseX2, baseX2 + kvDis, "Coin::", String(biliData.coins_number));
+  drawLabelPos(baseLine + 2, baseX1, baseX1 + kvDis, "View:", String(biliData.view_number));
+  drawLabelPos(baseLine + 2, baseX2, baseX2 + kvDis, "Favor:", String(biliData.fav_number));
+  drawLabelPos(baseLine + 3, baseX1, baseX1 + kvDis, "reply:", String(biliData.reply_number));
+  drawLabelPos(baseLine + 3, baseX2, baseX2 + kvDis, "share::", String(biliData.share_number));
 }
+
 void drawAbout() {
   gfx.fillBuffer(MINI_BLACK);
   gfx.drawPalettedBitmapFromPgm(20, 5, logo_200x80);
