@@ -692,14 +692,16 @@ void drawBiliInfo(MiniGrafx *display, CarouselState* state, int16_t x, int16_t y
 void drawBili() {
   gfx.fillBuffer(MINI_BLACK);
   // gfx.drawPalettedBitmapFromPgm(0, 0, bili_logo_240x100);
+
   gfx.drawPalettedBitmapFromPgm(0, 0, bili_logo_3_240x100);
+  gfx.drawPalettedBitmapFromPgm(0, 180, bili_three_combo_3_240x140);
+
   // gfx.drawPalettedBitmapFromPgm(0, 220, bili_three_combo_240x90);
   // gfx.setFont(ArialRoundedMTBold_14);
   // gfx.setTextAlignment(TEXT_ALIGN_CENTER);
   // gfx.setColor(MINI_WHITE);
   // gfx.drawString(105, 110, "https://bilibili.com");
 
-  gfx.drawPalettedBitmapFromPgm(0, 180, bili_three_combo_3_240x140);
 
   int remainTime = bvroll.update();
 	if (remainTime > 0) {

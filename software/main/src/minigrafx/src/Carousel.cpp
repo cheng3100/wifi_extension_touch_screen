@@ -299,11 +299,14 @@ void Carousel::drawFrame(){
 
        // Prope each frameFunction for the indicator Drawen state
        this->enableIndicator();
+	   this->state.currentIndex = this->state.currentFrame;
        (this->frameFunctions[this->state.currentFrame])(this->miniGrafx, &this->state, x, y);
        drawenCurrentFrame = this->state.isIndicatorDrawen;
 
        this->enableIndicator();
-       (this->frameFunctions[this->getNextFrameNumber()])(this->miniGrafx, &this->state, x1, y1);
+	   uint8_t temp = this->getNextFrameNumber();
+	   this->state.currentIndex = temp;
+       (this->frameFunctions[temp])(this->miniGrafx, &this->state, x1, y1);
 
        // Build up the indicatorDrawState
        if (drawenCurrentFrame && !this->state.isIndicatorDrawen) {

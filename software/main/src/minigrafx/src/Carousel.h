@@ -77,6 +77,7 @@ struct CarouselState {
 
   FrameState    frameState                = FIXED;
   uint8_t       currentFrame              = 0;
+  uint8_t		currentIndex              = 0;
 
   bool          isIndicatorDrawen         = true;
 
