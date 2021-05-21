@@ -54,8 +54,6 @@ uint16_t palette[] = {ILI9341_BLACK, // 0
                       0x7E3C
                       }; //3
 
-int SCREEN_WIDTH = 240;
-int SCREEN_HEIGHT = 320;
 // Limited to 4 colors due to memory constraints
 int BITS_PER_PIXEL = 2; // 2^2 =  4 colors
 
@@ -124,27 +122,40 @@ OpenWeatherMapForecast *forecastClient = new OpenWeatherMapForecast();
 
 Astronomy *astronomy = new Astronomy();
 
+
 void connectWifi() {
   if (WiFi.status() == WL_CONNECTED) return;
   //Manual Wifi
-  Serial.print("Connecting to WiFi ");
-  Serial.print(WIFI_SSID);
-  Serial.print("/");
-  Serial.println(WIFI_PASS);
-  WiFi.disconnect();
-  WiFi.mode(WIFI_STA);
-  WiFi.hostname(WIFI_HOSTNAME);
-  WiFi.begin(WIFI_SSID,WIFI_PASS);
-  int i = 0;
-  while (WiFi.status() != WL_CONNECTED) {
-    delay(500);
-    if (i>80) i=0;
-    drawProgress(i,"Connecting to WiFi '" + String(WIFI_SSID) + "'");
-    i+=10;
-    Serial.print(".");
+  for (int n = 0; n<(sizeof(wifiIdArray)/sizeof(wifiIdArray[0])); n++) {
+	  Serial.print("Connecting to WiFi ");
+	  Serial.print(wifiIdArray[n].ssid);
+	  Serial.print("/");
+	  Serial.println(wifiIdArray[n].pass);
+	  WiFi.disconnect();
+	  WiFi.mode(WIFI_STA);
+	  WiFi.hostname(wifiIdArray[n].hostName);
+	  WiFi.begin(wifiIdArray[n].ssid, wifiIdArray[n].pass);
+	  int i = 0;
+	  while (WiFi.status() != WL_CONNECTED) {
+		delay(500);
+		if (i>80) {
+			drawProgress(i,"Connecting  fail, Try next one.");
+			break;
+		}
+		drawProgress(i,"Connecting to WiFi '" + String(wifiIdArray[n].ssid) + "'");
+		i+=10;
+		Serial.print(".");
+	  }
+
+	  if (WiFi.status() == WL_CONNECTED) {
+		  drawProgress(100,"Connected to WiFi '" + String(WIFI_SSID) + "'");
+		  Serial.print("Connected...");
+		  return;
+	  }
   }
-  drawProgress(100,"Connected to WiFi '" + String(WIFI_SSID) + "'");
-  Serial.print("Connected...");
+
+  drawProgress(0,"Connected to All WiFi fail, try others.");
+  
 }
 
 void setup() {
@@ -218,15 +229,12 @@ void setup() {
   astronomy = new Astronomy();
 }
 
-long lastDrew = 0;
-bool btnClick;
+bool fixScreen = false;
 uint8_t MAX_TOUCHPOINTS = 10;
 TS_Point points[10];
 uint8_t currentTouchPoint = 0;
 void loop() {
   gfx.fillBuffer(MINI_BLACK);
-  gfx.setColor(1);
-  gfx.fillCircle(10, 10, 10);
 #if HAVE_TOUCHPAD == 1
   if (touchController.isTouched(0)) {
 	TS_Point p = touchController.getPoint();
@@ -235,6 +243,8 @@ void loop() {
 		Serial.print("manu update\n");
 		updateData();	
 		lastDownloadUpdate = millis();
+	} else if (p.x > (SCREEN_COUNT - 20) && p.y < 20) {
+	  fixScreen ^= 1;
 	} else {
 		if (p.y < 80) {
 		  IS_STYLE_12HR = !IS_STYLE_12HR;
@@ -242,6 +252,7 @@ void loop() {
 		  screen = (screen + 1) % screenCount;
 		}
 	}
+
   }
 #endif
 
@@ -268,12 +279,29 @@ void loop() {
   } else if (screen == 5) {
 	drawBili();
   }
+
+	if (fixScreen) {
+	  gfx.setColor(MINI_BLACK);
+	  gfx.fillCircle(10, 10, 10);
+	  gfx.setColor(MINI_WHITE);
+	  gfx.drawCircle(10, 10, 10);
+
+	} else {
+	  gfx.setColor(MINI_WHITE);
+	  gfx.fillCircle(10, 10, 10);
+	}
   gfx.commit();
 
   // Check if we should update weather information
   if (millis() - lastDownloadUpdate > 1000 * UPDATE_INTERVAL_SECS) {
       updateData();
       lastDownloadUpdate = millis();
+  }
+
+  if (millis() - lastSwitch > 1000 * UPDATE_SWITCH_SCREEN_SECS
+		  && fixScreen == false) {
+	  screen = (screen + 1) % screenCount;
+      lastSwitch = millis();
   }
 
   if (SLEEP_INTERVAL_SECS && millis() - timerPress >= SLEEP_INTERVAL_SECS * 1000){ // after 2 minutes go to sleep
@@ -637,7 +665,7 @@ void drawLabelPos(uint8_t line, uint8_t labelX, uint8_t valueX, String label, St
 void drawBili() {
   gfx.fillBuffer(MINI_BLACK);
   // gfx.drawPalettedBitmapFromPgm(0, 0, bili_logo_240x100);
-  gfx.drawPalettedBitmapFromPgm(0, 0, bili_logo2_240x100);
+  gfx.drawPalettedBitmapFromPgm(0, 0, bili_logo_3_240x100);
   // gfx.drawPalettedBitmapFromPgm(0, 220, bili_three_combo_240x90);
   // gfx.setFont(ArialRoundedMTBold_14);
   // gfx.setTextAlignment(TEXT_ALIGN_CENTER);
@@ -648,18 +676,9 @@ void drawBili() {
 
 
   const uint8_t baseLine = 5;
-  const uint8_t baseX1 = 25;
+  const uint8_t baseX1 = 20;
   const uint8_t baseX2 = 140;
   const uint8_t kvDis = 70;
-
-  // drawLabelPos(5, 5, 65, "Fans:", String(biliData.fans_number));
-  // drawLabelPos(5, 120, 180, "Like:", String(biliData.like_number));
-  // drawLabelPos(6, 5, 65, "danmaku:", String(biliData.danmaku_number));
-  // drawLabelPos(6, 120, 180, "Coin::", String(biliData.coins_number));
-  // drawLabelPos(7, 5, 65, "View:", String(biliData.view_number));
-  // drawLabelPos(7, 120, 180, "Favor:", String(biliData.fav_number));
-  // drawLabelPos(8, 25, 85, "reply:", String(biliData.reply_number));
-  // drawLabelPos(8, 140, 200, "share::", String(biliData.share_number));
 
   drawLabelPos(baseLine, baseX1, baseX1 + kvDis, "Fans:", String(biliData.fans_number));
   drawLabelPos(baseLine, baseX2, baseX2 + kvDis, "Like:", String(biliData.like_number));

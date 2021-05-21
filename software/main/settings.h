@@ -5,13 +5,29 @@
 #define WIFI_PASS ""
 #define WIFI_HOSTNAME "SunWifiX"
 
+#define SCREEN_WIDTH  240
+#define SCREEN_HEIGHT 320
+
+typedef struct wifiId_t {
+	String ssid;
+	String pass;
+	String hostName;
+} wifiId;
+
+wifiId wifiIdArray[] = {
+	{"", "", "SunWifi"},
+	{"", "", "SunWifi"}
+};
+
 const int UPDATE_INTERVAL_SECS = 6 * 60 * 60; // Update every 6 hours
+const int UPDATE_SWITCH_SCREEN_SECS = 60;		  // Update every 30 seconds`
 const int SLEEP_INTERVAL_SECS = 0;        // Going to sleep after idle times, set 0 for insomnia
 
 #define SCREEN_COUNT (6)
 
 // bilibili info
 #define BILI_UID ""
+#define BILI_BVID ""
 
 // OpenWeatherMap Settings
 // Sign up here to get an API key: https://docs.thingpulse.com/how-tos/openweathermap-key/
