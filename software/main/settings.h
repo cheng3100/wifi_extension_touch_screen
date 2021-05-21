@@ -29,6 +29,14 @@ const int SLEEP_INTERVAL_SECS = 0;        // Going to sleep after idle times, se
 #define BILI_UID ""
 #define BILI_BVID ""
 
+#define BILI_BVID_NUM 3
+
+String biliBvidArray[] = {
+	"",
+	"",
+	""
+};
+
 // OpenWeatherMap Settings
 // Sign up here to get an API key: https://docs.thingpulse.com/how-tos/openweathermap-key/
 String OPEN_WEATHER_MAP_APP_ID = "";

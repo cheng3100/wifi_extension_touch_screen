@@ -260,27 +260,27 @@ void Carousel::drawFrame(){
        int16_t x, y, x1, y1;
        switch(this->frameAnimationDirection){
         case SLIDE_LEFT:
-          x = -this->width * progress;
-          y = 0;
+          x = this->x -this->width * progress;
+          y = this->y;
           x1 = x + this->width;
-          y1 = 0;
+          y1 = this->y;
           break;
         case SLIDE_RIGHT:
-          x = this->width * progress;
-          y = 0;
+          x = this->x + this->width * progress;
+          y = this->y;
           x1 = x - this->width;
-          y1 = 0;
+          y1 = this->y;
           break;
         case SLIDE_UP:
-          x = 0;
-          y = -this->height * progress;
-          x1 = 0;
+          x = this->x;
+          y = this->y -this->height * progress;
+          x1 = this->x;
           y1 = y + this->height;
           break;
         case SLIDE_DOWN:
-          x = 0;
-          y = this->height * progress;
-          x1 = 0;
+          x = this->x;
+          y = this->y + this->height * progress;
+          x1 = this->x;
           y1 = y - this->height;
           break;
          default:

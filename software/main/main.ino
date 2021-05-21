@@ -18,17 +18,11 @@
  * - Json Streaming Parser by Daniel Eichhorn
  * - simpleDSTadjust by neptune2
  ***/
-// #include <JsonListener.h>
-// #include <OpenWeatherMapCurrent.h>
-// #include <OpenWeatherMapForecast.h>
 #include "src/weather/src/SunMoonCalc.h"
 #include "src/weather/src/OpenWeatherMapCurrent.h"
 #include "src/weather/src/OpenWeatherMapForecast.h"
 #include "src/weather/src/Astronomy.h"
 #include "src/weather/src/BilibiliInfo.h"
-// #include <MiniGrafx.h>
-// #include <Carousel.h>
-// #include <ILI9341_SPI.h>
 #include "src/minigrafx/src/MiniGrafx.h"
 #include "src/minigrafx/src/Carousel.h"
 #include "src/minigrafx/src/ILI9341_SPI.h"
@@ -60,11 +54,14 @@ int BITS_PER_PIXEL = 2; // 2^2 =  4 colors
 
 ADC_MODE(ADC_VCC);
 
+// int testa[] = {[0 ... 100]=10};
 
 // ILI9341_SPI tft = ILI9341_SPI(TFT_CS, TFT_DC);
 ILI9341_SPI tft = ILI9341_SPI(TFT_CS, TFT_DC, TFT_RESET);
 MiniGrafx gfx = MiniGrafx(&tft, BITS_PER_PIXEL, palette);
 Carousel carousel(&gfx, 0, 0, 240, 100);
+// Carousel bvroll(&gfx, 0, 105, 240, 60);
+Carousel bvroll(&gfx, 0, 0, 240, 60);
 
 #if HAVE_TOUCHPAD == 1
 XPT2046_Touchscreen ts(TOUCH_CS, TOUCH_IRQ);
@@ -101,6 +98,7 @@ void drawForecast1(MiniGrafx *display, CarouselState* state, int16_t x, int16_t 
 void drawForecast2(MiniGrafx *display, CarouselState* state, int16_t x, int16_t y);
 void drawForecast3(MiniGrafx *display, CarouselState* state, int16_t x, int16_t y);
 FrameCallback frames[] = { drawForecast1, drawForecast2, drawForecast3 };
+FrameCallback biliFrames[BILI_BVID_NUM];
 int frameCount = 3;
 
 // how many different screens do we have?
@@ -116,7 +114,7 @@ time_t dstOffset = 0;
 OpenWeatherMapCurrent *currentWeatherClient = new OpenWeatherMapCurrent();
 
 BilibiliInfo *biliClient = new BilibiliInfo();
-BilibiliInfoData biliData;
+BilibiliInfoData biliData[BILI_BVID_NUM];
 
 OpenWeatherMapForecast *forecastClient = new OpenWeatherMapForecast();
 
@@ -148,7 +146,7 @@ void connectWifi() {
 	  }
 
 	  if (WiFi.status() == WL_CONNECTED) {
-		  drawProgress(100,"Connected to WiFi '" + String(WIFI_SSID) + "'");
+		  drawProgress(100,"Connected to WiFi '" + String(wifiIdArray[n].ssid) + "'");
 		  Serial.print("Connected...");
 		  return;
 	  }
@@ -213,6 +211,9 @@ void setup() {
   carousel.setFrames(frames, frameCount);
   carousel.disableAllIndicators();
 
+  bvroll.setFrames(biliFrames, BILI_BVID_NUM);
+  bvroll.disableAllIndicators();
+
   // update the weather information
   updateData();
   timerPress = millis();
@@ -227,6 +228,10 @@ void setup() {
   forecastClient->setLanguage(OPEN_WEATHER_MAP_LANGUAGE);
 
   astronomy = new Astronomy();
+
+  for (int i=0; i<BILI_BVID_NUM; i++) {
+	biliFrames[i] = drawBiliInfo;
+  }
 }
 
 bool fixScreen = false;
@@ -338,8 +343,11 @@ void updateData() {
 
   // get bilibili info
   drawProgress(30, "Updating bilibili info...");
-  biliClient->updateFansState(&biliData, BILI_UID);
-  biliClient->updateVideoState(&biliData, BILI_BVID);
+  for (int i=0; i< BILI_BVID_NUM; i++) {
+	  biliClient->updateFansState(&biliData[i], BILI_UID);
+	  biliClient->updateVideoState(&biliData[i], biliBvidArray[i]);
+	  delay(200);
+  }
 
 
   drawProgress(50, "Updating conditions...");
@@ -662,6 +670,25 @@ void drawLabelPos(uint8_t line, uint8_t labelX, uint8_t valueX, String label, St
   gfx.drawString(valueX, 30 + line * 15, value);
 }
 
+void drawBiliInfo(MiniGrafx *display, CarouselState* state, int16_t x, int16_t y) {
+
+	int i = state->currentFrame;
+	const uint8_t baseLine = 5;
+	uint8_t baseX1 = 20 + x;
+	uint8_t baseX2 = 140 + x;
+	const uint8_t kvDis = 70;
+
+	drawLabelPos(baseLine, baseX1, baseX1 + kvDis, "Fans:", String(biliData[i].fans_number));
+	drawLabelPos(baseLine, baseX2, baseX2 + kvDis, "Like:", String(biliData[i].like_number));
+	drawLabelPos(baseLine + 1, baseX1, baseX1 + kvDis, "danmaku:", String(biliData[i].danmaku_number));
+	drawLabelPos(baseLine + 1, baseX2, baseX2 + kvDis, "Coin::", String(biliData[i].coins_number));
+	drawLabelPos(baseLine + 2, baseX1, baseX1 + kvDis, "View:", String(biliData[i].view_number));
+	drawLabelPos(baseLine + 2, baseX2, baseX2 + kvDis, "Favor:", String(biliData[i].fav_number));
+	drawLabelPos(baseLine + 3, baseX1, baseX1 + kvDis, "reply:", String(biliData[i].reply_number));
+	drawLabelPos(baseLine + 3, baseX2, baseX2 + kvDis, "share::", String(biliData[i].share_number));
+
+}
+
 void drawBili() {
   gfx.fillBuffer(MINI_BLACK);
   // gfx.drawPalettedBitmapFromPgm(0, 0, bili_logo_240x100);
@@ -674,20 +701,27 @@ void drawBili() {
 
   gfx.drawPalettedBitmapFromPgm(0, 180, bili_three_combo_3_240x140);
 
+  int remainTime = bvroll.update();
+	if (remainTime > 0) {
+	  // You can do some work here
+	  // Don't do stuff if you are below your
+	  // time budget.
+	  delay(remainTime);
+	}
 
-  const uint8_t baseLine = 5;
-  const uint8_t baseX1 = 20;
-  const uint8_t baseX2 = 140;
-  const uint8_t kvDis = 70;
-
-  drawLabelPos(baseLine, baseX1, baseX1 + kvDis, "Fans:", String(biliData.fans_number));
-  drawLabelPos(baseLine, baseX2, baseX2 + kvDis, "Like:", String(biliData.like_number));
-  drawLabelPos(baseLine + 1, baseX1, baseX1 + kvDis, "danmaku:", String(biliData.danmaku_number));
-  drawLabelPos(baseLine + 1, baseX2, baseX2 + kvDis, "Coin::", String(biliData.coins_number));
-  drawLabelPos(baseLine + 2, baseX1, baseX1 + kvDis, "View:", String(biliData.view_number));
-  drawLabelPos(baseLine + 2, baseX2, baseX2 + kvDis, "Favor:", String(biliData.fav_number));
-  drawLabelPos(baseLine + 3, baseX1, baseX1 + kvDis, "reply:", String(biliData.reply_number));
-  drawLabelPos(baseLine + 3, baseX2, baseX2 + kvDis, "share::", String(biliData.share_number));
+//   const uint8_t baseLine = 5;
+//   const uint8_t baseX1 = 20;
+//   const uint8_t baseX2 = 140;
+//   const uint8_t kvDis = 70;
+//
+//   drawLabelPos(baseLine, baseX1, baseX1 + kvDis, "Fans:", String(biliData.fans_number));
+//   drawLabelPos(baseLine, baseX2, baseX2 + kvDis, "Like:", String(biliData.like_number));
+//   drawLabelPos(baseLine + 1, baseX1, baseX1 + kvDis, "danmaku:", String(biliData.danmaku_number));
+//   drawLabelPos(baseLine + 1, baseX2, baseX2 + kvDis, "Coin::", String(biliData.coins_number));
+//   drawLabelPos(baseLine + 2, baseX1, baseX1 + kvDis, "View:", String(biliData.view_number));
+//   drawLabelPos(baseLine + 2, baseX2, baseX2 + kvDis, "Favor:", String(biliData.fav_number));
+//   drawLabelPos(baseLine + 3, baseX1, baseX1 + kvDis, "reply:", String(biliData.reply_number));
+//   drawLabelPos(baseLine + 3, baseX2, baseX2 + kvDis, "share::", String(biliData.share_number));
 }
 
 void drawAbout() {
