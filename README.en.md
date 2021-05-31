@@ -86,7 +86,7 @@ Since ESP8266 can be switched between AP and Station mode and the ROM space is a
 
 - [ ] Added AP Server function, which is used to directly transmit WiFi access point password and other functions by mobile phone
 
-- [ ] Add information terminal function, through Web API display such as video website fans thumb up number and other information
+- [x] Add information terminal function, through Web API display such as video website fans thumb up number and other information
 
 - [ ]  ...Welcome to issue communication~
 
