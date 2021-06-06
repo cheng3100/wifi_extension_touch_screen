@@ -1,7 +1,7 @@
 /*****************************
- * Important: see settings.h to configure your settings!!!
+ * Important: see configs.h to configure your settings!!!
  * ***************************/
-#include "settings.h"
+#include "configs.h"
 
 #include <Arduino.h>
 #include <SPI.h>
@@ -9,6 +9,7 @@
 
 #include <XPT2046_Touchscreen.h>
 #include "TouchControllerWS.h"
+#include "CLI.h"
 
 
 /***
@@ -119,6 +120,8 @@ BilibiliInfoData biliData[BILI_BVID_NUM];
 OpenWeatherMapForecast *forecastClient = new OpenWeatherMapForecast();
 
 Astronomy *astronomy = new Astronomy();
+
+CLI cli;
 
 
 void connectWifi() {
@@ -232,6 +235,8 @@ void setup() {
   for (int i=0; i<BILI_BVID_NUM; i++) {
 	biliFrames[i] = drawBiliInfo;
   }
+
+  cli.load();
 }
 
 bool fixScreen = false;
@@ -239,6 +244,7 @@ uint8_t MAX_TOUCHPOINTS = 10;
 TS_Point points[10];
 uint8_t currentTouchPoint = 0;
 void loop() {
+  cli.update();
   gfx.fillBuffer(MINI_BLACK);
 #if HAVE_TOUCHPAD == 1
   if (touchController.isTouched(0)) {
@@ -362,24 +368,6 @@ void updateData() {
   // Astronomy *astronomy = new Astronomy();
   moonData = astronomy->calculateMoonData(now);
   moonData.phase = astronomy->calculateMoonPhase(now);
-  // delete astronomy;
-  // astronomy = nullptr;
-
-  // TODO test for freeze when using new and delete in local function.
-  // OpenWeatherMapCurrent *test1 = new OpenWeatherMapCurrent();
-  // delete test1;
-  // test1 = nullptr;
-  //
-  // OpenWeatherMapForecast *test2 = new OpenWeatherMapForecast();
-  // delete test2;
-  // test2 = nullptr;
-
-//https://github.com/ThingPulse/esp8266-weather-station/issues/144 prevents using this  
-//  // 'now' has to be UTC, lat/lng in degrees not raadians
-//  SunMoonCalc *smCalc = new SunMoonCalc(now - dstOffset, currentWeather.lat, currentWeather.lon);
-//  moonData = smCalc->calculateSunAndMoonData().moon;
-//  delete smCalc;
-//  smCalc = nullptr;
   Serial.printf("Free mem: %d\n",  ESP.getFreeHeap());
 
   delay(1000);
@@ -542,14 +530,10 @@ void drawCurrentWeatherDetail() {
   gfx.setColor(MINI_WHITE);
   gfx.drawString(120, 2, "Current Conditions");
 
-  //gfx.setTransparentColor(MINI_BLACK);
-  //gfx.drawPalettedBitmapFromPgm(0, 20, getMeteoconIconFromProgmem(conditions.weatherIcon));
-
   String degreeSign = "°F";
   if (IS_METRIC) {
     degreeSign = "°C";
   }
-  // String weatherIcon;
   // String weatherText;
   drawLabelValue(0, "Temperature:", currentWeather.temp + degreeSign);
   drawLabelValue(1, "Wind Speed:", String(currentWeather.windSpeed, 1) + (IS_METRIC ? "m/s" : "mph") );
@@ -691,16 +675,10 @@ void drawBiliInfo(MiniGrafx *display, CarouselState* state, int16_t x, int16_t y
 
 void drawBili() {
   gfx.fillBuffer(MINI_BLACK);
-  // gfx.drawPalettedBitmapFromPgm(0, 0, bili_logo_240x100);
 
   gfx.drawPalettedBitmapFromPgm(0, 0, bili_logo_3_240x100);
   gfx.drawPalettedBitmapFromPgm(0, 180, bili_three_combo_3_240x140);
 
-  // gfx.drawPalettedBitmapFromPgm(0, 220, bili_three_combo_240x90);
-  // gfx.setFont(ArialRoundedMTBold_14);
-  // gfx.setTextAlignment(TEXT_ALIGN_CENTER);
-  // gfx.setColor(MINI_WHITE);
-  // gfx.drawString(105, 110, "https://bilibili.com");
 
 
   int remainTime = bvroll.update();
@@ -711,19 +689,6 @@ void drawBili() {
 	  delay(remainTime);
 	}
 
-//   const uint8_t baseLine = 5;
-//   const uint8_t baseX1 = 20;
-//   const uint8_t baseX2 = 140;
-//   const uint8_t kvDis = 70;
-//
-//   drawLabelPos(baseLine, baseX1, baseX1 + kvDis, "Fans:", String(biliData.fans_number));
-//   drawLabelPos(baseLine, baseX2, baseX2 + kvDis, "Like:", String(biliData.like_number));
-//   drawLabelPos(baseLine + 1, baseX1, baseX1 + kvDis, "danmaku:", String(biliData.danmaku_number));
-//   drawLabelPos(baseLine + 1, baseX2, baseX2 + kvDis, "Coin::", String(biliData.coins_number));
-//   drawLabelPos(baseLine + 2, baseX1, baseX1 + kvDis, "View:", String(biliData.view_number));
-//   drawLabelPos(baseLine + 2, baseX2, baseX2 + kvDis, "Favor:", String(biliData.fav_number));
-//   drawLabelPos(baseLine + 3, baseX1, baseX1 + kvDis, "reply:", String(biliData.reply_number));
-//   drawLabelPos(baseLine + 3, baseX2, baseX2 + kvDis, "share::", String(biliData.share_number));
 }
 
 void drawAbout() {
